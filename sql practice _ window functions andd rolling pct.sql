@@ -1,5 +1,5 @@
 /* SQL Practice */
-
+/* create the temp table for practice */
 
 CREATE TEMP TABLE loan_applications (
     application_id VARCHAR(10),
