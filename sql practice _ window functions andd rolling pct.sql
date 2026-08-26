@@ -51,7 +51,7 @@ Percentage contribution to all applications
 Disbursement count
 Percentage contribution to all disbursements
 
-The contribution percentages across all channels should add up to 100%.*/
+The contribution percentages across all channels should add up to 100%.en*/
 SELECT * FROM loan_applications
 
 SELECT
