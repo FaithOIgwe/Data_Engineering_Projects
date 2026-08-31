@@ -79,3 +79,44 @@ SELECT
 FROM loan_applications
 GROUP BY COALESCE(channel, 'unknown')
 ORDER BY application_count DESC;
+
+
+
+3 applications, 2 disbursements and a 66.67% conversion rate.
+*/
+
+BEGIN;
+
+CREATE TEMP TABLE setup_applications (
+    application_id VARCHAR(10),
+    channel VARCHAR(20),
+    status VARCHAR(20)
+);
+
+INSERT INTO setup_applications (
+    application_id,
+    channel,
+    status
+)
+VALUES
+    ('A001', 'organic', 'DISBURSED'),
+    ('A002', 'organic', 'DECLINED'),
+    ('A003', 'referral', 'DISBURSED');
+
+SELECT
+    COUNT(*) AS application_count,
+
+    COUNT(*) FILTER (
+        WHERE status = 'DISBURSED'
+    ) AS disbursement_count,
+
+    ROUND(
+        100.0 * COUNT(*) FILTER (
+            WHERE status = 'DISBURSED'
+        ) / NULLIF(COUNT(*), 0),
+        2
+    ) AS conversion_rate_pct
+
+FROM setup_applications;
+
+ROLLBACK;
