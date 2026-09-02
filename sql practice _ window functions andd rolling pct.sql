@@ -120,3 +120,22 @@ SELECT
 FROM setup_applications;
 
 ROLLBACK;
+
+/*Physical rows
+Distinct applications
+Distinct customers
+Earliest date
+Latest date
+Missing channels
+Duplicate application rows*/
+
+SELECT
+    COUNT(*) AS physical_rows,
+    COUNT(DISTINCT application_id) AS distinct_applications,
+    COUNT(DISTINCT customer_id) AS distinct_customers,
+    MIN(application_date) AS earliest_application_date,
+    MAX(application_date) AS latest_application_date,
+    COUNT(*) FILTER (WHERE channel IS NULL) AS missing_channels,
+    COUNT(*) - COUNT(DISTINCT application_id)
+        AS duplicate_application_rows
+FROM week1_lending_sample;
