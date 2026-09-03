@@ -167,3 +167,18 @@ SELECT
     ) AS missing_statuses
 
 FROM week1_lending_sample;
+
+
+SELECT
+    application_id,
+    age,
+    loan_amount,
+    credit_score,
+    previous_loan_count
+FROM week1_lending_sample
+WHERE
+    age < 18
+    OR age > 100
+    OR loan_amount <= 0
+    OR credit_score < 0
+    OR previous_loan_count < 0;
