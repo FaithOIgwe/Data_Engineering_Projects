@@ -139,3 +139,31 @@ SELECT
     COUNT(*) - COUNT(DISTINCT application_id)
         AS duplicate_application_rows
 FROM week1_lending_sample;
+
+
+SELECT
+    COUNT(*) FILTER (
+        WHERE application_id IS NULL
+    ) AS missing_application_ids,
+
+    COUNT(*) FILTER (
+        WHERE customer_id IS NULL
+    ) AS missing_customer_ids,
+
+    COUNT(*) FILTER (
+        WHERE application_date IS NULL
+    ) AS missing_application_dates,
+
+    COUNT(*) FILTER (
+        WHERE loan_amount IS NULL
+    ) AS missing_loan_amounts,
+
+    COUNT(*) FILTER (
+        WHERE channel IS NULL
+    ) AS missing_channels,
+
+    COUNT(*) FILTER (
+        WHERE status IS NULL
+    ) AS missing_statuses
+
+FROM week1_lending_sample;
