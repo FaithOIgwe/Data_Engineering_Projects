@@ -100,4 +100,15 @@ while number <= 10:
     print(number)
     number += 1
 
+#Complete this loop so it prints every number except 3:
+number = 0
+
+while number < 5:
+    number += 1
+
+    if number == 3:
+        continue
+
+    print(number)
+
 
