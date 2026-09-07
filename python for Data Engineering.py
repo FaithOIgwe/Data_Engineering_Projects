@@ -15,3 +15,13 @@ for item in loan_amounts:
 for item in loan_amounts:
     if item > 10000:
         print(item)
+
+
+# Print whether each loan is "Small" or "Large": 10,000 or less → "Small", Greater than 10,000 → "Large"
+for item in loan_amounts:
+    if item > 10000:
+        print(item, "Large")
+    else:
+        print(item, "Small")
+
+
