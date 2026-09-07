@@ -1,0 +1,5 @@
+#You have a list of loan amounts:
+loan_amounts = [5000, 10000, 15000, 20000]
+#Write a for loop that prints each loan amount.
+for items in loan_amounts:
+    print(loan_amounts)
