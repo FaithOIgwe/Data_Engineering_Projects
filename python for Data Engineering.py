@@ -56,5 +56,20 @@ for item in loan_amounts:
 print(large_loan_total)
 
 
+#The loop so that it prints the numbers from 1 to 5:
+number = 1
+
+while number <= 5:
+    print(number)
+    number += 1
+
+#Print only the even numbers from 2 to 10.
+number = 2
+
+while number <= 10:
+    print(number)
+    number += 2
+
+
 
 
