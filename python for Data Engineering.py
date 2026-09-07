@@ -70,6 +70,34 @@ while number <= 10:
     print(number)
     number += 2
 
+#Calculate the total of the numbers from 1 to 5.
+number = 1
+total = 0
 
+while number <= 5:
+    total += number
+    number += 1
+
+print(total)
+
+#Print only the numbers greater than 3.
+number = 1
+
+while number <= 10:
+    if number == 4:
+        __________
+
+    print(number)
+    number += 1
+
+# loop so it stops when number becomes 4
+number = 1
+
+while number <= 10:
+    if number == 4:
+        __________
+
+    print(number)
+    number += 1
 
 
