@@ -120,3 +120,20 @@ for loan in loans:
             smallest_approved_amount = loan["amount"]
 
 print("Smallest Approved Amount:", smallest_approved_amount)
+
+#Categorize approved loans
+#Count approved loans as either "Small" or "Large":
+#Small: amount is 10,000 or less
+#Large: amount is greater than 10,000
+small_approved_count = 0
+large_approved_count = 0
+
+for loan in loans:
+    if loan["status"] == "Approved":
+        if loan["amount"] <= 10000:
+            small_approved_count += 1
+        else:
+            large_approved_count += 1
+
+print("Small approved loans:", small_approved_count)
+print("Large approved loans:", large_approved_count)
