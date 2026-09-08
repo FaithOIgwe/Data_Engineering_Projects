@@ -111,4 +111,12 @@ while number < 5:
 
     print(number)
 
+#Complete this code without using min():
+smallest_approved_amount = None
 
+for loan in loans:
+    if loan["status"] == "Approved":
+        if smallest_approved_amount is None or loan["amount"] < smallest_approved_amount:
+            smallest_approved_amount = loan["amount"]
+
+print("Smallest Approved Amount:", smallest_approved_amount)
