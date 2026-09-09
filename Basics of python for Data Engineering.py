@@ -147,3 +147,25 @@ for loan in loans:
         approved_loan_ids.append(loan["id"])
 
 print("Approved loan IDs:", approved_loan_ids)
+
+
+#Create an ETL-style output
+
+#Transform the approved loans into new records:
+
+approved_records = []
+
+for loan in loans:
+    if loan["status"] == "Approved":
+        transformed_loan = {
+            "loan_id": loan["id"],
+            "amount": loan["amount"],
+            "amount_category": (
+                "Small" if loan["amount"] <= 10000 else "Large"
+            )
+        }
+
+        approved_records.append(transformed_loan)
+
+for record in approved_records:
+    print(record)
