@@ -137,3 +137,13 @@ for loan in loans:
 
 print("Small approved loans:", small_approved_count)
 print("Large approved loans:", large_approved_count)
+
+
+# Build a list of approved loan IDs
+approved_loan_ids = []
+
+for loan in loans:
+    if loan["status"] == "Approved":
+        approved_loan_ids.append(loan["id"])
+
+print("Approved loan IDs:", approved_loan_ids)
