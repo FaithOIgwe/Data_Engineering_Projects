@@ -197,3 +197,22 @@ def validate_amount(amount):
         raise ValueError("Loan amount must be greater than zero")
 
     return amount
+
+#Error Handling
+clean_approved_loans = []
+
+for loan in loans:
+    if loan["status"] == "Approved":
+        try:
+            valid_amount = validate_amount(loan["amount"])
+
+            clean_approved_loans.append({
+                "loan_id": loan["id"],
+                "amount": valid_amount,
+                "category": categorize_amount(valid_amount)
+            })
+
+        except (TypeError, ValueError) as error:
+            print("Skipped loan", loan["id"], "-", error)
+
+print(clean_approved_loans)
