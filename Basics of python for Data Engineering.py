@@ -169,3 +169,22 @@ for loan in loans:
 
 for record in approved_records:
     print(record)
+
+
+#Docstrings
+
+def categorize_amount(amount):
+    """
+    Categorize a numerical loan amount.
+
+    Returns "Small" if the amount is 10,000 or less;
+    otherwise, returns "Large".
+    """
+
+    if amount <= 10000:
+        return "Small"
+    else:
+        return "Large"
+
+
+
