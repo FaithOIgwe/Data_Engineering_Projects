@@ -191,9 +191,9 @@ def validate_amount(amount):
     """Validate and return a positive numerical loan amount."""
 
     if not isinstance(amount, (int, float)):
-        raise __________("Loan amount must be numerical")
+        raise TypeError("Loan amount must be numerical")
 
     if amount <= 0:
-        raise __________("Loan amount must be greater than zero")
+        raise ValueError("Loan amount must be greater than zero")
 
     return amount
