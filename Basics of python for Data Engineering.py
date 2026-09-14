@@ -232,3 +232,10 @@ for amount in amounts:
         print("Skipped", amount, "-", error)
 
 print(clean_amounts)
+
+
+try:
+    valid_amount = validate_amount(amount)
+
+except (TypeError, ValueError) as error:
+    print("Skipped:", error)
