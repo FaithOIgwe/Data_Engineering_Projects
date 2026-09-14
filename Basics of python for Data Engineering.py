@@ -216,3 +216,19 @@ for loan in loans:
             print("Skipped loan", loan["id"], "-", error)
 
 print(clean_approved_loans)
+
+
+
+amounts = [5000, "8000", -3000, 12000, None]
+
+clean_amounts = []
+
+for amount in amounts:
+    try:
+        valid_amount = validate_amount(amount)
+        clean_amounts.append(valid_amount)
+
+    except (TypeError, ValueError) as error:
+        print("Skipped", amount, "-", error)
+
+print(clean_amounts)
