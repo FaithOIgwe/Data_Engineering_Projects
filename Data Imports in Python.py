@@ -38,3 +38,12 @@ print(loans.dtypes)
 
 print("\nBorrower data types:")
 print(borrowers.dtypes)
+
+#investigating missig values 
+
+loan_missing_values = loans.isna().sum()
+
+borrower_missing_values = borrowers.isna().sum()
+
+print(loan_missing_values)
+print(borrower_missing_values)
