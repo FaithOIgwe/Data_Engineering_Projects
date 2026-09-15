@@ -32,4 +32,9 @@ print(borrowers.head())
 print("\nLoans size:", loans.shape)
 print("Borrowers size:", borrowers.shape)
 
+#viewing data types
+print("Loan data types:")
+print(loans.dtypes)
 
+print("\nBorrower data types:")
+print(borrowers.dtypes)
