@@ -47,3 +47,11 @@ borrower_missing_values = borrowers.isna().sum()
 
 print(loan_missing_values)
 print(borrower_missing_values)
+
+
+#find borrowers whose employment_status is missing:
+missing_employment = borrowers[
+    borrowers["employment_status"].isna()
+]
+
+print(missing_employment)
