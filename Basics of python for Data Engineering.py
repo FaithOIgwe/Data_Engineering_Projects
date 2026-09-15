@@ -250,3 +250,5 @@ try:
     valid_amount = validate_amount(amount)
 except (TypeError, ValueError) as error:
     print("Skipped:", error)
+
+
