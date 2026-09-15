@@ -55,3 +55,12 @@ missing_employment = borrowers[
 ]
 
 print(missing_employment)
+
+
+#Find loans that are: Approved and Missing an amount
+approved_missing_amount = loans[
+    (loans["status"] == "Approved")
+    & (loans["amount"].isna())
+]
+
+print(approved_missing_amount)
