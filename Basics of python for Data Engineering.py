@@ -240,9 +240,12 @@ try:
 except (TypeError, ValueError) as error:
     print("Skipped:", error)
 
+amount = "2000"
 
-
-
+try:
+    valid_amount = validate_amount(amount)
+except (TypeError, ValueError) as error:
+    print("Skipped:", error)
 
 amount = "8000"
 
