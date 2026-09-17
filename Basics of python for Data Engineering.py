@@ -35,7 +35,19 @@ for item in loan_amounts:
 print(large_loan_count)
 
 #Calculate the total of all the loan amounts without using sum():
-loan_amounts = [5000, 10000, 15000, 20000]
+combined_data["amount_numeric"] = pd.to_numeric(
+    combined_data["amount"],
+    errors="coerce"
+)
+
+approved_loans = combined_data[
+    (combined_data["status"] == "Approved")
+    & (combined_data["amount_numeric"].notna())
+]
+
+print(approved_loans.head())
+print("Approved loan count:", len(approved_loans))
+
 
 total_amount = 0
 
