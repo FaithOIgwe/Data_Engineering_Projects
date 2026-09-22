@@ -64,3 +64,18 @@ approved_missing_amount = loans[
 ]
 
 print(approved_missing_amount)
+
+
+import pandas as pd
+
+loans = pd.read_csv("loan_applications.csv")
+
+loans["amount_numeric"] = pd.to_numeric(
+    loans["amount"],
+    errors="coerce"
+)
+
+loans["application_date_clean"] = pd.to_datetime(
+    loans["application_date"],
+    errors="coerce"
+)
