@@ -79,3 +79,10 @@ loans["application_date_clean"] = pd.to_datetime(
     loans["application_date"],
     errors="coerce"
 )
+
+SELECT DISTINCT
+    channel,
+    LENGTH(channel) AS stored_length,
+    LENGTH(TRIM(channel)) AS trimmed_length
+FROM week1_lending_sample
+WHERE channel ILIKE '%organic%';
