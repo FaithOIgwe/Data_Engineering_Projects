@@ -43,7 +43,7 @@ def rand_time(day: datetime) -> datetime:
 def write_csv(path: Path, header, rows):
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="") as f:
-        w = csv.writer(f)
+        w = csv.writer(f, lineterminator="\n")
         w.writerow(header)
         w.writerows(rows)
     print(f"  {path.relative_to(ROOT)}: {len(rows):,} rows")

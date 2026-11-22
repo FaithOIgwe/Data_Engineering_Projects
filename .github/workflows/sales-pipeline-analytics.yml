@@ -2,9 +2,9 @@ name: sales-pipeline-analytics
 
 on:
   push:
-    paths: ["sales-pipeline-analytics/**", ".github/workflows/sales-pipeline-analytics.yml"]
+    paths: ["sales_dbt project/**", ".github/workflows/sales-pipeline-analytics.yml"]
   pull_request:
-    paths: ["sales-pipeline-analytics/**", ".github/workflows/sales-pipeline-analytics.yml"]
+    paths: ["sales_dbt project/**", ".github/workflows/sales-pipeline-analytics.yml"]
   workflow_dispatch:
 
 jobs:
@@ -12,14 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: sales-pipeline-analytics
+        working-directory: "sales_dbt project"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: sales-pipeline-analytics/requirements.txt
+          cache-dependency-path: "sales_dbt project/requirements.txt"
       - run: pip install -r requirements.txt
       - name: Raw data is reproducible
         run: |
