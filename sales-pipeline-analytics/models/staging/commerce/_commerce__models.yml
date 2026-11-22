@@ -1,0 +1,57 @@
+version: 2
+
+models:
+  - name: stg_commerce__creators
+    description: One row per creator account.
+    columns:
+      - name: creator_id
+        data_tests: [unique, not_null]
+      - name: acquisition_channel
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['self_serve', 'sales_led']
+
+  - name: stg_commerce__products
+    description: One row per digital product a creator sells.
+    columns:
+      - name: product_id
+        data_tests: [unique, not_null]
+      - name: creator_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_commerce__creators')
+                field: creator_id
+
+  - name: stg_commerce__purchases
+    description: One row per purchase attempt, test-mode purchases removed. Amount in minor units of `currency`.
+    columns:
+      - name: purchase_id
+        data_tests: [unique, not_null]
+      - name: product_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_commerce__products')
+                field: product_id
+      - name: payment_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['succeeded', 'failed', 'refunded']
+      - name: currency
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['USD', 'EUR', 'GBP']
+      - name: amount_minor
+        data_tests: [not_negative]
+
+  - name: stg_commerce__fx_rates_monthly
+    description: One row per currency per month.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: ['rate_month', 'currency']

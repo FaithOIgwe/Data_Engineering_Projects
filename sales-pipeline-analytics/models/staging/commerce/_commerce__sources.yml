@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: commerce
+    description: >
+      Creator commerce events from the product database: creators, the digital products they sell,
+      and purchases made by their audiences. Amounts are in minor units (cents / pence).
+    schema: raw_commerce
+    tables:
+      - name: creators
+      - name: products
+      - name: purchases
+        columns:
+          - name: purchase_id
+            data_tests: [unique, not_null]
+      - name: fx_rates_monthly
+        description: Month-average FX rates to USD, used to report all creator revenue in USD.

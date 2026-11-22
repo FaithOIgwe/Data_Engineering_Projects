@@ -1,0 +1,150 @@
+version: 2
+
+models:
+  - name: fct_deals
+    description: >
+      One row per deal (deleted deals excluded). The main table for pipeline, bookings, win rate
+      and sales-cycle questions. Includes both the New Business pipeline (`pipeline_id = 'default'`)
+      and the Expansion pipeline (`pipeline_id = 'expansion'`); most sales questions mean New Business
+      only, so filter on `deal_type = 'New business'` unless the question says otherwise.
+    meta:
+      owner: sales-analytics
+      grain: deal_id
+    columns:
+      - name: deal_id
+        description: HubSpot deal id. Primary key.
+        data_tests: [unique, not_null]
+      - name: deal_status
+        description: "Open, Won or Lost, from the deal's current stage."
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ['Open', 'Won', 'Lost']
+      - name: deal_type
+        description: "'New business' (first contract with a creator) or 'Expansion' (upsell to an existing customer)."
+      - name: amount_usd
+        description: Current deal amount in USD (annual contract value). Null for a few early-stage deals with no amount yet.
+        data_tests: [not_negative]
+      - name: won_amount_usd
+        description: amount_usd for won deals, null otherwise. Sum this for bookings.
+      - name: weighted_open_amount_usd
+        description: amount_usd × the stage's default probability, for open deals only. Sum for a probability-weighted pipeline.
+      - name: close_date
+        description: >
+          HubSpot Close date. For closed deals this is the date the business reports the deal in, and the
+          date used for win rate and bookings. Reps can edit it, so it can be earlier than closed_date_actual.
+          For open deals it is the rep's expected close date.
+      - name: closed_at
+        description: Timestamp the deal actually entered a closed stage, from stage history. Cannot be edited. Used for sales-cycle length.
+      - name: is_close_date_backdated
+        description: True when a closed deal's close_date is earlier than the day it actually closed. Worth reviewing at month end.
+      - name: sales_cycle_days
+        description: Days from deal creation to entering a closed stage (won or lost). Null for open deals.
+        data_tests: [not_negative]
+      - name: is_stale
+        description: Open deal with no stage change in more than `stale_deal_days` (default 30) days.
+      - name: is_past_due
+        description: Open deal whose expected close date is already in the past.
+      - name: original_owner_id
+        description: First owner of the deal. Use for rep performance on deals they sourced; use current_owner_id for who owns it now.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_owners')
+                field: owner_id
+      - name: current_owner_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_owners')
+                field: owner_id
+      - name: furthest_open_stage_order
+        description: Highest open stage the deal ever reached. For a lost deal, this is where it was lost.
+    data_tests:
+      - expression_is_true:
+          arguments:
+            expression: "closed_at >= created_at"
+          config:
+            where: "closed_at is not null"
+      - expression_is_true:
+          arguments:
+            expression: "won_amount_usd is not null"
+          config:
+            where: "deal_status = 'Won'"
+
+  - name: fct_deal_stage_transitions
+    description: One row per deal per stage visit. Use for time-in-stage, stage flow, regressions and skipped stages.
+    columns:
+      - name: days_in_stage
+        description: Days spent in the stage. For the current open stage, measured up to the as-of date.
+        data_tests: [not_negative]
+      - name: owner_id_at_entry
+        description: Owner when the deal entered this stage.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: ['deal_id', 'visit_number']
+
+  - name: fct_stage_reached
+    description: >
+      One row per deal per open stage it reached (directly or by skipping past it). The base for
+      stage-to-stage conversion: conversion from stage N = share of rows at stage N where reached_next_stage is true.
+    columns:
+      - name: reached_next_stage
+        description: True if the deal reached a later open stage or was won.
+      - name: was_skipped
+        description: True if the deal passed this stage without ever being in it.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: ['deal_id', 'stage_id']
+
+  - name: fct_pipeline_daily
+    description: >
+      One row per open deal per day, end-of-day state, rebuilt from history. Use for pipeline-over-time,
+      pipeline coverage and "what did the pipeline look like on date X". Do not sum across days; pick one
+      snapshot_date (or the last day of each period).
+    columns:
+      - name: amount_usd
+        description: Deal amount as it stood at the end of snapshot_date.
+      - name: owner_id
+        description: Deal owner as of end of snapshot_date.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: ['snapshot_date', 'deal_id']
+
+  - name: fct_lead_funnel
+    description: One row per contact that became a lead. Lead → MQL → SQL → Opportunity → Customer, by lead source and cohort month.
+    columns:
+      - name: contact_id
+        data_tests: [unique, not_null]
+      - name: lead_cohort_month
+        description: Month the contact became a lead. Funnel conversion is reported by this cohort, not by the month each later stage happened.
+
+  - name: rpt_won_deal_creator_earnings
+    description: >
+      One row per won new-business deal, with how much the creator sold through the platform after we closed them.
+      Only compare 90-day figures for deals where has_90_days_of_data is true.
+    columns:
+      - name: deal_id
+        data_tests: [unique, not_null]
+
+  - name: dim_owners
+    description: One row per HubSpot owner (sales rep, account manager or leader).
+    columns:
+      - name: owner_id
+        data_tests: [unique, not_null]
+
+  - name: dim_companies
+    description: One row per company (creator business) with customer status and deal rollups.
+    columns:
+      - name: company_id
+        data_tests: [unique, not_null]
+
+  - name: dim_deal_stages
+    description: One row per pipeline stage with order and default win probability.
+    columns:
+      - name: stage_id
+        data_tests: [unique, not_null]

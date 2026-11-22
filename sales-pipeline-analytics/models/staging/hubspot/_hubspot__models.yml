@@ -1,0 +1,93 @@
+version: 2
+
+models:
+  - name: stg_hubspot__deals
+    description: One row per deal in HubSpot, current state only. Renamed and typed; deleted deals are kept here and flagged.
+    columns:
+      - name: deal_id
+        data_tests: [unique, not_null]
+      - name: pipeline_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_hubspot__deal_pipeline_stages')
+                field: pipeline_id
+      - name: current_stage_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_hubspot__deal_pipeline_stages')
+                field: stage_id
+      - name: current_owner_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_hubspot__owners')
+                field: owner_id
+      - name: company_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_hubspot__companies')
+                field: company_id
+      - name: amount_usd
+        description: Deal amount in USD (annual contract value). Can be null on early-stage deals.
+        data_tests: [not_negative]
+      - name: deal_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['New business', 'Expansion']
+
+  - name: stg_hubspot__deal_property_history
+    description: >
+      One row per change to a tracked deal property (dealstage, hubspot_owner_id, amount, closedate),
+      with connector re-sync duplicates removed.
+    columns:
+      - name: change_id
+        description: Surrogate key over deal, property, timestamp and value.
+        data_tests: [unique, not_null]
+      - name: property_name
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['dealstage', 'hubspot_owner_id', 'amount', 'closedate']
+
+  - name: stg_hubspot__deal_pipeline_stages
+    description: One row per pipeline stage.
+    columns:
+      - name: stage_id
+        data_tests: [unique, not_null]
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: ['pipeline_id', 'stage_order']
+
+  - name: stg_hubspot__companies
+    description: One row per company (a creator business) in HubSpot.
+    columns:
+      - name: company_id
+        data_tests: [unique, not_null]
+      - name: creator_id
+        description: The creator's account id in the product. Only set once the company is a customer.
+
+  - name: stg_hubspot__contacts
+    description: One row per contact, with lifecycle-stage timestamps.
+    columns:
+      - name: contact_id
+        data_tests: [unique, not_null]
+      - name: became_mql_at
+        data_tests:
+          - expression_is_true:
+              arguments:
+                expression: "became_mql_at >= became_lead_at"
+              config:
+                where: "became_mql_at is not null"
+
+  - name: stg_hubspot__owners
+    description: One row per HubSpot user who can own deals.
+    columns:
+      - name: owner_id
+        data_tests: [unique, not_null]

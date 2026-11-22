@@ -1,0 +1,66 @@
+name: sales_pipeline_analytics
+version: "1.0.0"
+config-version: 2
+profile: sales_pipeline_analytics
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+analysis-paths: ["analyses"]
+
+clean-targets: ["target", "dbt_packages", "logs"]
+
+vars:
+  # The dataset is generated "as of" this date. In production this would be current_date.
+  as_of_date: "2026-11-20"
+  # Deals with no activity for this many days are flagged as stale in pipeline reviews.
+  stale_deal_days: 30
+
+seeds:
+  sales_pipeline_analytics:
+    hubspot:
+      +schema: raw_hubspot
+      deals:
+        +column_types: {amount: double, close_date: date, create_date: timestamp, updated_at: timestamp, _fivetran_synced: timestamp, is_deleted: boolean}
+      deal_property_history:
+        +column_types: {deal_id: bigint, property_value: varchar, change_timestamp: timestamp, _fivetran_synced: timestamp}
+      companies:
+        +column_types: {creator_account_id: varchar, created_at: timestamp, _fivetran_synced: timestamp}
+      contacts:
+        +column_types: {created_at: timestamp, became_lead_at: timestamp, became_mql_at: timestamp, became_sql_at: timestamp, became_opportunity_at: timestamp, became_customer_at: timestamp}
+      owners:
+        +column_types: {created_at: date, archived_at: date, is_active: boolean}
+    commerce:
+      +schema: raw_commerce
+      creators:
+        +column_types: {signed_up_at: timestamp, hubspot_company_id: bigint}
+      products:
+        +column_types: {created_at: timestamp, is_archived: boolean, price_cents: bigint}
+      purchases:
+        +column_types: {amount: bigint, purchased_at: timestamp, refunded_at: timestamp, is_test: boolean}
+      fx_rates_monthly:
+        +column_types: {rate_month: date, usd_per_unit: double}
+
+models:
+  sales_pipeline_analytics:
+    staging:
+      +schema: staging
+      +materialized: view
+    intermediate:
+      +schema: intermediate
+      +materialized: view
+    marts:
+      +materialized: table
+      sales:
+        +schema: sales
+      commerce:
+        +schema: commerce
+
+snapshots:
+  sales_pipeline_analytics:
+    +target_schema: snapshots
+
+data_tests:
+  +severity: error

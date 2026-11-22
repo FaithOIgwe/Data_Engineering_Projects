@@ -1,0 +1,55 @@
+# Real questions Sales, RevOps and Product ask, each with:
+#   - the semantic-layer query an AI agent (or Omni's AI) should produce for it
+#   - an independent reference answer in plain SQL against the marts
+# scripts/check_golden_questions.py runs both and fails if they disagree.
+# When a definition changes, this is what tells you which answers moved.
+
+questions:
+  - id: win_rate_2025
+    question: "What was our new-business win rate in 2025?"
+    metrics: [win_rate]
+    where: "{{ Dimension('deal__deal_type') }} = 'New business' and {{ TimeDimension('metric_time', 'year') }} = '2025-01-01'"
+    reference_sql: |
+      select avg(case when deal_status = 'Won' then 1.0 else 0 end)
+      from sales.fct_deals
+      where deal_type = 'New business' and deal_status <> 'Open' and extract(year from close_date) = 2025
+
+  - id: bookings_q3_2026
+    question: "How much new business did we book in Q3 2026?"
+    metrics: [bookings_usd]
+    where: "{{ Dimension('deal__deal_type') }} = 'New business' and {{ TimeDimension('metric_time', 'quarter') }} = '2026-07-01'"
+    reference_sql: |
+      select sum(won_amount_usd) from sales.fct_deals
+      where deal_type = 'New business' and close_date >= '2026-07-01' and close_date < '2026-10-01'
+
+  - id: sales_cycle_2026
+    question: "How long does it take us to close a new-business deal this year?"
+    metrics: [avg_sales_cycle_days]
+    where: "{{ Dimension('deal__deal_type') }} = 'New business' and {{ TimeDimension('metric_time', 'year') }} = '2026-01-01'"
+    reference_sql: |
+      select avg(sales_cycle_days) from sales.fct_deals
+      where deal_type = 'New business' and deal_status = 'Won' and extract(year from close_date) = 2026
+
+  - id: open_pipeline_end_of_june_2026
+    question: "What was open new-business pipeline at the end of June 2026?"
+    metrics: [open_pipeline_usd]
+    where: "{{ Dimension('deal_day__pipeline_id') }} = 'default' and {{ TimeDimension('metric_time', 'month') }} = '2026-06-01'"
+    reference_sql: |
+      select sum(amount_usd) from sales.fct_pipeline_daily
+      where pipeline_id = 'default' and snapshot_date = '2026-06-30'
+
+  - id: creator_net_sales_sales_led_2026
+    question: "How much did sales-led creators earn selling products in 2026?"
+    metrics: [creator_net_sales_usd]
+    where: "{{ Dimension('purchase__acquisition_channel') }} = 'sales_led' and {{ TimeDimension('metric_time', 'year') }} = '2026-01-01'"
+    reference_sql: |
+      select sum(net_amount_usd) from commerce.fct_commerce_orders
+      where acquisition_channel = 'sales_led' and extract(year from purchase_date) = 2026
+
+  - id: refund_rate_2025
+    question: "What share of creator sales was refunded in 2025?"
+    metrics: [refund_rate]
+    where: "{{ TimeDimension('metric_time', 'year') }} = '2025-01-01'"
+    reference_sql: |
+      select sum(refund_amount_usd) / sum(gross_amount_usd) from commerce.fct_commerce_orders
+      where extract(year from purchase_date) = 2025

@@ -1,0 +1,1023 @@
+deal_id,deal_name,pipeline,deal_stage,amount,hubspot_owner_id,associated_company_id,create_date,close_date,deal_type,lead_source,closed_lost_reason,is_deleted,updated_at,_fivetran_synced
+30000000,Golden Letters - New Business,default,closedlost,1850,202,9002379,2024-01-26 19:40:56,2024-04-17,newbusiness,Self-serve upgrade,Unresponsive,False,2024-04-17 13:10:41,2024-04-17 15:10:41
+30000001,Blue House - New Business,default,closedlost,10100,202,9002357,2024-02-07 16:39:52,2024-02-21,newbusiness,Inbound demo request,No decision,False,2024-02-21 15:57:53,2024-02-21 17:57:53
+30000002,True Radio - New Business,default,closedlost,18450,203,9000637,2024-02-07 20:08:42,2024-02-21,newbusiness,Referral,Missing feature,False,2024-02-21 16:56:40,2024-02-21 18:56:40
+30000003,Bright Lab Co - New Business,default,closedlost,12600,202,9002128,2024-02-09 20:49:43,2024-03-03,newbusiness,Self-serve upgrade,Price,False,2024-03-03 14:18:25,2024-03-03 16:18:25
+30000004,Bright Club Media - New Business,default,closedlost,15150,202,9001459,2024-02-23 13:45:17,2024-02-28,newbusiness,Self-serve upgrade,No decision,False,2024-02-28 16:28:48,2024-02-28 18:28:48
+30000005,Bright Weekly - New Business,default,closedlost,7850,203,9002614,2024-02-23 15:37:33,2024-04-19,newbusiness,Referral,Went with competitor,False,2024-04-19 17:18:37,2024-04-19 19:18:37
+30000006,Studio Letters - New Business,default,closedlost,2450,203,9003518,2024-03-01 13:28:09,2024-03-23,newbusiness,Inbound demo request,Unresponsive,False,2024-03-23 16:12:58,2024-03-23 18:12:58
+30000007,Studio Lab HQ - New Business,default,closedlost,3150,203,9002386,2024-03-10 21:11:04,2024-03-21,newbusiness,Outbound,No decision,False,2024-03-21 13:44:00,2024-03-21 15:44:00
+30000008,North Kitchen Media - New Business,default,closedlost,15650,202,9001210,2024-03-14 16:58:38,2024-03-22,newbusiness,Inbound demo request,Missing feature,False,2024-03-22 14:37:54,2024-03-22 16:37:54
+30000009,Blue Press Co - New Business,default,closedlost,20750,201,9000727,2024-03-15 14:03:21,2024-03-27,newbusiness,Self-serve upgrade,Missing feature,False,2024-03-27 19:38:10,2024-03-27 21:38:10
+30000010,Golden Sessions Co - New Business,default,closedwon,26400,201,9002690,2024-03-18 20:36:51,2024-05-08,newbusiness,Outbound,,False,2024-05-08 22:35:15,2024-05-09 00:35:15
+30000011,Golden Sessions Co - Expansion,expansion,exp_closedlost,7500,301,9002690,2025-06-11 19:26:26,2025-07-04,existingbusiness,Existing customer,Unresponsive,False,2025-07-04 21:13:34,2025-07-04 23:13:34
+30000012,Field Works HQ - New Business,default,closedlost,8300,203,9002424,2024-03-20 16:38:03,2024-04-08,newbusiness,Inbound demo request,Timing,False,2024-04-08 14:27:02,2024-04-08 16:27:02
+30000013,Studio Letters - New Business,default,closedlost,57850,202,9002609,2024-03-25 19:09:38,2024-05-01,newbusiness,Inbound demo request,Price,False,2024-05-07 14:46:01,2024-05-07 16:46:01
+30000014,Early Radio - New Business,default,closedlost,14650,201,9003472,2024-03-27 15:57:38,2024-03-30,newbusiness,Inbound demo request,Unresponsive,False,2024-03-30 14:45:10,2024-03-30 16:45:10
+30000015,Slow Supply HQ - New Business,default,closedwon,40600,203,9003293,2024-03-30 18:27:14,2024-05-20,newbusiness,Referral,,False,2024-05-20 20:15:23,2024-05-20 22:15:23
+30000016,True Room Media - New Business,default,closedlost,6200,203,9003458,2024-03-30 19:14:31,2024-04-04,newbusiness,Inbound demo request,Went with competitor,False,2024-04-04 16:17:33,2024-04-04 18:17:33
+30000017,Paper Collective - New Business,default,closedlost,4200,202,9002444,2024-03-31 20:18:53,2024-04-16,newbusiness,Self-serve upgrade,Missing feature,False,2024-04-16 22:57:38,2024-04-17 00:57:38
+30000018,Salt Sessions - New Business,default,closedlost,1900,203,9000626,2024-03-31 18:33:12,2024-05-29,newbusiness,Inbound demo request,Timing,False,2024-05-29 16:36:20,2024-05-29 18:36:20
+30000019,Bright Works Media - New Business,default,closedwon,29750,203,9001749,2024-04-06 18:34:01,2024-06-11,newbusiness,Outbound,,False,2024-06-11 16:28:48,2024-06-11 18:28:48
+30000020,Bright Works Media - Expansion,expansion,exp_closedlost,8650,301,9001749,2024-12-29 16:50:34,2025-01-12,existingbusiness,Existing customer,Price,False,2025-01-12 21:54:02,2025-01-12 23:54:02
+30000021,Bright Works Co - New Business,default,closedwon,4150,201,9001278,2024-04-11 19:44:35,2024-05-15,newbusiness,Inbound demo request,,False,2024-05-15 22:36:24,2024-05-16 00:36:24
+30000022,Bright Works Co - Expansion,expansion,exp_closedwon,1950,301,9001278,2024-09-11 20:24:03,2024-09-24,existingbusiness,Existing customer,,False,2024-09-24 19:08:08,2024-09-24 21:08:08
+30000023,Maple Press Co - New Business,default,closedlost,4750,203,9002659,2024-04-13 13:37:19,2024-05-13,newbusiness,Inbound demo request,Unresponsive,False,2024-05-13 22:48:35,2024-05-14 00:48:35
+30000024,Little Academy - New Business,default,closedlost,2400,203,9003787,2024-04-17 17:41:33,2024-05-17,newbusiness,Self-serve upgrade,Went with competitor,False,2024-05-17 17:46:47,2024-05-17 19:46:47
+30000025,Studio Supply Studio - New Business,default,closedlost,10200,204,9000979,2024-04-19 21:43:39,2024-05-15,newbusiness,Referral,Unresponsive,False,2024-05-22 04:49:20,2024-05-22 06:49:20
+30000026,Little Collective Co - New Business,default,closedlost,3200,203,9001873,2024-04-23 22:00:51,2024-05-02,newbusiness,Outbound,Missing feature,False,2024-05-02 22:56:33,2024-05-03 00:56:33
+30000027,Early Supply - New Business,default,closedlost,25550,202,9000674,2024-04-30 15:56:46,2024-06-15,newbusiness,Referral,No decision,False,2024-06-27 20:47:05,2024-06-27 22:47:05
+30000028,Salt Collective - New Business,default,closedlost,44100,204,9003499,2024-05-03 22:08:42,2024-05-11,newbusiness,Self-serve upgrade,Went with competitor,False,2024-05-11 19:17:09,2024-05-11 21:17:09
+30000029,Studio Kitchen - New Business,default,closedlost,8800,202,9003495,2024-05-05 16:21:33,2024-06-02,newbusiness,Inbound demo request,Unresponsive,False,2024-06-02 13:00:21,2024-06-02 15:00:21
+30000030,North Letters HQ - New Business,default,closedlost,6950,203,9001767,2024-05-07 13:11:03,2024-05-05,newbusiness,Self-serve upgrade,Price,False,2024-05-27 00:30:38,2024-05-27 02:30:38
+30000031,Common Room - New Business,default,closedlost,9300,202,9002534,2024-05-07 14:52:46,2024-06-18,newbusiness,Outbound,Timing,False,2024-06-18 18:36:12,2024-06-18 20:36:12
+30000032,Studio Lab - New Business,default,closedlost,26350,201,9001001,2024-05-13 13:59:19,2024-05-16,newbusiness,Outbound,No decision,False,2024-05-16 15:52:10,2024-05-16 17:52:10
+30000033,Maple Society Co - New Business,default,closedlost,4450,201,9001821,2024-05-17 13:09:29,2024-05-26,newbusiness,Inbound demo request,Price,False,2024-05-26 15:14:17,2024-05-26 17:14:17
+30000034,Slow Academy Studio - New Business,default,closedlost,4000,202,9002297,2024-05-20 19:48:18,2024-07-12,newbusiness,Referral,Timing,False,2024-07-12 14:12:41,2024-07-12 16:12:41
+30000035,Field Society HQ - New Business,default,closedlost,6850,202,9001623,2024-05-24 21:10:42,2024-05-28,newbusiness,Self-serve upgrade,Went with competitor,False,2024-05-28 21:11:13,2024-05-28 23:11:13
+30000036,Early Academy - New Business,default,closedlost,5000,204,9003583,2024-05-27 21:15:30,2024-07-07,newbusiness,Inbound demo request,Unresponsive,False,2024-07-07 18:05:50,2024-07-07 20:05:50
+30000037,Blue Works Studio - New Business,default,closedlost,50750,201,9000815,2024-05-27 22:20:12,2024-05-30,newbusiness,Inbound demo request,Missing feature,False,2024-05-30 19:33:06,2024-05-30 21:33:06
+30000038,True Collective - New Business,default,closedlost,6700,202,9001536,2024-05-28 17:23:24,2024-06-05,newbusiness,Self-serve upgrade,No decision,False,2024-06-05 21:00:06,2024-06-05 23:00:06
+30000039,Open Collective Studio - New Business,default,closedlost,2050,202,9002543,2024-06-01 21:53:36,2024-06-09,newbusiness,Referral,Unresponsive,False,2024-06-30 17:37:56,2024-06-30 19:37:56
+30000040,Little Garden - New Business,default,closedlost,2400,201,9002561,2024-06-01 21:49:54,2024-07-11,newbusiness,Inbound demo request,Timing,False,2024-07-11 20:08:21,2024-07-11 22:08:21
+30000041,Quiet Club - New Business,default,closedlost,3650,202,9002624,2024-06-04 18:29:50,2024-07-12,newbusiness,Referral,Unresponsive,False,2024-07-12 20:34:53,2024-07-12 22:34:53
+30000042,True Craft - New Business,default,closedlost,4500,204,9002732,2024-06-06 14:16:10,2024-07-11,newbusiness,Referral,Price,False,2024-07-11 15:56:08,2024-07-11 17:56:08
+30000043,Maple Society - New Business,default,closedlost,2600,202,9001206,2024-06-10 21:46:20,2024-06-18,newbusiness,Self-serve upgrade,Price,False,2024-06-18 14:42:52,2024-06-18 16:42:52
+30000044,Iron Collective Media - New Business,default,closedlost,16350,201,9001199,2024-06-11 14:37:20,2024-06-16,newbusiness,Outbound,Missing feature,False,2024-06-16 14:10:24,2024-06-16 16:10:24
+30000045,Field Room - New Business,default,closedlost,3150,201,9002591,2024-06-12 18:21:11,2024-06-20,newbusiness,Inbound demo request,Price,False,2024-06-20 16:09:58,2024-06-20 18:09:58
+30000046,Kind Room Media - New Business,default,closedlost,6550,203,9001662,2024-06-14 15:42:57,2024-06-29,newbusiness,Self-serve upgrade,Price,False,2024-06-29 15:03:46,2024-06-29 17:03:46
+30000047,Common Craft - New Business,default,closedwon,1750,203,9003947,2024-06-18 21:08:40,2024-07-24,newbusiness,Self-serve upgrade,,False,2024-07-24 18:59:21,2024-07-24 20:59:21
+30000048,Blue Sessions - New Business,default,closedlost,4500,204,9000234,2024-06-20 14:40:10,2024-06-25,newbusiness,Outbound,No decision,False,2024-06-25 16:25:32,2024-06-25 18:25:32
+30000049,Kind Letters Co - New Business,default,closedlost,2050,204,9002934,2024-06-20 22:58:10,2024-07-29,newbusiness,Outbound,Went with competitor,False,2024-07-29 20:01:52,2024-07-29 22:01:52
+30000050,Little Journal - New Business,default,closedlost,12250,204,9002764,2024-06-20 14:25:36,2024-07-29,newbusiness,Inbound demo request,Timing,False,2024-07-29 14:27:17,2024-07-29 16:27:17
+30000051,Common House Media - New Business,default,closedlost,2700,201,9003214,2024-06-25 21:55:08,2024-07-14,newbusiness,Inbound demo request,Unresponsive,False,2024-07-14 22:28:48,2024-07-15 00:28:48
+30000052,Wild Society - New Business,default,closedlost,7850,202,9000667,2024-06-28 20:41:41,2024-07-08,newbusiness,Inbound demo request,Missing feature,False,2024-07-08 13:22:27,2024-07-08 15:22:27
+30000053,Common Supply - New Business,default,closedlost,5550,203,9001342,2024-07-01 18:39:39,2024-07-28,newbusiness,Outbound,Timing,False,2024-07-28 16:59:16,2024-07-28 18:59:16
+30000054,Common Collective Co - New Business,default,closedlost,10350,204,9002820,2024-07-03 16:02:52,2024-08-09,newbusiness,Self-serve upgrade,Price,False,2024-08-09 21:16:30,2024-08-09 23:16:30
+30000055,Golden Lab HQ - New Business,default,closedlost,4450,203,9000354,2024-07-04 16:38:24,2024-07-18,newbusiness,Outbound,Timing,False,2024-07-18 14:34:55,2024-07-18 16:34:55
+30000056,Paper Sessions HQ - New Business,default,closedlost,4300,203,9000767,2024-07-07 13:57:26,2024-07-02,newbusiness,Outbound,Timing,False,2024-07-28 22:09:03,2024-07-29 00:09:03
+30000057,Field Garden - New Business,default,closedlost,35250,201,9000123,2024-07-10 17:31:05,2024-07-28,newbusiness,Inbound demo request,Missing feature,False,2024-07-28 16:12:18,2024-07-28 18:12:18
+30000058,Honest Garden Studio - New Business,default,closedlost,44350,203,9000668,2024-07-12 22:23:29,2024-07-21,newbusiness,Self-serve upgrade,Timing,False,2024-07-21 16:34:01,2024-07-21 18:34:01
+30000059,Iron Room - New Business,default,closedlost,25700,202,9003006,2024-07-13 18:29:47,2024-08-11,newbusiness,Inbound demo request,Missing feature,False,2024-08-11 17:11:47,2024-08-11 19:11:47
+30000060,Quiet Club HQ - New Business,default,closedwon,4500,201,9003470,2024-07-14 15:31:05,2024-07-28,newbusiness,Partner,,False,2024-07-28 14:25:09,2024-07-28 16:25:09
+30000061,Maple House Studio - New Business,default,closedlost,6500,202,9001811,2024-07-17 22:35:53,2024-08-04,newbusiness,Referral,Price,False,2024-08-04 14:57:30,2024-08-04 16:57:30
+30000062,Wild Works HQ - New Business,default,closedlost,9900,203,9001228,2024-07-17 22:41:23,2024-07-22,newbusiness,Referral,No decision,False,2024-07-22 14:32:21,2024-07-22 16:32:21
+30000063,North House Co - New Business,default,closedlost,2100,204,9002041,2024-07-17 17:32:45,2024-08-20,newbusiness,Inbound demo request,Timing,False,2024-08-20 20:44:27,2024-08-20 22:44:27
+30000064,Maple House Studio - New Business,default,closedlost,2850,201,9003202,2024-07-17 20:48:15,2024-09-01,newbusiness,Self-serve upgrade,Missing feature,False,2024-09-01 21:47:20,2024-09-01 23:47:20
+30000065,Common Sessions Media - New Business,default,closedlost,6950,201,9002241,2024-07-20 22:30:23,2024-07-22,newbusiness,Inbound demo request,Price,False,2024-07-22 17:01:49,2024-07-22 19:01:49
+30000066,Wild Craft Studio - New Business,default,closedlost,10250,202,9001613,2024-07-21 17:12:53,2024-10-17,newbusiness,Inbound demo request,Went with competitor,False,2024-10-17 16:10:20,2024-10-17 18:10:20
+30000067,North Lab - New Business,default,closedlost,35200,204,9000189,2024-07-22 20:35:21,2024-08-12,newbusiness,Self-serve upgrade,Went with competitor,False,2024-08-12 15:37:24,2024-08-12 17:37:24
+30000068,Kind Room Studio - New Business,default,closedlost,72800,203,9001078,2024-07-24 21:31:32,2024-08-17,newbusiness,Self-serve upgrade,Went with competitor,False,2024-08-17 16:19:47,2024-08-17 18:19:47
+30000069,Common Weekly Co - New Business,default,closedlost,30150,204,9000250,2024-07-26 15:57:13,2024-09-16,newbusiness,Webinar,Unresponsive,False,2024-09-16 22:00:21,2024-09-17 00:00:21
+30000070,Open Notes - New Business,default,closedlost,6600,204,9003880,2024-07-28 14:46:56,2024-08-20,newbusiness,Inbound demo request,Missing feature,False,2024-08-20 21:36:18,2024-08-20 23:36:18
+30000071,Studio Collective - New Business,default,closedlost,4100,204,9000342,2024-07-29 18:04:05,2024-08-05,newbusiness,Inbound demo request,Timing,False,2024-08-19 19:53:59,2024-08-19 21:53:59
+30000072,Golden Society Studio - New Business,default,closedlost,3650,203,9000869,2024-07-30 19:07:08,2024-09-15,newbusiness,Webinar,Price,False,2024-09-15 22:34:45,2024-09-16 00:34:45
+30000073,Studio Club - New Business,default,closedwon,1150,203,9003227,2024-07-31 13:13:15,2024-08-28,newbusiness,Self-serve upgrade,,False,2024-08-28 17:59:13,2024-08-28 19:59:13
+30000074,Field Craft - New Business,default,closedlost,5750,203,9002639,2024-08-02 17:48:18,2024-08-20,newbusiness,Outbound,Timing,False,2024-08-20 22:08:29,2024-08-21 00:08:29
+30000075,Salt Press Studio - New Business,default,closedlost,15250,203,9002582,2024-08-03 19:23:43,2024-08-05,newbusiness,Partner,Timing,False,2024-08-05 21:01:37,2024-08-05 23:01:37
+30000076,Kind Club Studio - New Business,default,closedwon,3850,203,9003685,2024-08-04 21:52:29,2024-09-13,newbusiness,Inbound demo request,,False,2024-09-13 18:40:55,2024-09-13 20:40:55
+30000077,Little Letters Studio - New Business,default,closedlost,12250,201,9004039,2024-08-04 13:11:12,2024-08-31,newbusiness,Inbound demo request,Price,False,2024-08-31 20:18:20,2024-08-31 22:18:20
+30000078,Golden Sessions HQ - New Business,default,closedlost,1950,204,9001190,2024-08-05 21:14:38,2024-08-19,newbusiness,Outbound,Price,False,2024-08-19 15:39:36,2024-08-19 17:39:36
+30000079,Bright Daily - New Business,default,closedlost,3950,202,9003990,2024-08-05 18:01:57,2024-08-17,newbusiness,Outbound,Unresponsive,False,2024-08-17 21:15:35,2024-08-17 23:15:35
+30000080,Iron Garden Media - New Business,default,closedlost,7400,202,9000389,2024-08-06 21:31:36,2024-08-28,newbusiness,Referral,Went with competitor,False,2024-08-28 22:26:22,2024-08-29 00:26:22
+30000081,Open Collective HQ - New Business,default,closedlost,5050,204,9003269,2024-08-11 15:04:42,2024-10-07,newbusiness,Outbound,Timing,False,2024-10-07 17:05:00,2024-10-07 19:05:00
+30000082,North Society Studio - New Business,default,closedlost,19050,204,9001938,2024-08-14 18:40:48,2024-10-15,newbusiness,Inbound demo request,Unresponsive,False,2024-10-15 19:45:33,2024-10-15 21:45:33
+30000083,Kind Journal - New Business,default,closedlost,7900,202,9003978,2024-08-18 14:13:24,2024-08-26,newbusiness,Self-serve upgrade,Unresponsive,False,2024-08-26 19:23:22,2024-08-26 21:23:22
+30000084,Open Lab - New Business,default,closedlost,9600,201,9002174,2024-08-22 15:16:17,2024-09-02,newbusiness,Inbound demo request,Price,False,2024-09-02 17:08:11,2024-09-02 19:08:11
+30000085,Common Garden Studio - New Business,default,closedlost,3900,202,9003545,2024-08-22 21:11:38,2024-10-31,newbusiness,Outbound,Unresponsive,False,2024-10-31 19:19:17,2024-10-31 21:19:17
+30000086,Iron Press - New Business,default,closedlost,25850,204,9004131,2024-08-23 21:31:56,2024-09-12,newbusiness,Self-serve upgrade,No decision,False,2024-09-12 19:17:52,2024-09-12 21:17:52
+30000087,Honest House - New Business,default,closedwon,33000,203,9000759,2024-08-23 21:53:04,2024-10-06,newbusiness,Inbound demo request,,False,2024-10-06 15:43:54,2024-10-06 17:43:54
+30000088,Honest House - Expansion,expansion,exp_closedlost,13300,301,9000759,2025-09-18 16:42:28,2025-11-10,existingbusiness,Existing customer,Went with competitor,False,2025-11-10 19:30:21,2025-11-10 21:30:21
+30000089,Golden Press Media - New Business,default,closedlost,22000,204,9003468,2024-08-24 19:19:39,2024-10-09,newbusiness,Outbound,Went with competitor,False,2024-10-09 18:09:18,2024-10-09 20:09:18
+30000090,True Weekly HQ - New Business,default,closedlost,3300,201,9002302,2024-08-27 15:39:16,2024-08-29,newbusiness,Self-serve upgrade,Timing,False,2024-08-29 21:56:27,2024-08-29 23:56:27
+30000091,Common Letters - New Business,default,closedlost,27350,201,9000491,2024-08-27 17:13:48,2024-08-29,newbusiness,Inbound demo request,Timing,False,2024-08-29 16:32:53,2024-08-29 18:32:53
+30000092,Golden Club - New Business,default,closedlost,11000,203,9000557,2024-08-30 15:02:09,2024-09-07,newbusiness,Outbound,Unresponsive,False,2024-09-07 16:40:24,2024-09-07 18:40:24
+30000093,Maple Notes HQ - New Business,default,closedwon,1400,204,9002775,2024-08-30 18:46:39,2024-11-09,newbusiness,Inbound demo request,,False,2024-11-09 20:03:46,2024-11-09 22:03:46
+30000094,Maple Journal Co - New Business,default,closedwon,5350,204,9001424,2024-09-01 15:14:36,2024-10-14,newbusiness,Inbound demo request,,False,2024-10-14 19:01:54,2024-10-14 21:01:54
+30000095,Maple Journal Co - Expansion,expansion,exp_closedwon,1450,302,9001424,2025-09-23 20:45:28,2025-10-16,existingbusiness,Existing customer,,False,2025-10-16 22:20:35,2025-10-17 00:20:35
+30000096,Common Room Co - New Business,default,closedlost,5600,203,9003101,2024-09-06 16:02:57,2024-09-17,newbusiness,Outbound,No decision,False,2024-09-17 16:53:32,2024-09-17 18:53:32
+30000097,Golden Club - New Business,default,closedlost,4650,202,9002547,2024-09-06 20:55:48,2024-10-06,newbusiness,Outbound,No decision,False,2024-10-06 16:29:33,2024-10-06 18:29:33
+30000098,Maple Press HQ - New Business,default,closedlost,15250,201,9003091,2024-09-08 18:22:42,2024-09-12,newbusiness,Outbound,Unresponsive,False,2024-09-12 18:16:34,2024-09-12 20:16:34
+30000099,Maple Collective - New Business,default,closedwon,2750,203,9002801,2024-09-09 20:14:40,2024-10-10,newbusiness,Referral,,False,2024-11-07 19:07:48,2024-11-07 21:07:48
+30000100,Maple Collective - Expansion,expansion,exp_closedlost,1300,301,9002801,2025-01-30 21:27:00,2025-02-08,existingbusiness,Existing customer,No decision,False,2025-02-08 19:39:17,2025-02-08 21:39:17
+30000101,Blue Journal - New Business,default,closedlost,15600,201,9000114,2024-09-14 16:30:31,2024-10-02,newbusiness,Inbound demo request,Missing feature,False,2024-10-02 19:10:45,2024-10-02 21:10:45
+30000102,Blue Society Media - New Business,default,closedlost,66300,202,9001604,2024-09-16 17:01:20,2024-12-10,newbusiness,Referral,Missing feature,False,2024-12-10 14:59:29,2024-12-10 16:59:29
+30000103,Honest Society - New Business,default,closedlost,46100,202,9003809,2024-09-18 15:28:29,2024-10-14,newbusiness,Inbound demo request,Timing,False,2024-10-14 21:17:57,2024-10-14 23:17:57
+30000104,True Society - New Business,default,closedlost,76300,202,9003543,2024-09-18 17:24:16,2024-11-09,newbusiness,Inbound demo request,Price,False,2024-11-09 13:42:03,2024-11-09 15:42:03
+30000105,Bright Craft Co - New Business,default,closedlost,19800,203,9002211,2024-09-19 20:40:17,2024-10-06,newbusiness,Inbound demo request,Went with competitor,False,2024-10-16 21:11:59,2024-10-16 23:11:59
+30000106,Honest Room - New Business,default,closedlost,9500,201,9002301,2024-09-21 18:40:06,2024-09-28,newbusiness,Inbound demo request,No decision,False,2024-09-28 15:00:29,2024-09-28 17:00:29
+30000107,True Journal - New Business,default,closedlost,2200,204,9003661,2024-09-24 20:55:19,2024-10-10,newbusiness,Inbound demo request,Missing feature,False,2024-10-10 22:14:35,2024-10-11 00:14:35
+30000108,Blue Society - New Business,default,closedlost,7250,204,9000195,2024-09-24 17:55:43,2024-10-16,newbusiness,Referral,Unresponsive,False,2024-10-16 20:28:52,2024-10-16 22:28:52
+30000109,Honest Club Co - New Business,default,closedwon,4400,204,9002453,2024-09-26 19:04:56,2024-11-15,newbusiness,Referral,,False,2024-11-27 04:19:46,2024-11-27 06:19:46
+30000110,Honest Club Co - Expansion,expansion,exp_closedwon,1000,301,9002453,2025-12-01 19:51:38,2025-12-23,existingbusiness,Existing customer,,False,2025-12-23 13:11:32,2025-12-23 15:11:32
+30000111,Blue Weekly Studio - New Business,default,closedlost,38200,204,9000654,2024-09-27 14:37:53,2024-10-08,newbusiness,Self-serve upgrade,No decision,False,2024-10-08 19:43:48,2024-10-08 21:43:48
+30000112,True Lab Co - New Business,default,closedlost,5500,201,9001170,2024-09-27 20:26:41,2024-09-30,newbusiness,Self-serve upgrade,Went with competitor,False,2024-09-30 18:10:18,2024-09-30 20:10:18
+30000113,Slow Daily - New Business,default,closedlost,12850,202,9003196,2024-09-29 19:23:19,2024-11-15,newbusiness,Self-serve upgrade,Price,False,2024-11-15 14:59:52,2024-11-15 16:59:52
+30000114,North Weekly - New Business,default,closedlost,3200,202,9003961,2024-09-29 15:03:15,2024-10-03,newbusiness,Inbound demo request,No decision,False,2024-10-03 13:15:55,2024-10-03 15:15:55
+30000115,Slow Journal - New Business,default,closedlost,8050,203,9003274,2024-10-03 19:37:28,2024-10-06,newbusiness,Webinar,Price,False,2024-10-06 17:28:06,2024-10-06 19:28:06
+30000116,Salt House - New Business,default,closedlost,1850,202,9002707,2024-10-04 22:10:13,2024-10-24,newbusiness,Inbound demo request,No decision,False,2024-10-24 17:30:15,2024-10-24 19:30:15
+30000117,North Radio - New Business,default,closedlost,2800,202,9002927,2024-10-05 16:32:20,2024-11-13,newbusiness,Inbound demo request,No decision,False,2024-11-13 16:32:33,2024-11-13 18:32:33
+30000118,Paper Sessions Co - New Business,default,closedlost,5600,201,9001628,2024-10-05 15:56:50,2024-11-03,newbusiness,Outbound,Timing,False,2024-11-03 22:41:31,2024-11-04 00:41:31
+30000119,True Craft Studio - New Business,default,closedlost,4200,204,9001635,2024-10-07 22:18:42,2024-12-09,newbusiness,Self-serve upgrade,Timing,False,2024-12-09 14:30:57,2024-12-09 16:30:57
+30000120,Slow Radio Studio - New Business,default,closedlost,20850,202,9002974,2024-10-10 13:26:50,2024-12-06,newbusiness,Self-serve upgrade,Unresponsive,False,2024-12-06 15:13:06,2024-12-06 17:13:06
+30000121,Quiet Weekly HQ - New Business,default,closedlost,3550,201,9003310,2024-10-10 14:44:29,2024-11-03,newbusiness,Inbound demo request,Missing feature,False,2024-11-03 20:26:48,2024-11-03 22:26:48
+30000122,Early Kitchen - New Business,default,closedlost,10500,202,9000089,2024-10-11 13:15:13,2024-10-31,newbusiness,Self-serve upgrade,Price,False,2024-10-31 13:46:04,2024-10-31 15:46:04
+30000123,Little Garden - New Business,default,closedlost,2600,202,9003277,2024-10-11 22:21:45,2024-10-17,newbusiness,Inbound demo request,Missing feature,False,2024-10-17 21:15:08,2024-10-17 23:15:08
+30000124,True Press Co - New Business,default,closedlost,11850,202,9001458,2024-10-13 22:55:36,2024-11-22,newbusiness,Outbound,Missing feature,False,2024-11-22 14:41:24,2024-11-22 16:41:24
+30000125,North Collective Media - New Business,default,closedwon,15650,203,9000421,2024-10-16 22:33:40,2024-12-01,newbusiness,Self-serve upgrade,,False,2024-12-01 18:04:50,2024-12-01 20:04:50
+30000126,Studio Sessions HQ - New Business,default,closedlost,2350,202,9001525,2024-10-16 18:19:10,2024-12-27,newbusiness,Outbound,Unresponsive,False,2024-12-27 19:25:47,2024-12-27 21:25:47
+30000127,Little Journal Co - New Business,default,closedlost,10500,202,9000494,2024-10-20 16:34:34,2024-10-16,newbusiness,Inbound demo request,No decision,False,2024-10-30 19:18:05,2024-10-30 21:18:05
+30000128,Quiet Letters - New Business,default,closedwon,9850,201,9000211,2024-10-21 15:39:01,2024-12-17,newbusiness,Referral,,False,2024-12-17 16:34:10,2024-12-17 18:34:10
+30000129,Common Kitchen Studio - New Business,default,closedlost,3300,203,9003550,2024-10-21 21:58:28,2024-10-30,newbusiness,Self-serve upgrade,Timing,False,2024-10-30 22:30:54,2024-10-31 00:30:54
+30000130,True Society Co - New Business,default,closedlost,27450,203,9000529,2024-10-22 15:33:47,2024-12-07,newbusiness,Self-serve upgrade,Missing feature,False,2024-12-07 20:50:54,2024-12-07 22:50:54
+30000131,North Supply HQ - New Business,default,closedwon,1800,203,9000644,2024-10-22 20:55:03,2024-11-28,newbusiness,Webinar,,False,2024-11-28 18:16:35,2024-11-28 20:16:35
+30000132,North Supply HQ - Expansion,expansion,exp_closedlost,400,301,9000644,2025-11-27 22:55:01,2025-12-19,existingbusiness,Existing customer,Missing feature,False,2025-12-19 13:08:50,2025-12-19 15:08:50
+30000133,Open Journal - New Business,default,closedlost,23400,204,9004179,2024-10-23 16:28:37,2024-11-29,newbusiness,Outbound,Went with competitor,False,2024-11-29 15:12:55,2024-11-29 17:12:55
+30000134,Blue Lab Media - New Business,default,closedlost,5700,204,9002324,2024-10-24 15:12:21,2024-10-22,newbusiness,Inbound demo request,Missing feature,False,2024-11-01 02:16:43,2024-11-01 04:16:43
+30000135,Open Works Co - New Business,default,closedlost,73000,204,9001893,2024-10-25 22:59:29,2024-12-23,newbusiness,Outbound,Price,False,2025-01-03 15:45:55,2025-01-03 17:45:55
+30000136,Quiet Society Media - New Business,default,closedlost,31800,203,9000914,2024-10-25 15:46:22,2024-12-03,newbusiness,Outbound,Missing feature,False,2024-12-08 23:01:30,2024-12-09 01:01:30
+30000137,Kind Press Media - New Business,default,closedwon,29550,202,9003737,2024-10-29 22:42:49,2024-12-13,newbusiness,Outbound,,False,2024-12-13 17:42:15,2024-12-13 19:42:15
+30000138,Little Works - New Business,default,closedlost,30550,203,9004097,2024-11-03 18:55:26,2024-11-23,newbusiness,Inbound demo request,Went with competitor,False,2024-11-23 15:04:16,2024-11-23 17:04:16
+30000139,North Radio - New Business,default,closedlost,2950,204,9002497,2024-11-03 17:59:31,2024-12-01,newbusiness,Outbound,No decision,False,2024-12-01 14:54:30,2024-12-01 16:54:30
+30000140,Iron Kitchen Co - New Business,default,closedlost,5250,201,9003008,2024-11-04 21:28:15,2024-12-10,newbusiness,Inbound demo request,Unresponsive,False,2024-12-10 16:24:49,2024-12-10 18:24:49
+30000141,Wild Notes - New Business,default,closedlost,22700,203,9002788,2024-11-05 16:42:26,2024-11-19,newbusiness,Self-serve upgrade,Unresponsive,False,2024-11-19 14:50:52,2024-11-19 16:50:52
+30000142,Open Craft Media - New Business,default,closedwon,5850,204,9001464,2024-11-05 19:47:40,2025-01-01,newbusiness,Outbound,,False,2025-01-01 20:41:52,2025-01-01 22:41:52
+30000143,Iron Collective Co - New Business,default,closedwon,2200,203,9002928,2024-11-06 15:41:11,2024-12-20,newbusiness,Inbound demo request,,False,2024-12-20 17:02:13,2024-12-20 19:02:13
+30000144,Iron Sessions - New Business,default,closedwon,32950,202,9003560,2024-11-06 17:28:15,2024-12-23,newbusiness,Partner,,False,2024-12-23 20:29:52,2024-12-23 22:29:52
+30000145,Iron Sessions - Expansion,expansion,exp_closedlost,9850,301,9003560,2025-04-27 15:32:03,2025-05-13,existingbusiness,Existing customer,Missing feature,False,2025-05-13 22:52:24,2025-05-14 00:52:24
+30000146,Salt Journal Co - New Business,default,closedwon,14750,202,9003506,2024-11-08 16:52:26,2024-12-29,newbusiness,Self-serve upgrade,,False,2024-12-29 15:28:36,2024-12-29 17:28:36
+30000147,Salt Journal Co - Expansion,expansion,exp_closedlost,4100,302,9003506,2025-07-26 17:59:20,2025-08-04,existingbusiness,Existing customer,Price,False,2025-08-04 14:10:13,2025-08-04 16:10:13
+30000148,Honest Society HQ - New Business,default,closedwon,12050,204,9004117,2024-11-10 20:25:29,2024-12-11,newbusiness,Self-serve upgrade,,False,2024-12-11 14:34:53,2024-12-11 16:34:53
+30000149,Honest Society HQ - Expansion,expansion,exp_closedwon,5100,301,9004117,2025-04-18 22:04:59,2025-04-30,existingbusiness,Existing customer,,False,2025-04-30 16:36:04,2025-04-30 18:36:04
+30000150,Maple Supply Studio - New Business,default,closedlost,17700,204,9001602,2024-11-13 17:01:22,2024-12-08,newbusiness,Outbound,Missing feature,False,2024-12-08 18:25:24,2024-12-08 20:25:24
+30000151,Studio Garden Media - New Business,default,closedlost,10150,202,9003590,2024-11-13 22:18:00,2024-12-04,newbusiness,Webinar,Missing feature,False,2024-12-04 16:54:24,2024-12-04 18:54:24
+30000152,Kind Club Co - New Business,default,closedlost,9700,203,9000765,2024-11-13 17:49:58,2024-12-27,newbusiness,Self-serve upgrade,Missing feature,False,2024-12-27 21:37:21,2024-12-27 23:37:21
+30000153,True Club - New Business,default,closedlost,9650,201,9003184,2024-11-14 21:23:55,2024-12-23,newbusiness,Outbound,Timing,False,2024-12-23 14:56:51,2024-12-23 16:56:51
+30000154,Kind Supply Studio - New Business,default,closedwon,10600,203,9001000,2024-11-15 16:33:51,2024-12-05,newbusiness,Outbound,,False,2024-12-05 16:43:24,2024-12-05 18:43:24
+30000155,Kind Supply Studio - Expansion,expansion,exp_closedwon,3350,302,9001000,2025-07-14 20:13:07,2025-08-10,existingbusiness,Existing customer,,False,2025-08-10 14:04:20,2025-08-10 16:04:20
+30000156,Field Notes Media - New Business,default,closedlost,25300,202,9001079,2024-11-18 15:34:28,2024-12-18,newbusiness,Inbound demo request,No decision,False,2024-12-27 02:36:17,2024-12-27 04:36:17
+30000157,Honest Sessions Co - New Business,default,closedlost,26350,203,9001084,2024-11-19 13:27:40,2024-11-20,newbusiness,Referral,Missing feature,False,2024-11-20 16:57:02,2024-11-20 18:57:02
+30000158,Maple Press Media - New Business,default,closedlost,2450,204,9002604,2024-11-19 14:13:28,2024-11-18,newbusiness,Outbound,Unresponsive,False,2024-11-26 18:54:37,2024-11-26 20:54:37
+30000159,Studio Club Co - New Business,default,closedlost,8800,204,9000976,2024-11-24 13:43:25,2025-01-09,newbusiness,Inbound demo request,Missing feature,False,2025-01-09 17:13:30,2025-01-09 19:13:30
+30000160,Paper Society - New Business,default,closedlost,24200,202,9002980,2024-11-26 20:24:20,2024-12-19,newbusiness,Referral,Unresponsive,False,2024-12-19 19:26:24,2024-12-19 21:26:24
+30000161,Field Letters HQ - New Business,default,closedwon,110000,204,9003037,2024-11-27 16:09:34,2025-01-21,newbusiness,Self-serve upgrade,,False,2025-01-21 14:50:33,2025-01-21 16:50:33
+30000162,Common Club - New Business,default,closedlost,11400,204,9002646,2024-11-27 16:32:27,2024-12-19,newbusiness,Outbound,Timing,False,2024-12-19 19:39:51,2024-12-19 21:39:51
+30000163,Iron Press Media - New Business,default,closedlost,2650,202,9001302,2024-11-28 19:57:26,2025-01-01,newbusiness,Inbound demo request,Timing,False,2025-01-01 14:32:07,2025-01-01 16:32:07
+30000164,Slow Collective Studio - New Business,default,closedlost,2500,201,9000813,2024-11-28 18:04:45,2024-12-01,newbusiness,Inbound demo request,No decision,False,2024-12-01 17:19:33,2024-12-01 19:19:33
+30000165,Honest Club - New Business,default,closedlost,17400,203,9003837,2024-11-28 13:18:52,2025-01-26,newbusiness,Referral,Timing,False,2025-01-26 20:35:06,2025-01-26 22:35:06
+30000166,Maple Supply Media - New Business,default,closedlost,1750,201,9000113,2024-11-28 20:36:28,2024-12-21,newbusiness,Inbound demo request,Went with competitor,False,2024-12-21 18:00:07,2024-12-21 20:00:07
+30000167,Blue Society - New Business,default,closedlost,3250,202,9004184,2024-11-29 19:40:28,2024-12-02,newbusiness,Outbound,Unresponsive,False,2024-12-02 15:31:47,2024-12-02 17:31:47
+30000168,Maple Notes Co - New Business,default,closedlost,19050,204,9001568,2024-12-02 17:19:25,2024-12-09,newbusiness,Self-serve upgrade,Unresponsive,False,2024-12-09 22:42:47,2024-12-10 00:42:47
+30000169,Paper Daily - New Business,default,closedlost,2900,202,9002637,2024-12-03 19:37:14,2024-12-17,newbusiness,Referral,Price,False,2024-12-17 16:58:08,2024-12-17 18:58:08
+30000170,Little Supply Studio - New Business,default,closedlost,23550,204,9001589,2024-12-04 15:06:37,2025-01-02,newbusiness,Self-serve upgrade,Missing feature,False,2025-01-02 20:09:21,2025-01-02 22:09:21
+30000171,True House Co - New Business,default,closedlost,4700,203,9001096,2024-12-05 17:17:23,2024-12-18,newbusiness,Self-serve upgrade,Went with competitor,False,2024-12-18 17:15:00,2024-12-18 19:15:00
+30000172,Iron Daily - New Business,default,closedlost,25000,201,9002842,2024-12-06 14:53:32,2024-12-07,newbusiness,Outbound,No decision,True,2024-12-07 18:52:36,2024-12-07 20:52:36
+30000173,Honest Craft Co - New Business,default,closedlost,1700,201,9001872,2024-12-09 18:46:23,2024-12-28,newbusiness,Inbound demo request,Price,False,2024-12-28 15:27:48,2024-12-28 17:27:48
+30000174,Quiet Room Studio - New Business,default,closedlost,42900,201,9004004,2024-12-10 13:03:59,2024-12-26,newbusiness,Inbound demo request,Price,False,2025-01-05 14:45:45,2025-01-05 16:45:45
+30000175,Little Press HQ - New Business,default,closedlost,19500,203,9003418,2024-12-13 22:24:30,2025-01-04,newbusiness,Outbound,Went with competitor,False,2025-01-04 19:56:05,2025-01-04 21:56:05
+30000176,True Garden - New Business,default,closedlost,4250,203,9000292,2024-12-15 14:00:41,2024-12-27,newbusiness,Outbound,Timing,False,2024-12-27 17:09:15,2024-12-27 19:09:15
+30000177,Field Radio Studio - New Business,default,closedlost,91650,201,9002296,2024-12-17 18:02:57,2025-01-04,newbusiness,Outbound,No decision,False,2025-01-04 22:41:30,2025-01-05 00:41:30
+30000178,Field Notes Co - New Business,default,closedlost,7600,202,9001167,2024-12-17 19:12:12,2025-01-21,newbusiness,Inbound demo request,Price,False,2025-01-21 17:39:57,2025-01-21 19:39:57
+30000179,Kind Weekly - New Business,default,closedlost,12800,202,9003140,2024-12-17 21:10:37,2024-12-25,newbusiness,Self-serve upgrade,Unresponsive,False,2024-12-25 18:23:22,2024-12-25 20:23:22
+30000180,Salt House - New Business,default,closedlost,62750,201,9003162,2024-12-18 17:57:36,2025-01-09,newbusiness,Inbound demo request,Price,False,2025-01-09 21:31:58,2025-01-09 23:31:58
+30000181,Salt Lab Studio - New Business,default,closedlost,7600,202,9000655,2024-12-19 22:39:16,2025-01-16,newbusiness,Inbound demo request,Price,True,2025-01-16 20:56:50,2025-01-16 22:56:50
+30000182,Little Works - New Business,default,closedlost,19700,203,9003326,2024-12-20 15:48:33,2025-01-12,newbusiness,Self-serve upgrade,Price,False,2025-01-12 21:27:23,2025-01-12 23:27:23
+30000183,Common Journal Media - New Business,default,closedlost,10300,202,9000775,2024-12-20 14:39:21,2025-01-06,newbusiness,Inbound demo request,No decision,False,2025-01-06 14:40:49,2025-01-06 16:40:49
+30000184,Iron Sessions Studio - New Business,default,closedlost,10200,202,9003811,2024-12-21 15:40:54,2025-02-09,newbusiness,Self-serve upgrade,Unresponsive,False,2025-02-27 17:55:59,2025-02-27 19:55:59
+30000185,Kind Club - New Business,default,closedlost,12050,204,9003367,2024-12-22 20:15:24,2025-01-22,newbusiness,Self-serve upgrade,Price,False,2025-01-22 20:14:03,2025-01-22 22:14:03
+30000186,Iron House - New Business,default,closedlost,3350,201,9001282,2024-12-24 19:29:47,2024-12-27,newbusiness,Inbound demo request,Missing feature,False,2024-12-27 19:54:26,2024-12-27 21:54:26
+30000187,Salt Garden HQ - New Business,default,closedlost,2100,201,9000831,2024-12-25 19:52:51,2024-12-26,newbusiness,Inbound demo request,Unresponsive,False,2024-12-26 19:04:48,2024-12-26 21:04:48
+30000188,Quiet Letters Studio - New Business,default,closedlost,5650,203,9001850,2024-12-26 18:13:05,2025-02-11,newbusiness,Referral,No decision,False,2025-02-11 17:48:53,2025-02-11 19:48:53
+30000189,Early Sessions - New Business,default,closedlost,3500,201,9003257,2024-12-26 22:59:16,2025-01-27,newbusiness,Self-serve upgrade,Price,False,2025-01-27 14:05:41,2025-01-27 16:05:41
+30000190,Studio Kitchen Media - New Business,default,closedlost,2950,202,9001968,2024-12-27 16:52:24,2025-01-25,newbusiness,Referral,Went with competitor,False,2025-01-25 18:26:45,2025-01-25 20:26:45
+30000191,Kind Radio Media - New Business,default,closedlost,33350,202,9000872,2024-12-28 16:38:11,2025-01-28,newbusiness,Inbound demo request,Missing feature,False,2025-01-28 14:41:25,2025-01-28 16:41:25
+30000192,North Garden Co - New Business,default,closedlost,28900,203,9001736,2025-01-04 15:50:43,2025-01-22,newbusiness,Webinar,No decision,False,2025-01-22 18:32:33,2025-01-22 20:32:33
+30000193,Bright Craft - New Business,default,closedwon,6450,201,9001002,2025-01-05 17:10:12,2025-02-04,newbusiness,Referral,,False,2025-02-04 16:53:01,2025-02-04 18:53:01
+30000194,Bright Craft - Expansion,expansion,exp_closedwon,2200,302,9001002,2025-11-21 18:45:22,2025-12-09,existingbusiness,Existing customer,,False,2025-12-09 15:28:40,2025-12-09 17:28:40
+30000195,Kind Supply Media - New Business,default,closedlost,13900,201,9001862,2025-01-06 17:17:01,2025-01-24,newbusiness,Referral,Missing feature,False,2025-01-24 19:30:36,2025-01-24 21:30:36
+30000196,Maple Room HQ - New Business,default,closedlost,2800,201,9001648,2025-01-08 14:21:31,2025-02-13,newbusiness,Self-serve upgrade,Went with competitor,False,2025-02-13 15:55:37,2025-02-13 17:55:37
+30000197,North Supply Co - New Business,default,closedlost,3500,202,9002113,2025-01-08 22:27:20,2025-01-01,newbusiness,Referral,Missing feature,False,2025-01-18 20:04:36,2025-01-18 22:04:36
+30000198,Studio Society - New Business,default,closedlost,8400,204,9003568,2025-01-09 17:09:14,2025-01-17,newbusiness,Inbound demo request,No decision,False,2025-01-17 21:46:13,2025-01-17 23:46:13
+30000199,Kind Radio - New Business,default,closedlost,3300,204,9003710,2025-01-10 14:22:26,2025-02-14,newbusiness,Outbound,No decision,False,2025-02-14 13:07:53,2025-02-14 15:07:53
+30000200,North Journal - New Business,default,closedlost,2300,202,9000409,2025-01-11 20:40:01,2025-01-19,newbusiness,Self-serve upgrade,No decision,False,2025-01-19 20:42:06,2025-01-19 22:42:06
+30000201,Little Letters Media - New Business,default,closedlost,11350,201,9002170,2025-01-12 14:52:10,2025-03-03,newbusiness,Inbound demo request,Unresponsive,False,2025-03-18 19:14:17,2025-03-18 21:14:17
+30000202,Blue Room - New Business,default,closedlost,17700,202,9000839,2025-01-15 17:06:02,2025-02-23,newbusiness,Referral,Price,True,2025-02-23 22:10:58,2025-02-24 00:10:58
+30000203,Quiet Daily - New Business,default,closedlost,56700,204,9003664,2025-01-16 13:28:56,2025-01-18,newbusiness,Inbound demo request,Unresponsive,False,2025-01-18 21:43:28,2025-01-18 23:43:28
+30000204,Studio Club - New Business,default,closedlost,7900,204,9003410,2025-01-19 16:05:57,2025-01-26,newbusiness,Referral,No decision,False,2025-01-26 19:45:10,2025-01-26 21:45:10
+30000205,Salt Room - New Business,default,closedlost,2850,201,9002348,2025-01-20 17:28:15,2025-02-21,newbusiness,Inbound demo request,Price,False,2025-02-21 16:00:55,2025-02-21 18:00:55
+30000206,Wild Club - New Business,default,closedlost,8550,204,9000364,2025-01-22 21:31:01,2025-02-07,newbusiness,Outbound,Timing,False,2025-02-07 17:04:53,2025-02-07 19:04:53
+30000207,Iron Kitchen - New Business,default,closedlost,27300,204,9003405,2025-01-28 19:42:34,2025-02-03,newbusiness,Self-serve upgrade,Missing feature,False,2025-02-03 14:55:12,2025-02-03 16:55:12
+30000208,Honest Sessions Media - New Business,default,closedlost,4100,204,9000620,2025-01-28 15:24:58,2025-02-02,newbusiness,Webinar,Went with competitor,False,2025-02-02 19:35:56,2025-02-02 21:35:56
+30000209,Field Craft - New Business,default,closedwon,8850,204,9001401,2025-01-29 14:33:03,2025-04-12,newbusiness,Self-serve upgrade,,False,2025-04-12 14:37:10,2025-04-12 16:37:10
+30000210,Field Craft - Expansion,expansion,exp_closedlost,3500,302,9001401,2025-10-20 22:40:04,2025-10-26,existingbusiness,Existing customer,Unresponsive,False,2025-10-26 22:54:05,2025-10-27 00:54:05
+30000211,Bright Collective - New Business,default,closedwon,4550,204,9001554,2025-01-29 19:25:39,2025-04-06,newbusiness,Webinar,,False,2025-04-06 20:02:08,2025-04-06 22:02:08
+30000212,Little Craft HQ - New Business,default,closedlost,2000,201,9000916,2025-01-30 18:29:35,2025-02-04,newbusiness,Outbound,No decision,False,2025-02-04 15:05:52,2025-02-04 17:05:52
+30000213,Salt Garden Co - New Business,default,closedlost,5300,203,9002190,2025-01-31 18:39:45,2025-02-28,newbusiness,Inbound demo request,Missing feature,False,2025-02-28 17:05:07,2025-02-28 19:05:07
+30000214,Blue Supply - New Business,default,closedlost,14200,202,9003996,2025-02-01 22:06:49,2025-02-25,newbusiness,Inbound demo request,Missing feature,False,2025-02-25 18:23:00,2025-02-25 20:23:00
+30000215,Bright Collective Co - New Business,default,closedwon,60400,203,9001815,2025-02-01 21:50:35,2025-03-23,newbusiness,Inbound demo request,,False,2025-03-23 20:52:01,2025-03-23 22:52:01
+30000216,Bright Kitchen HQ - New Business,default,closedlost,16000,203,9003246,2025-02-01 17:14:10,2025-02-14,newbusiness,Inbound demo request,No decision,False,2025-02-14 14:47:53,2025-02-14 16:47:53
+30000217,Paper Press Media - New Business,default,closedlost,3450,203,9000091,2025-02-02 18:24:38,2025-04-05,newbusiness,Outbound,No decision,False,2025-04-05 14:03:50,2025-04-05 16:03:50
+30000218,Common Garden Media - New Business,default,closedlost,23700,204,9001751,2025-02-02 18:49:13,2025-02-23,newbusiness,Referral,Price,False,2025-02-23 15:50:28,2025-02-23 17:50:28
+30000219,Quiet Journal HQ - New Business,default,closedlost,5800,201,9000305,2025-02-03 17:56:04,2025-02-08,newbusiness,Outbound,No decision,True,2025-02-08 17:23:08,2025-02-08 19:23:08
+30000220,Wild Sessions - New Business,default,closedlost,1950,201,9000124,2025-02-03 19:28:46,2025-03-13,newbusiness,Inbound demo request,Missing feature,False,2025-03-13 13:46:37,2025-03-13 15:46:37
+30000221,Open Weekly - New Business,default,closedlost,7650,202,9003286,2025-02-04 14:54:58,2025-03-31,newbusiness,Self-serve upgrade,Went with competitor,False,2025-03-31 17:56:21,2025-03-31 19:56:21
+30000222,Kind Supply HQ - New Business,default,closedlost,2800,203,9001843,2025-02-06 22:45:03,2025-02-18,newbusiness,Inbound demo request,Price,False,2025-02-18 17:11:34,2025-02-18 19:11:34
+30000223,North Room Studio - New Business,default,closedlost,4250,201,9002104,2025-02-07 16:36:29,2025-03-08,newbusiness,Inbound demo request,Went with competitor,False,2025-03-08 19:44:04,2025-03-08 21:44:04
+30000224,Paper Society Media - New Business,default,closedwon,5400,205,9001720,2025-02-07 20:32:26,2025-04-07,newbusiness,Inbound demo request,,False,2025-04-07 16:51:17,2025-04-07 18:51:17
+30000225,Paper Society Media - Expansion,expansion,exp_closedwon,3150,302,9001720,2026-04-29 22:23:37,2026-05-24,existingbusiness,Existing customer,,False,2026-05-24 18:24:17,2026-05-24 20:24:17
+30000226,Quiet Works Media - New Business,default,closedlost,11700,203,9004140,2025-02-09 22:04:39,2025-03-05,newbusiness,Outbound,No decision,False,2025-03-05 19:04:05,2025-03-05 21:04:05
+30000227,Salt Press Studio - New Business,default,closedlost,14850,205,9003357,2025-02-10 22:23:27,2025-04-03,newbusiness,Referral,Timing,False,2025-04-03 21:45:58,2025-04-03 23:45:58
+30000228,Early Kitchen Co - New Business,default,closedlost,2200,202,9003229,2025-02-10 17:25:11,2025-05-01,newbusiness,Outbound,Unresponsive,False,2025-05-01 15:46:34,2025-05-01 17:46:34
+30000229,Slow Works Studio - New Business,default,closedlost,2100,204,9002086,2025-02-12 21:55:49,2025-02-15,newbusiness,Self-serve upgrade,Unresponsive,False,2025-02-15 21:06:12,2025-02-15 23:06:12
+30000230,Kind Kitchen Media - New Business,default,closedlost,39250,202,9000103,2025-02-12 17:42:17,2025-02-16,newbusiness,Inbound demo request,Went with competitor,False,2025-02-16 19:10:11,2025-02-16 21:10:11
+30000231,Honest Sessions - New Business,default,closedlost,23900,201,9000242,2025-02-12 18:20:46,2025-03-17,newbusiness,Self-serve upgrade,Went with competitor,False,2025-03-17 13:06:29,2025-03-17 15:06:29
+30000232,Iron House Co - New Business,default,closedwon,4100,202,9000052,2025-02-13 20:28:30,2025-04-20,newbusiness,Inbound demo request,,False,2025-04-20 22:27:10,2025-04-21 00:27:10
+30000233,Maple Kitchen - New Business,default,closedlost,4350,204,9000428,2025-02-15 20:36:59,2025-03-05,newbusiness,Referral,Timing,False,2025-03-05 22:19:22,2025-03-06 00:19:22
+30000234,Wild Daily Media - New Business,default,closedwon,6050,205,9002292,2025-02-15 18:24:53,2025-05-22,newbusiness,Inbound demo request,,False,2025-05-22 18:26:04,2025-05-22 20:26:04
+30000235,Maple Daily - New Business,default,closedlost,25200,205,9003604,2025-02-17 16:35:33,2025-02-23,newbusiness,Inbound demo request,Price,True,2025-02-23 21:13:46,2025-02-23 23:13:46
+30000236,Golden Kitchen HQ - New Business,default,closedlost,19950,205,9000991,2025-02-19 14:35:54,2025-03-01,newbusiness,Inbound demo request,Went with competitor,False,2025-03-01 19:20:18,2025-03-01 21:20:18
+30000237,Iron Letters - New Business,default,closedlost,4700,204,9003855,2025-02-20 17:26:59,2025-04-17,newbusiness,Partner,Missing feature,False,2025-04-17 16:33:51,2025-04-17 18:33:51
+30000238,Blue Craft HQ - New Business,default,closedlost,2150,204,9001475,2025-02-21 16:58:38,2025-02-27,newbusiness,Self-serve upgrade,No decision,False,2025-02-27 22:09:56,2025-02-28 00:09:56
+30000239,Maple Academy - New Business,default,closedlost,9250,202,9004165,2025-02-22 16:12:18,2025-03-16,newbusiness,Inbound demo request,Price,False,2025-03-16 21:08:33,2025-03-16 23:08:33
+30000240,Maple Radio Co - New Business,default,closedlost,1250,204,9002420,2025-02-22 17:18:21,2025-02-28,newbusiness,Referral,Price,False,2025-02-28 14:09:36,2025-02-28 16:09:36
+30000241,Honest Craft Media - New Business,default,closedlost,3250,205,9003265,2025-02-22 18:38:09,2025-03-20,newbusiness,Inbound demo request,Unresponsive,False,2025-03-20 22:02:45,2025-03-21 00:02:45
+30000242,Salt Notes Media - New Business,default,closedwon,35350,202,9001027,2025-02-23 18:18:29,2025-03-24,newbusiness,Inbound demo request,,False,2025-03-24 16:13:38,2025-03-24 18:13:38
+30000243,Salt Notes Media - Expansion,expansion,exp_closedlost,13750,301,9001027,2026-05-18 20:57:29,2026-05-27,existingbusiness,Existing customer,No decision,False,2026-05-27 15:08:37,2026-05-27 17:08:37
+30000244,Slow Society Media - New Business,default,closedlost,7400,202,9000412,2025-02-24 20:42:16,2025-02-27,newbusiness,Inbound demo request,Price,False,2025-02-27 17:31:55,2025-02-27 19:31:55
+30000245,Slow House HQ - New Business,default,closedlost,9950,204,9003851,2025-02-26 22:36:12,2025-04-22,newbusiness,Webinar,Went with competitor,False,2025-04-22 13:18:05,2025-04-22 15:18:05
+30000246,Honest Supply Studio - New Business,default,closedwon,79400,202,9000545,2025-02-27 18:52:47,2025-03-24,newbusiness,Inbound demo request,,False,2025-03-29 23:09:19,2025-03-30 01:09:19
+30000247,Quiet Radio - New Business,default,closedlost,77650,205,9003639,2025-02-27 14:23:53,2025-04-01,newbusiness,Inbound demo request,Timing,False,2025-04-01 18:38:59,2025-04-01 20:38:59
+30000248,Little Lab Media - New Business,default,closedlost,64850,203,9001118,2025-02-27 17:46:32,2025-03-08,newbusiness,Webinar,Timing,False,2025-03-08 17:30:11,2025-03-08 19:30:11
+30000249,Maple Weekly Studio - New Business,default,closedlost,61300,205,9001522,2025-02-27 18:19:16,2025-05-06,newbusiness,Outbound,Unresponsive,False,2025-05-06 15:50:18,2025-05-06 17:50:18
+30000250,Honest Notes Media - New Business,default,closedlost,28800,202,9001003,2025-02-28 21:34:17,2025-03-26,newbusiness,Outbound,Unresponsive,False,2025-03-26 14:48:05,2025-03-26 16:48:05
+30000251,North Press - New Business,default,closedlost,2750,204,9001045,2025-03-04 14:52:02,2025-04-08,newbusiness,Outbound,Unresponsive,False,2025-04-08 21:47:12,2025-04-08 23:47:12
+30000252,Bright Academy Studio - New Business,default,closedlost,41600,203,9001421,2025-03-11 20:11:16,2025-03-28,newbusiness,Self-serve upgrade,Unresponsive,False,2025-03-28 18:25:48,2025-03-28 20:25:48
+30000253,Studio Weekly - New Business,default,closedlost,3000,201,9000060,2025-03-11 20:45:01,2025-04-08,newbusiness,Inbound demo request,Went with competitor,False,2025-04-08 22:56:29,2025-04-09 00:56:29
+30000254,Golden Notes HQ - New Business,default,closedlost,7050,202,9001515,2025-03-13 20:18:41,2025-03-26,newbusiness,Inbound demo request,No decision,False,2025-03-26 13:19:50,2025-03-26 15:19:50
+30000255,Kind Works Studio - New Business,default,closedlost,14750,202,9001249,2025-03-14 13:44:28,2025-03-03,newbusiness,Inbound demo request,Unresponsive,False,2025-03-22 02:11:27,2025-03-22 04:11:27
+30000256,Studio Daily Media - New Business,default,closedlost,7700,201,9002125,2025-03-16 22:39:05,2025-03-26,newbusiness,Inbound demo request,Went with competitor,False,2025-03-26 15:01:42,2025-03-26 17:01:42
+30000257,Kind Lab HQ - New Business,default,closedlost,15000,202,9001247,2025-03-17 18:39:08,2025-03-27,newbusiness,Outbound,Timing,False,2025-03-27 17:38:05,2025-03-27 19:38:05
+30000258,Studio Weekly Media - New Business,default,closedlost,2900,202,9003164,2025-03-19 15:52:18,2025-03-27,newbusiness,Self-serve upgrade,Unresponsive,False,2025-03-27 18:51:41,2025-03-27 20:51:41
+30000259,Blue Academy - New Business,default,closedlost,13900,202,9002294,2025-03-21 16:54:18,2025-05-23,newbusiness,Inbound demo request,Unresponsive,False,2025-05-23 13:17:56,2025-05-23 15:17:56
+30000260,Common Collective - New Business,default,closedlost,2300,203,9000395,2025-03-22 17:33:00,2025-05-30,newbusiness,Inbound demo request,Price,False,2025-05-30 21:34:45,2025-05-30 23:34:45
+30000261,Iron Daily - New Business,default,closedlost,10900,203,9003709,2025-03-23 14:13:05,2025-03-31,newbusiness,Referral,Missing feature,False,2025-03-31 14:32:11,2025-03-31 16:32:11
+30000262,Field Lab Studio - New Business,default,closedlost,10250,201,9001576,2025-03-23 18:34:15,2025-04-02,newbusiness,Inbound demo request,Went with competitor,False,2025-04-02 13:48:37,2025-04-02 15:48:37
+30000263,North Weekly Co - New Business,default,closedlost,10000,201,9001159,2025-03-26 22:30:30,2025-05-04,newbusiness,Outbound,Timing,False,2025-05-04 18:10:16,2025-05-04 20:10:16
+30000264,Iron Letters Co - New Business,default,closedwon,9850,202,9003524,2025-03-27 15:14:00,2025-06-08,newbusiness,Referral,,False,2025-06-16 03:57:38,2025-06-16 05:57:38
+30000265,Wild Press Media - New Business,default,closedlost,3900,202,9000078,2025-03-29 22:14:27,2025-04-24,newbusiness,Inbound demo request,Went with competitor,False,2025-04-24 21:16:22,2025-04-24 23:16:22
+30000266,Paper Sessions Co - New Business,default,closedwon,2700,201,9003118,2025-04-01 16:41:36,2025-05-16,newbusiness,Inbound demo request,,False,2025-05-16 20:06:43,2025-05-16 22:06:43
+30000267,Paper Sessions Co - Expansion,expansion,exp_closedlost,800,302,9003118,2026-02-04 16:15:56,2026-02-17,existingbusiness,Existing customer,No decision,False,2026-02-17 18:20:05,2026-02-17 20:20:05
+30000268,Early Garden Media - New Business,default,closedlost,6650,203,9000908,2025-04-01 17:37:52,2025-04-10,newbusiness,Outbound,Went with competitor,False,2025-04-10 18:02:53,2025-04-10 20:02:53
+30000269,Open Collective - New Business,default,closedlost,10550,201,9002528,2025-04-01 17:48:08,2025-05-07,newbusiness,Self-serve upgrade,Price,False,2025-05-07 22:24:15,2025-05-08 00:24:15
+30000270,North Notes - New Business,default,closedlost,33000,205,9001944,2025-04-01 14:25:48,2025-04-29,newbusiness,Self-serve upgrade,Went with competitor,False,2025-04-29 16:51:54,2025-04-29 18:51:54
+30000271,Maple Society Co - New Business,default,closedlost,8850,203,9004107,2025-04-02 21:41:18,2025-05-14,newbusiness,Inbound demo request,Timing,False,2025-05-14 17:25:49,2025-05-14 19:25:49
+30000272,Common Lab Co - New Business,default,closedlost,12600,204,9003266,2025-04-02 17:54:25,2025-04-17,newbusiness,Partner,Went with competitor,False,2025-04-17 16:10:13,2025-04-17 18:10:13
+30000273,Open Radio HQ - New Business,default,closedlost,77250,203,9001687,2025-04-03 14:28:52,2025-04-15,newbusiness,Inbound demo request,No decision,False,2025-04-15 16:03:54,2025-04-15 18:03:54
+30000274,Salt Sessions Studio - New Business,default,closedlost,7250,204,9000817,2025-04-04 18:49:25,2025-04-17,newbusiness,Webinar,Missing feature,False,2025-04-17 22:13:24,2025-04-18 00:13:24
+30000275,Kind Room - New Business,default,closedlost,9200,203,9003207,2025-04-05 17:57:46,2025-04-12,newbusiness,Self-serve upgrade,Went with competitor,False,2025-04-12 15:14:29,2025-04-12 17:14:29
+30000276,Early Daily - New Business,default,closedlost,7350,204,9003485,2025-04-05 14:26:02,2025-05-01,newbusiness,Partner,No decision,False,2025-05-01 17:43:22,2025-05-01 19:43:22
+30000277,Golden Press HQ - New Business,default,closedwon,3950,202,9001625,2025-04-05 18:08:49,2025-06-05,newbusiness,Referral,,False,2025-06-05 22:31:13,2025-06-06 00:31:13
+30000278,Kind Radio Media - New Business,default,closedlost,11900,202,9002488,2025-04-05 19:15:16,2025-05-18,newbusiness,Outbound,Missing feature,False,2025-05-18 14:28:16,2025-05-18 16:28:16
+30000279,Wild House - New Business,default,closedlost,7850,203,9003035,2025-04-07 21:40:36,2025-04-09,newbusiness,Referral,No decision,False,2025-05-01 23:44:07,2025-05-02 01:44:07
+30000280,Bright Society Co - New Business,default,closedwon,62950,204,9001237,2025-04-07 18:48:45,2025-05-20,newbusiness,Self-serve upgrade,,False,2025-05-20 14:01:12,2025-05-20 16:01:12
+30000281,Studio Works Co - New Business,default,closedlost,15750,202,9003986,2025-04-08 13:20:13,2025-05-15,newbusiness,Webinar,Missing feature,True,2025-05-15 21:26:23,2025-05-15 23:26:23
+30000282,Quiet Letters Media - New Business,default,closedlost,9050,204,9001675,2025-04-09 17:55:27,2025-04-16,newbusiness,Self-serve upgrade,No decision,False,2025-04-16 20:36:37,2025-04-16 22:36:37
+30000283,Quiet Room Media - New Business,default,closedlost,3500,204,9002657,2025-04-09 16:59:39,2025-04-15,newbusiness,Inbound demo request,Unresponsive,False,2025-04-15 17:31:30,2025-04-15 19:31:30
+30000284,Bright Sessions - New Business,default,closedlost,2250,205,9000447,2025-04-09 16:14:17,2025-04-28,newbusiness,Inbound demo request,No decision,False,2025-04-28 15:45:26,2025-04-28 17:45:26
+30000285,Common Weekly Media - New Business,default,closedwon,7100,204,9001012,2025-04-12 13:39:39,2025-06-28,newbusiness,Referral,,False,2025-06-28 22:59:32,2025-06-29 00:59:32
+30000286,Common Weekly Media - Expansion,expansion,exp_closedlost,1450,302,9001012,2025-10-26 14:44:36,2025-11-09,existingbusiness,Existing customer,Price,False,2025-11-09 22:27:32,2025-11-10 00:27:32
+30000287,Kind Works - New Business,default,closedwon,15050,202,9002344,2025-04-13 22:41:23,2025-05-17,newbusiness,Referral,,False,2025-05-17 13:42:13,2025-05-17 15:42:13
+30000288,Iron Press Co - New Business,default,closedlost,27850,203,9001008,2025-04-17 18:09:25,2025-05-20,newbusiness,Inbound demo request,No decision,False,2025-05-20 18:01:14,2025-05-20 20:01:14
+30000289,Iron Society Media - New Business,default,closedlost,42250,204,9000829,2025-04-17 16:42:29,2025-05-09,newbusiness,Referral,Went with competitor,False,2025-05-09 21:11:20,2025-05-09 23:11:20
+30000290,Little Collective Co - New Business,default,closedlost,26700,205,9002061,2025-04-18 21:51:45,2025-05-29,newbusiness,Outbound,Went with competitor,False,2025-05-29 14:10:56,2025-05-29 16:10:56
+30000291,Golden Works - New Business,default,closedlost,1750,204,9003820,2025-04-18 13:05:31,2025-04-29,newbusiness,Inbound demo request,Timing,False,2025-04-29 17:45:25,2025-04-29 19:45:25
+30000292,Open Letters Media - New Business,default,closedlost,1400,204,9000037,2025-04-19 22:36:26,2025-04-24,newbusiness,Self-serve upgrade,Went with competitor,False,2025-04-24 15:29:16,2025-04-24 17:29:16
+30000293,Open Sessions - New Business,default,closedwon,28900,202,9002436,2025-04-25 22:52:35,2025-05-27,newbusiness,Webinar,,False,2025-05-27 14:55:58,2025-05-27 16:55:58
+30000294,Open Sessions - Expansion,expansion,exp_closedlost,7750,301,9002436,2025-12-18 20:49:55,2025-12-27,existingbusiness,Existing customer,Went with competitor,False,2025-12-27 21:46:38,2025-12-27 23:46:38
+30000295,Common Daily Media - New Business,default,closedlost,28500,205,9004096,2025-04-26 17:30:20,2025-05-01,newbusiness,Referral,Went with competitor,False,2025-05-01 16:57:40,2025-05-01 18:57:40
+30000296,Maple Letters HQ - New Business,default,closedlost,142500,201,9001762,2025-04-28 17:49:42,2025-05-23,newbusiness,Self-serve upgrade,Timing,False,2025-05-23 21:39:08,2025-05-23 23:39:08
+30000297,Early Daily Studio - New Business,default,closedwon,7500,203,9003715,2025-04-28 19:21:18,2025-06-16,newbusiness,Outbound,,False,2025-06-16 15:32:13,2025-06-16 17:32:13
+30000298,Bright Society HQ - New Business,default,closedlost,6800,205,9001907,2025-04-29 14:19:44,2025-04-21,newbusiness,Outbound,Unresponsive,False,2025-05-08 17:34:53,2025-05-08 19:34:53
+30000299,Kind Notes Media - New Business,default,closedlost,2400,202,9000511,2025-05-01 15:57:57,2025-05-09,newbusiness,Outbound,Price,False,2025-05-09 13:10:03,2025-05-09 15:10:03
+30000300,Blue Academy - New Business,default,closedlost,4800,202,9000960,2025-05-02 19:37:39,2025-06-05,newbusiness,Inbound demo request,Unresponsive,True,2025-06-24 03:44:33,2025-06-24 05:44:33
+30000301,True Supply HQ - New Business,default,closedlost,2450,205,9001636,2025-05-02 22:36:56,2025-05-12,newbusiness,Self-serve upgrade,Timing,False,2025-05-12 14:48:14,2025-05-12 16:48:14
+30000302,True Daily Studio - New Business,default,closedlost,4150,204,9000591,2025-05-02 13:01:56,2025-05-22,newbusiness,Self-serve upgrade,Missing feature,False,2025-05-22 21:39:34,2025-05-22 23:39:34
+30000303,Bright Supply Co - New Business,default,closedlost,1500,201,9002208,2025-05-02 13:29:51,2025-06-08,newbusiness,Inbound demo request,No decision,False,2025-06-08 21:33:35,2025-06-08 23:33:35
+30000304,Common Garden Studio - New Business,default,closedlost,34250,205,9002618,2025-05-04 16:35:41,2025-05-23,newbusiness,Partner,Price,False,2025-05-23 19:48:11,2025-05-23 21:48:11
+30000305,Wild Journal - New Business,default,closedlost,1800,201,9003324,2025-05-04 14:45:04,2025-06-14,newbusiness,Self-serve upgrade,Went with competitor,False,2025-06-14 19:00:08,2025-06-14 21:00:08
+30000306,Studio Sessions - New Business,default,closedlost,42650,201,9002536,2025-05-04 18:35:40,2025-05-28,newbusiness,Inbound demo request,Price,False,2025-05-28 16:28:31,2025-05-28 18:28:31
+30000307,Quiet Press Co - New Business,default,closedwon,7450,204,9000952,2025-05-05 16:45:36,2025-05-28,newbusiness,Outbound,,False,2025-05-28 20:17:08,2025-05-28 22:17:08
+30000308,Open Sessions - New Business,default,closedlost,10250,204,9001922,2025-05-06 21:03:31,2025-06-14,newbusiness,Inbound demo request,Missing feature,False,2025-06-14 22:28:04,2025-06-15 00:28:04
+30000309,Paper Sessions - New Business,default,closedwon,9050,201,9002255,2025-05-07 18:09:56,2025-08-11,newbusiness,Inbound demo request,,False,2025-08-11 17:18:00,2025-08-11 19:18:00
+30000310,Paper Sessions - Expansion,expansion,exp_closedlost,2250,302,9002255,2026-09-02 17:01:25,2026-09-13,existingbusiness,Existing customer,No decision,False,2026-09-13 17:13:28,2026-09-13 19:13:28
+30000311,Salt Lab Co - New Business,default,closedlost,4450,201,9000745,2025-05-08 22:57:49,2025-05-19,newbusiness,Self-serve upgrade,Price,False,2025-05-19 21:04:43,2025-05-19 23:04:43
+30000312,Maple Daily Media - New Business,default,closedlost,2800,205,9001235,2025-05-10 20:26:57,2025-06-01,newbusiness,Inbound demo request,Unresponsive,False,2025-06-01 13:40:29,2025-06-01 15:40:29
+30000313,Blue Club - New Business,default,closedwon,20750,201,9002512,2025-05-11 18:44:02,2025-07-28,newbusiness,Inbound demo request,,False,2025-07-28 22:50:44,2025-07-29 00:50:44
+30000314,Blue Club - Expansion,expansion,exp_closedlost,7850,301,9002512,2026-02-24 20:01:07,2026-04-04,existingbusiness,Existing customer,Timing,False,2026-04-04 15:20:01,2026-04-04 17:20:01
+30000315,Little Supply - New Business,default,closedwon,27850,204,9003379,2025-05-12 19:43:29,2025-06-28,newbusiness,Inbound demo request,,False,2025-06-28 21:32:13,2025-06-28 23:32:13
+30000316,Little Supply - Expansion,expansion,exp_closedlost,5350,302,9003379,2026-02-25 17:00:01,2026-03-20,existingbusiness,Existing customer,Timing,False,2026-03-20 14:44:02,2026-03-20 16:44:02
+30000317,Maple Radio - New Business,default,closedlost,7550,202,9003176,2025-05-14 19:15:29,2025-06-25,newbusiness,Outbound,Went with competitor,False,2025-06-25 13:23:49,2025-06-25 15:23:49
+30000318,Slow Club - New Business,default,closedlost,2500,204,9000352,2025-05-14 19:10:42,2025-05-19,newbusiness,Self-serve upgrade,Timing,False,2025-05-19 13:55:23,2025-05-19 15:55:23
+30000319,Field Journal - New Business,default,closedlost,2500,201,9003601,2025-05-15 19:19:24,2025-06-29,newbusiness,Self-serve upgrade,Unresponsive,False,2025-06-29 22:47:36,2025-06-30 00:47:36
+30000320,Golden Works Studio - New Business,default,closedlost,18750,205,9001400,2025-05-18 14:42:31,2025-05-22,newbusiness,Webinar,Timing,False,2025-05-22 16:21:04,2025-05-22 18:21:04
+30000321,Paper Press - New Business,default,closedlost,1950,203,9004026,2025-05-18 15:12:20,2025-06-29,newbusiness,Self-serve upgrade,Went with competitor,False,2025-06-29 14:36:15,2025-06-29 16:36:15
+30000322,Slow Sessions - New Business,default,closedlost,5400,205,9002437,2025-05-18 20:28:17,2025-05-28,newbusiness,Referral,Missing feature,False,2025-05-28 22:48:32,2025-05-29 00:48:32
+30000323,Kind Works - New Business,default,closedlost,2300,201,9004163,2025-05-19 20:37:09,2025-06-01,newbusiness,Self-serve upgrade,Timing,False,2025-06-01 21:03:01,2025-06-01 23:03:01
+30000324,North Society - New Business,default,closedlost,3450,204,9003895,2025-05-21 22:49:54,2025-06-11,newbusiness,Webinar,Timing,False,2025-06-11 16:25:20,2025-06-11 18:25:20
+30000325,Quiet Daily - New Business,default,closedlost,3200,203,9003613,2025-05-21 21:36:09,2025-06-02,newbusiness,Self-serve upgrade,Unresponsive,False,2025-06-02 17:26:52,2025-06-02 19:26:52
+30000326,Common Journal HQ - New Business,default,closedwon,21350,202,9001381,2025-05-23 22:35:09,2025-06-18,newbusiness,Inbound demo request,,False,2025-06-18 22:13:46,2025-06-19 00:13:46
+30000327,True Radio Co - New Business,default,closedlost,38400,204,9000958,2025-05-23 13:59:33,2025-06-15,newbusiness,Outbound,Timing,False,2025-06-15 15:03:42,2025-06-15 17:03:42
+30000328,Studio Craft - New Business,default,closedlost,5900,203,9002214,2025-05-25 16:44:25,2025-06-07,newbusiness,Partner,No decision,False,2025-06-07 14:52:08,2025-06-07 16:52:08
+30000329,Studio Daily HQ - New Business,default,closedlost,2600,205,9000663,2025-05-26 13:24:50,2025-07-07,newbusiness,Inbound demo request,Missing feature,False,2025-07-07 22:36:50,2025-07-08 00:36:50
+30000330,Iron Club Media - New Business,default,closedlost,16800,205,9003891,2025-05-26 14:46:18,2025-07-22,newbusiness,Outbound,Price,False,2025-08-04 21:42:01,2025-08-04 23:42:01
+30000331,Common Collective Studio - New Business,default,closedlost,56300,202,9000600,2025-05-27 13:44:57,2025-07-01,newbusiness,Inbound demo request,No decision,False,2025-07-01 15:40:00,2025-07-01 17:40:00
+30000332,Maple Garden - New Business,default,closedlost,6000,201,9004148,2025-05-28 19:29:20,2025-06-06,newbusiness,Self-serve upgrade,Unresponsive,False,2025-06-06 19:34:36,2025-06-06 21:34:36
+30000333,Paper Academy HQ - New Business,default,closedwon,11500,203,9001746,2025-05-28 13:04:33,2025-06-23,newbusiness,Outbound,,False,2025-06-23 13:53:28,2025-06-23 15:53:28
+30000334,Paper Academy HQ - Expansion,expansion,exp_closedlost,3550,302,9001746,2026-08-04 18:04:36,2026-09-03,existingbusiness,Existing customer,Missing feature,False,2026-09-03 22:00:31,2026-09-04 00:00:31
+30000335,Quiet Club Co - New Business,default,closedlost,5700,204,9001204,2025-05-29 15:01:12,2025-07-03,newbusiness,Inbound demo request,Unresponsive,False,2025-07-03 18:51:56,2025-07-03 20:51:56
+30000336,Field Letters Studio - New Business,default,closedwon,26750,203,9001806,2025-06-01 22:27:22,2025-07-16,newbusiness,Self-serve upgrade,,False,2025-07-16 18:37:51,2025-07-16 20:37:51
+30000337,Field Letters Studio - Expansion,expansion,exp_closedlost,10550,301,9001806,2026-09-06 19:42:36,2026-09-07,existingbusiness,Existing customer,No decision,False,2026-09-07 19:23:39,2026-09-07 21:23:39
+30000338,Studio Craft - New Business,default,closedlost,31250,201,9002811,2025-06-02 19:59:43,2025-06-25,newbusiness,Partner,Price,False,2025-07-22 15:49:34,2025-07-22 17:49:34
+30000339,Honest Supply Co - New Business,default,closedlost,7250,203,9004109,2025-06-03 19:41:48,2025-06-25,newbusiness,Outbound,No decision,False,2025-06-25 19:49:57,2025-06-25 21:49:57
+30000340,Common Society HQ - New Business,default,closedlost,23150,204,9000473,2025-06-05 16:07:22,2025-06-15,newbusiness,Self-serve upgrade,Timing,False,2025-06-15 16:19:00,2025-06-15 18:19:00
+30000341,Blue House HQ - New Business,default,closedlost,2900,205,9001606,2025-06-06 14:37:03,2025-08-06,newbusiness,Inbound demo request,Went with competitor,False,2025-08-06 18:26:48,2025-08-06 20:26:48
+30000342,North Radio Co - New Business,default,closedlost,15350,203,9003047,2025-06-06 13:33:04,2025-06-16,newbusiness,Inbound demo request,Went with competitor,False,2025-06-16 13:35:57,2025-06-16 15:35:57
+30000343,Paper Supply - New Business,default,closedwon,2750,204,9002406,2025-06-08 18:46:31,2025-08-02,newbusiness,Referral,,False,2025-08-02 19:44:39,2025-08-02 21:44:39
+30000344,Honest Weekly - New Business,default,closedlost,4300,204,9003192,2025-06-08 20:15:29,2025-06-20,newbusiness,Outbound,Timing,False,2025-06-20 19:45:21,2025-06-20 21:45:21
+30000345,Golden Room - New Business,default,closedlost,2300,202,9004164,2025-06-09 21:36:41,2025-06-19,newbusiness,Inbound demo request,No decision,False,2025-06-19 22:33:49,2025-06-20 00:33:49
+30000346,North Collective Studio - New Business,default,closedlost,4750,201,9000808,2025-06-10 15:35:47,2025-06-20,newbusiness,Referral,Unresponsive,False,2025-06-20 17:17:00,2025-06-20 19:17:00
+30000347,Maple Kitchen - New Business,default,closedlost,54500,204,9002911,2025-06-10 17:04:40,2025-06-24,newbusiness,Inbound demo request,Went with competitor,False,2025-06-24 14:53:24,2025-06-24 16:53:24
+30000348,Iron Room Media - New Business,default,closedlost,4400,202,9003642,2025-06-12 18:25:36,2025-07-01,newbusiness,Self-serve upgrade,Price,False,2025-07-01 22:12:35,2025-07-02 00:12:35
+30000349,Maple Supply - New Business,default,closedlost,36600,201,9002078,2025-06-12 17:26:03,2025-06-20,newbusiness,Outbound,Went with competitor,False,2025-06-20 13:08:55,2025-06-20 15:08:55
+30000350,Salt Society - New Business,default,closedlost,3500,204,9001660,2025-06-13 18:12:53,2025-06-23,newbusiness,Webinar,Timing,True,2025-06-23 18:53:37,2025-06-23 20:53:37
+30000351,Blue Letters - New Business,default,closedlost,9400,204,9003649,2025-06-13 18:40:17,2025-07-24,newbusiness,Inbound demo request,Price,False,2025-07-24 15:59:35,2025-07-24 17:59:35
+30000352,Studio Academy - New Business,default,closedwon,10350,203,9000009,2025-06-14 18:56:13,2025-07-10,newbusiness,Self-serve upgrade,,False,2025-07-10 15:52:00,2025-07-10 17:52:00
+30000353,Open House Studio - New Business,default,closedlost,55350,205,9000975,2025-06-14 14:13:57,2025-06-27,newbusiness,Webinar,Unresponsive,False,2025-06-27 15:11:32,2025-06-27 17:11:32
+30000354,Maple Letters Studio - New Business,default,closedlost,2700,201,9002248,2025-06-16 15:30:29,2025-06-19,newbusiness,Inbound demo request,Missing feature,False,2025-06-19 17:46:26,2025-06-19 19:46:26
+30000355,Open Press - New Business,default,closedlost,1750,203,9003619,2025-06-17 19:39:09,2025-06-27,newbusiness,Inbound demo request,No decision,False,2025-06-27 14:02:21,2025-06-27 16:02:21
+30000356,Blue Weekly Studio - New Business,default,closedlost,4800,202,9003825,2025-06-18 17:10:57,2025-06-30,newbusiness,Self-serve upgrade,Price,False,2025-07-09 21:16:15,2025-07-09 23:16:15
+30000357,Maple Garden - New Business,default,closedlost,4750,202,9003656,2025-06-18 20:42:54,2025-06-23,newbusiness,Outbound,Unresponsive,False,2025-06-23 15:05:24,2025-06-23 17:05:24
+30000358,Paper Craft Co - New Business,default,closedlost,8700,201,9001670,2025-06-19 13:09:06,2025-08-18,newbusiness,Inbound demo request,Went with competitor,False,2025-08-18 13:48:59,2025-08-18 15:48:59
+30000359,Slow Sessions - New Business,default,closedwon,3350,201,9003247,2025-06-25 21:49:17,2025-08-21,newbusiness,Partner,,False,2025-08-21 20:19:54,2025-08-21 22:19:54
+30000360,Slow Sessions - Expansion,expansion,exp_closedwon,1600,302,9003247,2026-08-22 15:34:02,2026-09-11,existingbusiness,Existing customer,,False,2026-09-11 20:12:06,2026-09-11 22:12:06
+30000361,Common Society - New Business,default,closedwon,50950,205,9000001,2025-06-25 15:53:57,2025-07-16,newbusiness,Outbound,,False,2025-08-03 21:30:43,2025-08-03 23:30:43
+30000362,Maple Sessions Media - New Business,default,closedwon,12350,203,9001186,2025-06-26 16:31:28,2025-08-05,newbusiness,Referral,,False,2025-08-05 19:12:18,2025-08-05 21:12:18
+30000363,Maple Sessions Media - Expansion,expansion,exp_closedwon,4450,301,9001186,2026-05-28 15:31:36,2026-06-25,existingbusiness,Existing customer,,False,2026-06-25 13:32:57,2026-06-25 15:32:57
+30000364,Maple Academy - New Business,default,closedlost,15800,204,9003951,2025-06-28 20:28:30,2025-07-14,newbusiness,Inbound demo request,Price,False,2025-07-14 18:08:57,2025-07-14 20:08:57
+30000365,Slow Club Co - New Business,default,closedlost,2750,201,9000874,2025-06-29 14:25:42,2025-08-14,newbusiness,Inbound demo request,Price,False,2025-08-14 22:13:33,2025-08-15 00:13:33
+30000366,Early Club - New Business,default,closedlost,18250,202,9003401,2025-06-29 17:47:10,2025-07-30,newbusiness,Inbound demo request,Price,False,2025-07-30 14:47:13,2025-07-30 16:47:13
+30000367,Salt Journal - New Business,default,closedlost,4500,203,9000053,2025-06-30 13:39:03,2025-07-05,newbusiness,Inbound demo request,Price,False,2025-07-05 18:13:49,2025-07-05 20:13:49
+30000368,Golden Garden - New Business,default,closedwon,22200,202,9003195,2025-06-30 21:17:23,2025-09-24,newbusiness,Referral,,False,2025-09-24 20:44:36,2025-09-24 22:44:36
+30000369,Golden Garden - Expansion,expansion,exp_closedlost,10200,302,9003195,2026-03-07 15:17:39,2026-03-26,existingbusiness,Existing customer,Timing,False,2026-03-26 18:31:40,2026-03-26 20:31:40
+30000370,Field Daily Co - New Business,default,closedlost,2600,205,9000570,2025-06-30 19:30:11,2025-07-02,newbusiness,Webinar,Timing,False,2025-07-02 21:24:59,2025-07-02 23:24:59
+30000371,Bright Letters - New Business,default,closedwon,4250,203,9002592,2025-07-01 15:39:29,2025-08-15,newbusiness,Referral,,False,2025-08-15 18:51:05,2025-08-15 20:51:05
+30000372,Bright Letters - Expansion,expansion,exp_closedlost,1550,301,9002592,2026-06-24 20:31:59,2026-06-26,existingbusiness,Existing customer,Missing feature,False,2026-06-26 16:36:03,2026-06-26 18:36:03
+30000373,Iron Academy HQ - New Business,default,closedlost,12200,203,9000596,2025-07-01 17:59:14,2025-07-09,newbusiness,Inbound demo request,Went with competitor,False,2025-07-09 16:40:52,2025-07-09 18:40:52
+30000374,Common Journal - New Business,default,closedlost,6700,205,9003320,2025-07-02 14:27:47,2025-07-31,newbusiness,Inbound demo request,Price,False,2025-07-31 14:58:16,2025-07-31 16:58:16
+30000375,Wild Letters - New Business,default,closedlost,13300,201,9000495,2025-07-03 20:29:45,2025-07-12,newbusiness,Self-serve upgrade,Missing feature,False,2025-07-12 15:58:17,2025-07-12 17:58:17
+30000376,Iron Supply - New Business,default,closedwon,12050,205,9003792,2025-07-04 16:28:38,2025-08-12,newbusiness,Outbound,,False,2025-08-12 20:22:05,2025-08-12 22:22:05
+30000377,Open Collective - New Business,default,closedlost,4750,201,9002653,2025-07-05 14:18:03,2025-08-20,newbusiness,Inbound demo request,No decision,False,2025-08-20 19:39:24,2025-08-20 21:39:24
+30000378,Golden Room Media - New Business,default,closedlost,11650,201,9001511,2025-07-05 15:42:42,2025-07-12,newbusiness,Self-serve upgrade,Price,False,2025-07-12 17:44:30,2025-07-12 19:44:30
+30000379,Slow Notes Co - New Business,default,closedlost,4050,205,9002470,2025-07-06 15:19:30,2025-07-10,newbusiness,Inbound demo request,Price,False,2025-07-10 13:18:50,2025-07-10 15:18:50
+30000380,Golden Club - New Business,default,closedlost,11800,203,9004062,2025-07-06 20:54:21,2025-07-25,newbusiness,Partner,Went with competitor,False,2025-07-25 13:07:22,2025-07-25 15:07:22
+30000381,Golden Daily HQ - New Business,default,closedlost,17550,201,9004009,2025-07-06 22:53:22,2025-08-21,newbusiness,Self-serve upgrade,Timing,False,2025-08-21 22:12:59,2025-08-22 00:12:59
+30000382,Honest Notes Studio - New Business,default,closedlost,49350,203,9001263,2025-07-07 15:19:02,2025-07-09,newbusiness,Partner,Missing feature,False,2025-07-09 15:38:26,2025-07-09 17:38:26
+30000383,Studio Room HQ - New Business,default,closedlost,8050,202,9002722,2025-07-07 22:48:19,2025-07-22,newbusiness,Outbound,Timing,False,2025-07-22 14:53:59,2025-07-22 16:53:59
+30000384,Iron Society - New Business,default,closedlost,9050,203,9000406,2025-07-08 19:29:21,2025-08-04,newbusiness,Inbound demo request,Unresponsive,False,2025-08-04 21:32:36,2025-08-04 23:32:36
+30000385,Salt Club Studio - New Business,default,closedlost,15350,205,9003731,2025-07-08 17:34:38,2025-08-13,newbusiness,Outbound,Went with competitor,False,2025-08-13 22:20:02,2025-08-14 00:20:02
+30000386,Common Club - New Business,default,closedlost,2800,205,9002887,2025-07-08 19:42:16,2025-09-17,newbusiness,Inbound demo request,Missing feature,False,2025-09-17 19:06:32,2025-09-17 21:06:32
+30000387,Studio Lab Studio - New Business,default,closedwon,27200,204,9002176,2025-07-08 19:06:35,2025-08-11,newbusiness,Webinar,,False,2025-08-11 19:13:31,2025-08-11 21:13:31
+30000388,Studio Lab Studio - Expansion,expansion,exp_closedwon,13050,301,9002176,2026-02-11 19:18:59,2026-02-28,existingbusiness,Existing customer,,False,2026-02-28 20:20:58,2026-02-28 22:20:58
+30000389,Studio Garden HQ - New Business,default,closedlost,11450,201,9002655,2025-07-09 19:39:35,2025-08-28,newbusiness,Self-serve upgrade,No decision,False,2025-08-28 13:52:02,2025-08-28 15:52:02
+30000390,Paper Garden HQ - New Business,default,closedlost,3300,205,9000758,2025-07-10 20:57:49,2025-09-02,newbusiness,Inbound demo request,Missing feature,False,2025-09-02 20:20:30,2025-09-02 22:20:30
+30000391,Open Society Media - New Business,default,closedwon,20750,201,9000508,2025-07-10 20:09:23,2025-08-22,newbusiness,Self-serve upgrade,,False,2025-08-22 15:56:26,2025-08-22 17:56:26
+30000392,Iron House HQ - New Business,default,closedlost,5600,202,9004066,2025-07-11 16:54:58,2025-08-01,newbusiness,Self-serve upgrade,Price,False,2025-08-01 22:47:42,2025-08-02 00:47:42
+30000393,Kind Room - New Business,default,closedlost,7100,203,9000339,2025-07-12 22:31:36,2025-08-16,newbusiness,Inbound demo request,Went with competitor,False,2025-08-16 21:12:48,2025-08-16 23:12:48
+30000394,Early Letters Co - New Business,default,closedlost,3500,205,9002232,2025-07-13 13:43:56,2025-08-13,newbusiness,Inbound demo request,Timing,False,2025-08-13 17:19:34,2025-08-13 19:19:34
+30000395,Field Collective Co - New Business,default,closedlost,1600,205,9000372,2025-07-14 22:21:33,2025-08-09,newbusiness,Inbound demo request,Timing,False,2025-08-09 21:18:04,2025-08-09 23:18:04
+30000396,Early Collective - New Business,default,closedlost,3600,204,9000043,2025-07-15 20:20:00,2025-08-08,newbusiness,Outbound,Timing,False,2025-08-08 22:34:20,2025-08-09 00:34:20
+30000397,Little Club - New Business,default,closedlost,2750,203,9002377,2025-07-16 20:46:16,2025-08-06,newbusiness,Outbound,Timing,False,2025-08-06 18:06:23,2025-08-06 20:06:23
+30000398,Common Society Media - New Business,default,closedwon,51550,201,9002814,2025-07-17 22:47:25,2025-09-10,newbusiness,Referral,,False,2025-09-10 17:00:24,2025-09-10 19:00:24
+30000399,Common Society Media - Expansion,expansion,exp_closedwon,15150,301,9002814,2025-12-19 14:25:41,2025-12-26,existingbusiness,Existing customer,,False,2025-12-26 20:18:03,2025-12-26 22:18:03
+30000400,North Journal - New Business,default,closedlost,28600,201,9002890,2025-07-17 19:16:46,2025-07-25,newbusiness,Inbound demo request,Timing,False,2025-07-25 17:28:39,2025-07-25 19:28:39
+30000401,Field House - New Business,default,closedlost,5550,201,9002368,2025-07-18 15:24:42,2025-08-09,newbusiness,Self-serve upgrade,Missing feature,False,2025-08-09 15:43:25,2025-08-09 17:43:25
+30000402,Wild Journal Media - New Business,default,closedlost,5300,203,9001885,2025-07-18 15:41:19,2025-09-02,newbusiness,Self-serve upgrade,Timing,False,2025-09-02 17:43:14,2025-09-02 19:43:14
+30000403,Little Notes - New Business,default,closedlost,6200,205,9001956,2025-07-20 13:38:32,2025-07-26,newbusiness,Referral,No decision,False,2025-07-26 17:10:39,2025-07-26 19:10:39
+30000404,Little Notes Media - New Business,default,closedlost,22700,205,9002661,2025-07-20 18:04:02,2025-08-03,newbusiness,Webinar,Went with competitor,False,2025-08-03 15:54:33,2025-08-03 17:54:33
+30000405,North Daily Media - New Business,default,closedlost,61350,203,9000776,2025-07-21 18:04:35,2025-09-05,newbusiness,Self-serve upgrade,Unresponsive,False,2025-09-05 14:04:52,2025-09-05 16:04:52
+30000406,Honest Society - New Business,default,closedwon,3100,204,9003678,2025-07-22 22:56:38,2025-08-28,newbusiness,Referral,,False,2025-08-28 16:29:44,2025-08-28 18:29:44
+30000407,Honest Society - Expansion,expansion,exp_identified,1200,302,9003678,2026-10-19 14:14:07,2026-11-18,existingbusiness,Existing customer,,False,2026-10-19 14:14:07,2026-10-19 16:14:07
+30000408,Bright Journal - New Business,default,closedwon,1400,204,9003402,2025-07-23 14:20:01,2025-09-04,newbusiness,Inbound demo request,,False,2025-09-04 13:18:33,2025-09-04 15:18:33
+30000409,Bright Supply - New Business,default,closedlost,4200,202,9003931,2025-07-23 21:49:01,2025-09-01,newbusiness,Inbound demo request,Went with competitor,False,2025-09-01 15:40:16,2025-09-01 17:40:16
+30000410,Blue Press - New Business,default,closedwon,3700,205,9003020,2025-07-24 17:29:19,2025-09-12,newbusiness,Inbound demo request,,False,2025-09-12 18:08:48,2025-09-12 20:08:48
+30000411,Blue Press - Expansion,expansion,exp_closedlost,1100,302,9003020,2026-03-01 15:50:18,2026-03-25,existingbusiness,Existing customer,Went with competitor,False,2026-03-25 15:47:57,2026-03-25 17:47:57
+30000412,Slow Academy HQ - New Business,default,closedwon,5400,205,9002164,2025-07-24 15:22:01,2025-09-22,newbusiness,Self-serve upgrade,,False,2025-09-22 20:51:02,2025-09-22 22:51:02
+30000413,Slow Academy HQ - Expansion,expansion,exp_closedwon,1400,301,9002164,2026-08-13 21:56:14,2026-09-22,existingbusiness,Existing customer,,False,2026-09-22 19:16:28,2026-09-22 21:16:28
+30000414,Kind Supply - New Business,default,closedlost,13100,202,9002829,2025-07-25 22:33:50,2025-08-10,newbusiness,Outbound,Unresponsive,False,2025-08-10 17:22:31,2025-08-10 19:22:31
+30000415,Honest Works HQ - New Business,default,closedlost,35450,205,9001512,2025-07-25 17:40:52,2025-08-12,newbusiness,Inbound demo request,Price,False,2025-08-12 14:42:57,2025-08-12 16:42:57
+30000416,North Notes - New Business,default,closedlost,25600,203,9000367,2025-07-26 16:03:10,2025-08-10,newbusiness,Referral,Unresponsive,False,2025-08-10 13:50:14,2025-08-10 15:50:14
+30000417,True House - New Business,default,closedlost,7000,204,9001949,2025-07-27 21:41:13,2025-09-07,newbusiness,Inbound demo request,Missing feature,False,2025-09-07 15:57:25,2025-09-07 17:57:25
+30000418,Wild Lab - New Business,default,closedlost,1950,204,9002821,2025-07-28 18:57:13,2025-07-30,newbusiness,Inbound demo request,No decision,False,2025-07-30 22:10:28,2025-07-31 00:10:28
+30000419,Wild Academy - New Business,default,closedlost,2850,205,9000302,2025-07-29 19:28:11,2025-08-22,newbusiness,Referral,Unresponsive,False,2025-08-22 21:03:22,2025-08-22 23:03:22
+30000420,Maple Garden Media - New Business,default,closedlost,14700,204,9001542,2025-07-29 16:35:04,2025-08-07,newbusiness,Outbound,No decision,False,2025-08-07 21:57:35,2025-08-07 23:57:35
+30000421,North Society HQ - New Business,default,closedlost,7200,202,9001838,2025-07-30 19:40:56,2025-09-20,newbusiness,Self-serve upgrade,Went with competitor,False,2025-09-20 19:54:33,2025-09-20 21:54:33
+30000422,Quiet Society Co - New Business,default,closedlost,7800,205,9001211,2025-08-04 19:13:39,2025-08-08,newbusiness,Outbound,Price,False,2025-08-08 15:22:56,2025-08-08 17:22:56
+30000423,Early Academy HQ - New Business,default,closedlost,28000,201,9001006,2025-08-07 21:03:29,2025-09-07,newbusiness,Webinar,Price,False,2025-09-07 17:41:11,2025-09-07 19:41:11
+30000424,North Daily Media - New Business,default,closedwon,12600,203,9004033,2025-08-10 14:58:20,2025-10-10,newbusiness,Inbound demo request,,False,2025-10-10 15:31:14,2025-10-10 17:31:14
+30000425,North Daily Media - Expansion,expansion,exp_closedwon,2850,301,9004033,2026-06-06 20:36:22,2026-06-23,existingbusiness,Existing customer,,False,2026-06-23 15:20:16,2026-06-23 17:20:16
+30000426,Honest Collective Studio - New Business,default,closedlost,8450,204,9003191,2025-08-11 15:25:27,2025-09-10,newbusiness,Inbound demo request,Timing,False,2025-09-10 17:46:21,2025-09-10 19:46:21
+30000427,Open Lab Media - New Business,default,closedlost,7950,205,9000964,2025-08-11 16:19:28,2025-08-27,newbusiness,Self-serve upgrade,Unresponsive,False,2025-08-27 22:11:07,2025-08-28 00:11:07
+30000428,Blue Journal - New Business,default,closedlost,39000,202,9003521,2025-08-12 13:53:51,2025-08-24,newbusiness,Inbound demo request,Price,False,2025-08-24 22:35:58,2025-08-25 00:35:58
+30000429,Wild Club Media - New Business,default,closedlost,2400,205,9001921,2025-08-13 15:15:52,2025-09-25,newbusiness,Inbound demo request,Unresponsive,False,2025-09-25 18:44:25,2025-09-25 20:44:25
+30000430,Little Sessions HQ - New Business,default,closedlost,2450,205,9003045,2025-08-14 16:51:44,2025-10-11,newbusiness,Referral,Went with competitor,False,2025-10-11 14:22:52,2025-10-11 16:22:52
+30000431,Open Press - New Business,default,closedlost,3500,204,9002517,2025-08-15 22:52:33,2025-08-26,newbusiness,Self-serve upgrade,Went with competitor,False,2025-08-26 15:36:12,2025-08-26 17:36:12
+30000432,Golden Lab Media - New Business,default,closedlost,4450,205,9001579,2025-08-16 19:46:34,2025-09-11,newbusiness,Outbound,Went with competitor,False,2025-09-11 16:12:12,2025-09-11 18:12:12
+30000433,Salt Academy - New Business,default,closedlost,3350,201,9002894,2025-08-20 22:53:21,2025-08-22,newbusiness,Referral,Missing feature,False,2025-08-22 20:55:54,2025-08-22 22:55:54
+30000434,Salt Daily - New Business,default,closedlost,16750,203,9003743,2025-08-20 19:27:31,2025-09-13,newbusiness,Inbound demo request,Missing feature,False,2025-09-13 16:11:07,2025-09-13 18:11:07
+30000435,Studio Garden - New Business,default,closedlost,6350,203,9003291,2025-08-21 21:52:13,2025-09-05,newbusiness,Webinar,Went with competitor,False,2025-09-27 20:16:14,2025-09-27 22:16:14
+30000436,Blue Press Studio - New Business,default,closedlost,2350,205,9003824,2025-08-21 13:46:30,2025-08-22,newbusiness,Inbound demo request,Missing feature,False,2025-08-22 19:11:25,2025-08-22 21:11:25
+30000437,Little Collective Studio - New Business,default,closedlost,11550,205,9000219,2025-08-21 13:57:55,2025-09-06,newbusiness,Webinar,Missing feature,False,2025-09-06 18:25:33,2025-09-06 20:25:33
+30000438,Kind Garden Media - New Business,default,closedlost,12550,204,9000870,2025-08-22 17:10:10,2025-09-01,newbusiness,Referral,Went with competitor,False,2025-09-01 17:11:12,2025-09-01 19:11:12
+30000439,Maple Weekly HQ - New Business,default,closedlost,7000,202,9002740,2025-08-22 21:23:47,2025-09-01,newbusiness,Partner,Price,False,2025-09-01 15:38:23,2025-09-01 17:38:23
+30000440,Quiet Radio - New Business,default,closedlost,3250,205,9000944,2025-08-22 20:15:42,2025-11-22,newbusiness,Self-serve upgrade,Went with competitor,False,2025-11-22 17:54:52,2025-11-22 19:54:52
+30000441,Field Room - New Business,default,closedlost,10150,204,9002508,2025-08-27 20:20:19,2025-09-03,newbusiness,Inbound demo request,Timing,False,2025-09-03 18:21:44,2025-09-03 20:21:44
+30000442,True Craft HQ - New Business,default,closedlost,28250,201,9001899,2025-08-29 16:29:38,2025-09-26,newbusiness,Self-serve upgrade,Unresponsive,False,2025-09-26 15:17:24,2025-09-26 17:17:24
+30000443,Field Journal - New Business,default,closedlost,1250,203,9003690,2025-08-29 13:51:03,2025-09-26,newbusiness,Self-serve upgrade,No decision,False,2025-09-26 15:08:16,2025-09-26 17:08:16
+30000444,Wild Kitchen Media - New Business,default,closedlost,7850,202,9000343,2025-08-30 15:01:45,2025-08-24,newbusiness,Self-serve upgrade,Missing feature,False,2025-09-06 23:11:20,2025-09-07 01:11:20
+30000445,Common Collective Media - New Business,default,closedlost,20500,203,9001269,2025-09-01 13:19:44,2025-10-12,newbusiness,Inbound demo request,Missing feature,False,2025-10-12 16:51:13,2025-10-12 18:51:13
+30000446,Quiet Supply - New Business,default,closedlost,3500,204,9002541,2025-09-01 18:47:18,2025-09-05,newbusiness,Partner,Missing feature,False,2025-09-05 16:23:59,2025-09-05 18:23:59
+30000447,Slow Garden - New Business,default,closedlost,6100,204,9002786,2025-09-01 17:38:08,2025-09-10,newbusiness,Inbound demo request,Price,False,2025-09-10 16:03:23,2025-09-10 18:03:23
+30000448,Wild Radio Studio - New Business,default,closedlost,8950,201,9001341,2025-09-01 20:28:38,2025-09-15,newbusiness,Referral,Unresponsive,False,2025-09-15 13:39:35,2025-09-15 15:39:35
+30000449,Field Sessions Media - New Business,default,closedlost,35850,204,9003707,2025-09-02 14:31:45,2025-10-13,newbusiness,Self-serve upgrade,Went with competitor,False,2025-10-13 17:42:19,2025-10-13 19:42:19
+30000450,Honest Weekly - New Business,default,closedlost,7400,202,9003225,2025-09-03 15:03:56,2025-09-11,newbusiness,Self-serve upgrade,Missing feature,False,2025-09-11 21:30:20,2025-09-11 23:30:20
+30000451,Salt Supply Studio - New Business,default,closedlost,12600,204,9001316,2025-09-03 18:10:56,2025-10-05,newbusiness,Outbound,Timing,False,2025-10-05 16:12:37,2025-10-05 18:12:37
+30000452,Open Letters - New Business,default,closedwon,10450,204,9000059,2025-09-03 21:07:17,2025-10-03,newbusiness,Self-serve upgrade,,False,2025-10-03 13:37:11,2025-10-03 15:37:11
+30000453,Open Letters - Expansion,expansion,exp_closedwon,2100,301,9000059,2026-05-10 17:12:40,2026-06-02,existingbusiness,Existing customer,,False,2026-06-02 17:39:47,2026-06-02 19:39:47
+30000454,Open Room Co - New Business,default,closedlost,5100,201,9000063,2025-09-04 20:00:57,2025-09-22,newbusiness,Outbound,Unresponsive,False,2025-09-22 15:54:02,2025-09-22 17:54:02
+30000455,Salt Garden - New Business,default,closedlost,5450,201,9003119,2025-09-04 20:28:30,2025-10-02,newbusiness,Outbound,No decision,False,2025-10-02 13:27:04,2025-10-02 15:27:04
+30000456,Wild Craft - New Business,default,closedlost,4150,203,9003133,2025-09-04 16:52:14,2025-09-19,newbusiness,Referral,Timing,False,2025-09-19 14:56:16,2025-09-19 16:56:16
+30000457,Slow Craft Studio - New Business,default,closedwon,26750,201,9001259,2025-09-05 14:52:15,2025-10-30,newbusiness,Referral,,False,2025-10-30 19:49:05,2025-10-30 21:49:05
+30000458,True House - New Business,default,closedlost,13650,204,9003878,2025-09-05 18:42:24,2025-09-28,newbusiness,Inbound demo request,Timing,False,2025-09-28 16:06:36,2025-09-28 18:06:36
+30000459,Quiet Journal - New Business,default,closedwon,16300,203,9002596,2025-09-06 20:49:49,2025-10-31,newbusiness,Inbound demo request,,False,2025-10-31 17:39:30,2025-10-31 19:39:30
+30000460,North Lab HQ - New Business,default,closedlost,5700,202,9002658,2025-09-06 19:36:13,2025-09-18,newbusiness,Self-serve upgrade,No decision,False,2025-09-18 21:43:42,2025-09-18 23:43:42
+30000461,Slow Press - New Business,default,closedlost,1900,203,9002566,2025-09-06 21:38:39,2025-09-21,newbusiness,Inbound demo request,Missing feature,False,2025-09-21 16:04:49,2025-09-21 18:04:49
+30000462,Early Academy Co - New Business,default,closedwon,13050,205,9002717,2025-09-07 15:16:42,2025-10-15,newbusiness,Inbound demo request,,False,2025-10-15 14:27:53,2025-10-15 16:27:53
+30000463,Honest Works - New Business,default,closedlost,11550,205,9000821,2025-09-10 13:08:15,2025-09-24,newbusiness,Inbound demo request,Missing feature,False,2025-09-24 20:50:00,2025-09-24 22:50:00
+30000464,Slow Daily Media - New Business,default,closedlost,9300,204,9000507,2025-09-10 21:59:48,2025-10-02,newbusiness,Inbound demo request,Went with competitor,False,2025-10-02 19:48:45,2025-10-02 21:48:45
+30000465,Little Radio - New Business,default,closedlost,10650,204,9004156,2025-09-10 13:40:06,2025-10-06,newbusiness,Inbound demo request,Missing feature,False,2025-10-06 22:30:57,2025-10-07 00:30:57
+30000466,Bright Craft Media - New Business,default,closedlost,5200,205,9001562,2025-09-11 20:13:55,2025-09-16,newbusiness,Outbound,Went with competitor,False,2025-09-16 17:15:22,2025-09-16 19:15:22
+30000467,Studio Room - New Business,default,closedlost,6100,204,9001040,2025-09-11 20:00:05,2025-09-14,newbusiness,Webinar,Went with competitor,False,2025-10-06 18:05:07,2025-10-06 20:05:07
+30000468,Wild Press - New Business,default,closedlost,3050,205,9003960,2025-09-11 17:10:18,2025-10-17,newbusiness,Self-serve upgrade,Went with competitor,False,2025-10-17 19:38:58,2025-10-17 21:38:58
+30000469,Little Press Media - New Business,default,closedlost,2950,205,9001326,2025-09-12 17:53:15,2025-11-18,newbusiness,Self-serve upgrade,Price,False,2025-11-18 16:01:16,2025-11-18 18:01:16
+30000470,Studio House Co - New Business,default,closedlost,10050,203,9004192,2025-09-13 18:29:42,2025-10-04,newbusiness,Self-serve upgrade,Unresponsive,False,2025-10-04 22:22:14,2025-10-05 00:22:14
+30000471,North Letters Co - New Business,default,closedwon,1600,201,9000382,2025-09-15 16:57:49,2025-11-06,newbusiness,Outbound,,False,2025-11-06 18:49:00,2025-11-06 20:49:00
+30000472,Paper Weekly - New Business,default,closedlost,11750,203,9003682,2025-09-15 17:38:57,2025-09-17,newbusiness,Self-serve upgrade,Timing,False,2025-09-17 13:45:52,2025-09-17 15:45:52
+30000473,Bright Weekly HQ - New Business,default,closedlost,6300,204,9001465,2025-09-15 21:18:32,2025-10-26,newbusiness,Referral,Price,False,2025-10-26 22:42:15,2025-10-27 00:42:15
+30000474,Golden Collective - New Business,default,closedlost,21500,203,9003591,2025-09-18 22:33:44,2025-09-27,newbusiness,Inbound demo request,Unresponsive,False,2025-09-27 19:14:44,2025-09-27 21:14:44
+30000475,Early House - New Business,default,closedlost,6500,203,9003627,2025-09-20 22:35:31,2025-11-01,newbusiness,Outbound,Unresponsive,False,2025-11-01 15:34:05,2025-11-01 17:34:05
+30000476,Iron Sessions - New Business,default,closedwon,8600,205,9003475,2025-09-20 21:09:43,2025-11-06,newbusiness,Self-serve upgrade,,False,2025-11-06 17:48:07,2025-11-06 19:48:07
+30000477,Iron Sessions - Expansion,expansion,exp_closedlost,4300,302,9003475,2026-07-30 13:02:08,2026-08-09,existingbusiness,Existing customer,Price,False,2026-08-09 17:38:08,2026-08-09 19:38:08
+30000478,Golden Collective Co - New Business,default,closedlost,33600,205,9001396,2025-09-20 17:37:32,2025-10-05,newbusiness,Inbound demo request,Timing,False,2025-10-05 22:13:23,2025-10-06 00:13:23
+30000479,True Works Co - New Business,default,closedlost,14650,201,9002940,2025-09-21 15:23:16,2025-10-09,newbusiness,Inbound demo request,Unresponsive,False,2025-10-09 14:40:26,2025-10-09 16:40:26
+30000480,Kind House HQ - New Business,default,closedwon,1400,205,9001432,2025-09-21 17:45:38,2025-10-22,newbusiness,Inbound demo request,,False,2025-10-22 19:22:22,2025-10-22 21:22:22
+30000481,North Daily Co - New Business,default,closedlost,14150,205,9001557,2025-09-22 19:24:11,2025-10-29,newbusiness,Inbound demo request,No decision,False,2025-10-29 18:09:02,2025-10-29 20:09:02
+30000482,Little Press Studio - New Business,default,closedlost,8250,201,9000760,2025-09-22 15:41:40,2025-10-20,newbusiness,Outbound,No decision,False,2025-10-20 18:43:33,2025-10-20 20:43:33
+30000483,Little Daily Studio - New Business,default,closedwon,3150,203,9001763,2025-09-23 15:23:30,2025-11-13,newbusiness,Inbound demo request,,False,2025-11-13 20:29:14,2025-11-13 22:29:14
+30000484,Common Academy - New Business,default,closedlost,5050,204,9000622,2025-09-23 17:44:19,2025-10-27,newbusiness,Referral,No decision,False,2025-10-27 22:02:09,2025-10-28 00:02:09
+30000485,Blue Supply Media - New Business,default,closedlost,2300,204,9001595,2025-09-25 18:07:16,2025-11-16,newbusiness,Inbound demo request,Price,False,2025-11-16 19:17:54,2025-11-16 21:17:54
+30000486,North Weekly Studio - New Business,default,closedlost,3150,203,9000186,2025-09-26 16:47:13,2025-10-24,newbusiness,Self-serve upgrade,Unresponsive,False,2025-10-24 16:30:13,2025-10-24 18:30:13
+30000487,Salt House - New Business,default,closedlost,4450,201,9000604,2025-09-26 17:49:44,2025-10-07,newbusiness,Outbound,No decision,False,2025-10-07 19:46:57,2025-10-07 21:46:57
+30000488,True Garden Studio - New Business,default,closedlost,20350,201,9001487,2025-09-29 18:02:20,2025-10-05,newbusiness,Referral,Price,False,2025-10-05 20:04:07,2025-10-05 22:04:07
+30000489,Field Journal Media - New Business,default,closedlost,2150,203,9000703,2025-09-30 21:04:41,2025-10-02,newbusiness,Self-serve upgrade,Timing,False,2025-10-02 19:03:56,2025-10-02 21:03:56
+30000490,True Room HQ - New Business,default,closedlost,93900,201,9001975,2025-10-01 20:49:51,2025-11-02,newbusiness,Referral,Missing feature,False,2025-11-02 14:22:40,2025-11-02 16:22:40
+30000491,Early Weekly - New Business,default,closedlost,6550,205,9003220,2025-10-02 21:38:52,2025-10-10,newbusiness,Outbound,No decision,False,2025-10-10 20:46:05,2025-10-10 22:46:05
+30000492,Early Weekly Co - New Business,default,closedlost,20350,201,9001978,2025-10-04 22:28:54,2025-12-03,newbusiness,Referral,Price,False,2025-12-03 21:37:34,2025-12-03 23:37:34
+30000493,Wild Supply Media - New Business,default,closedwon,5000,204,9000321,2025-10-04 14:30:22,2025-11-02,newbusiness,Webinar,,False,2025-11-02 19:19:48,2025-11-02 21:19:48
+30000494,North Notes Studio - New Business,default,closedlost,2650,203,9000997,2025-10-06 19:58:02,2025-10-25,newbusiness,Webinar,No decision,False,2025-10-25 14:14:39,2025-10-25 16:14:39
+30000495,Bright Sessions Co - New Business,default,closedlost,4350,205,9001574,2025-10-06 15:42:00,2025-11-07,newbusiness,Referral,Unresponsive,False,2025-11-07 13:20:25,2025-11-07 15:20:25
+30000496,Open Daily - New Business,default,closedlost,3500,203,9002599,2025-10-06 13:47:10,2025-11-15,newbusiness,Inbound demo request,No decision,False,2025-11-15 20:47:36,2025-11-15 22:47:36
+30000497,Maple Daily Studio - New Business,default,closedwon,51050,201,9001617,2025-10-07 21:25:50,2025-12-01,newbusiness,Self-serve upgrade,,False,2025-12-01 13:48:10,2025-12-01 15:48:10
+30000498,Bright Letters HQ - New Business,default,closedlost,4000,206,9001689,2025-10-08 14:03:33,2025-10-30,newbusiness,Inbound demo request,No decision,False,2025-10-30 14:40:20,2025-10-30 16:40:20
+30000499,True Works Studio - New Business,default,closedlost,22200,206,9001575,2025-10-08 18:19:16,2025-10-20,newbusiness,Outbound,Missing feature,False,2025-10-20 20:48:09,2025-10-20 22:48:09
+30000500,Early Notes - New Business,default,closedlost,4850,201,9000675,2025-10-08 13:13:29,2025-10-10,newbusiness,Outbound,Unresponsive,False,2025-10-10 16:07:50,2025-10-10 18:07:50
+30000501,Studio Club HQ - New Business,default,closedlost,8350,201,9000939,2025-10-09 17:44:54,2025-10-16,newbusiness,Inbound demo request,Went with competitor,False,2025-10-16 19:00:12,2025-10-16 21:00:12
+30000502,Golden Society Media - New Business,default,closedlost,16350,201,9003371,2025-10-09 13:23:14,2025-10-30,newbusiness,Self-serve upgrade,Missing feature,False,2025-10-30 15:19:15,2025-10-30 17:19:15
+30000503,Iron Journal Studio - New Business,default,closedlost,45900,201,9000862,2025-10-09 16:33:41,2025-10-13,newbusiness,Inbound demo request,Unresponsive,False,2025-10-13 18:53:33,2025-10-13 20:53:33
+30000504,Common Works Studio - New Business,default,closedlost,46350,205,9000264,2025-10-10 21:31:21,2025-11-14,newbusiness,Outbound,Price,False,2025-11-14 17:49:35,2025-11-14 19:49:35
+30000505,Golden Radio - New Business,default,closedlost,9550,201,9000271,2025-10-11 13:59:35,2025-11-29,newbusiness,Inbound demo request,Went with competitor,False,2025-11-29 17:52:21,2025-11-29 19:52:21
+30000506,Quiet Sessions - New Business,default,closedlost,11850,206,9002445,2025-10-11 13:50:22,2025-10-16,newbusiness,Inbound demo request,Missing feature,False,2025-10-16 13:16:16,2025-10-16 15:16:16
+30000507,Blue Kitchen - New Business,default,closedlost,8800,205,9003378,2025-10-13 14:33:15,2025-12-20,newbusiness,Inbound demo request,No decision,False,2025-12-20 20:42:42,2025-12-20 22:42:42
+30000508,Early Weekly - New Business,default,closedlost,10650,203,9001632,2025-10-14 19:34:04,2025-10-20,newbusiness,Outbound,Unresponsive,False,2025-10-20 21:21:53,2025-10-20 23:21:53
+30000509,North Notes - New Business,default,closedlost,2000,206,9003284,2025-10-14 16:09:24,2025-11-16,newbusiness,Inbound demo request,No decision,False,2025-11-16 15:14:56,2025-11-16 17:14:56
+30000510,Open Radio Media - New Business,default,closedlost,11900,204,9002160,2025-10-14 14:55:42,2025-10-24,newbusiness,Referral,Missing feature,False,2025-10-24 17:13:53,2025-10-24 19:13:53
+30000511,Kind House - New Business,default,closedlost,2300,206,9003457,2025-10-16 18:07:18,2025-10-21,newbusiness,Inbound demo request,Missing feature,False,2025-10-21 18:02:06,2025-10-21 20:02:06
+30000512,Blue Academy Media - New Business,default,closedwon,41900,204,9002703,2025-10-17 20:08:36,2026-01-21,newbusiness,Inbound demo request,,False,2026-01-21 18:32:19,2026-01-21 20:32:19
+30000513,Blue Craft Media - New Business,default,closedwon,9750,201,9001196,2025-10-17 22:55:25,2025-12-06,newbusiness,Outbound,,False,2025-12-06 13:55:36,2025-12-06 15:55:36
+30000514,Wild Collective Studio - New Business,default,closedlost,2150,204,9002014,2025-10-17 21:33:07,2025-11-10,newbusiness,Self-serve upgrade,Went with competitor,False,2025-11-10 14:09:52,2025-11-10 16:09:52
+30000515,Common Garden HQ - New Business,default,closedlost,13550,201,9000446,2025-10-19 21:39:16,2025-11-15,newbusiness,Inbound demo request,Price,False,2025-11-15 18:01:35,2025-11-15 20:01:35
+30000516,Iron Lab - New Business,default,closedlost,33750,204,9002860,2025-10-21 19:37:38,2025-11-18,newbusiness,Referral,Missing feature,False,2025-11-25 23:05:26,2025-11-26 01:05:26
+30000517,Paper Academy - New Business,default,closedlost,20200,204,9000856,2025-10-21 15:07:13,2025-12-14,newbusiness,Inbound demo request,No decision,False,2025-12-14 18:51:02,2025-12-14 20:51:02
+30000518,Little Academy - New Business,default,closedlost,2300,204,9000026,2025-10-22 21:14:17,2025-11-06,newbusiness,Referral,Missing feature,False,2025-11-06 18:26:27,2025-11-06 20:26:27
+30000519,Bright Collective - New Business,default,closedlost,4250,204,9003015,2025-10-22 15:50:57,2025-10-24,newbusiness,Referral,Missing feature,False,2025-10-24 16:07:20,2025-10-24 18:07:20
+30000520,Slow Weekly Media - New Business,default,closedlost,18650,205,9001698,2025-10-24 15:25:22,2025-12-29,newbusiness,Self-serve upgrade,Price,False,2025-12-29 13:18:16,2025-12-29 15:18:16
+30000521,Salt Club - New Business,default,closedwon,26300,206,9002727,2025-10-26 19:31:27,2025-11-24,newbusiness,Referral,,False,2025-11-24 13:31:51,2025-11-24 15:31:51
+30000522,Slow House - New Business,default,closedlost,5800,201,9002382,2025-10-29 17:12:33,2025-12-12,newbusiness,Outbound,Unresponsive,False,2025-12-12 14:31:18,2025-12-12 16:31:18
+30000523,Wild Letters - New Business,default,closedlost,15900,206,9002613,2025-10-30 14:55:20,2025-11-03,newbusiness,Self-serve upgrade,Price,False,2025-11-03 15:08:37,2025-11-03 17:08:37
+30000524,Kind Press - New Business,default,closedlost,4200,206,9002189,2025-10-31 13:33:59,2025-11-02,newbusiness,Inbound demo request,Went with competitor,False,2025-11-02 15:00:18,2025-11-02 17:00:18
+30000525,Kind Garden - New Business,default,closedwon,6350,206,9003577,2025-10-31 19:23:57,2026-01-02,newbusiness,Webinar,,False,2026-01-02 19:17:07,2026-01-02 21:17:07
+30000526,Kind Garden - Expansion,expansion,exp_closedlost,1800,301,9003577,2026-04-09 13:31:01,2026-05-11,existingbusiness,Existing customer,Price,False,2026-05-11 21:38:39,2026-05-11 23:38:39
+30000527,Quiet Notes Co - New Business,default,closedwon,40650,204,9000849,2025-11-02 14:22:36,2025-12-16,newbusiness,Inbound demo request,,False,2025-12-16 17:28:17,2025-12-16 19:28:17
+30000528,True Lab - New Business,default,closedlost,10550,205,9002670,2025-11-02 22:32:45,2025-12-06,newbusiness,Self-serve upgrade,Unresponsive,False,2025-12-06 18:19:17,2025-12-06 20:19:17
+30000529,Early Works Media - New Business,default,closedlost,12550,205,9002068,2025-11-03 19:38:35,2025-11-20,newbusiness,Outbound,Went with competitor,False,2025-11-20 21:13:44,2025-11-20 23:13:44
+30000530,Studio Society Studio - New Business,default,closedlost,62400,206,9000935,2025-11-04 17:37:00,2025-11-06,newbusiness,Outbound,Timing,False,2025-11-06 15:10:00,2025-11-06 17:10:00
+30000531,Bright Garden Co - New Business,default,closedlost,39750,206,9001584,2025-11-06 20:33:56,2025-11-10,newbusiness,Inbound demo request,Missing feature,False,2025-11-10 18:54:29,2025-11-10 20:54:29
+30000532,Golden Collective - New Business,default,closedlost,8150,206,9000723,2025-11-08 16:41:55,2025-12-21,newbusiness,Outbound,No decision,False,2025-12-21 20:15:27,2025-12-21 22:15:27
+30000533,Kind Sessions - New Business,default,closedlost,2350,203,9004114,2025-11-09 21:06:38,2025-11-19,newbusiness,Outbound,Unresponsive,False,2025-11-19 14:41:19,2025-11-19 16:41:19
+30000534,Paper Weekly - New Business,default,closedwon,3750,203,9000333,2025-11-10 20:54:19,2026-02-02,newbusiness,Referral,,False,2026-02-02 22:55:14,2026-02-03 00:55:14
+30000535,Field Press - New Business,default,closedlost,79850,201,9002062,2025-11-12 14:17:58,2025-11-22,newbusiness,Referral,No decision,False,2025-11-22 20:58:34,2025-11-22 22:58:34
+30000536,Wild Letters HQ - New Business,default,closedlost,2450,203,9001596,2025-11-12 15:00:44,2025-11-15,newbusiness,Outbound,Missing feature,False,2025-11-15 17:06:56,2025-11-15 19:06:56
+30000537,Field Club Co - New Business,default,closedwon,39500,206,9002210,2025-11-13 18:29:40,2025-12-09,newbusiness,Webinar,,False,2025-12-25 04:10:42,2025-12-25 06:10:42
+30000538,Field Club Co - Expansion,expansion,exp_closedlost,14350,302,9002210,2026-04-24 13:10:19,2026-05-04,existingbusiness,Existing customer,No decision,False,2026-05-04 21:29:54,2026-05-04 23:29:54
+30000539,Slow Academy Co - New Business,default,closedlost,3800,201,9001849,2025-11-14 21:15:21,2025-11-17,newbusiness,Inbound demo request,Unresponsive,False,2025-11-17 20:20:09,2025-11-17 22:20:09
+30000540,Kind Kitchen HQ - New Business,default,closedwon,3400,203,9000565,2025-11-15 17:17:48,2025-12-26,newbusiness,Referral,,False,2025-12-26 18:48:51,2025-12-26 20:48:51
+30000541,Early Letters - New Business,default,closedlost,24850,204,9003563,2025-11-16 18:37:31,2025-12-03,newbusiness,Referral,Timing,False,2025-12-03 17:37:25,2025-12-03 19:37:25
+30000542,Salt House Co - New Business,default,closedwon,9100,206,9000456,2025-11-17 15:43:15,2026-03-04,newbusiness,Inbound demo request,,False,2026-03-04 20:26:03,2026-03-04 22:26:03
+30000543,Salt House Co - Expansion,expansion,exp_identified,2200,302,9000456,2026-11-13 17:29:16,2026-12-13,existingbusiness,Existing customer,,False,2026-11-13 17:29:16,2026-11-13 19:29:16
+30000544,Early Garden Co - New Business,default,closedwon,26850,206,9000533,2025-11-18 22:21:22,2025-12-24,newbusiness,Referral,,False,2025-12-24 20:14:06,2025-12-24 22:14:06
+30000545,Common Craft - New Business,default,closedlost,2800,206,9003989,2025-11-19 19:56:02,2025-12-06,newbusiness,Inbound demo request,Price,False,2025-12-06 15:07:25,2025-12-06 17:07:25
+30000546,Slow Supply HQ - New Business,default,closedlost,36200,206,9000181,2025-11-21 19:20:42,2026-01-20,newbusiness,Inbound demo request,Unresponsive,False,2026-01-20 21:24:47,2026-01-20 23:24:47
+30000547,Bright Letters Co - New Business,default,closedwon,69750,205,9001786,2025-11-22 18:56:24,2026-01-31,newbusiness,Outbound,,False,2026-01-31 14:55:56,2026-01-31 16:55:56
+30000548,Honest Kitchen - New Business,default,closedwon,36050,206,9003329,2025-11-23 19:11:12,2026-01-13,newbusiness,Inbound demo request,,False,2026-01-13 22:11:48,2026-01-14 00:11:48
+30000549,Common Kitchen HQ - New Business,default,closedlost,19000,203,9000823,2025-11-24 15:41:58,2026-01-13,newbusiness,Inbound demo request,Timing,False,2026-01-13 16:58:42,2026-01-13 18:58:42
+30000550,Studio Letters Studio - New Business,default,closedlost,5650,206,9000609,2025-11-24 22:53:20,2025-12-10,newbusiness,Referral,Price,False,2025-12-10 21:26:36,2025-12-10 23:26:36
+30000551,Quiet Radio Studio - New Business,default,closedlost,37200,201,9000967,2025-11-24 14:23:35,2025-12-01,newbusiness,Webinar,Timing,False,2025-12-01 22:24:11,2025-12-02 00:24:11
+30000552,True Collective HQ - New Business,default,closedlost,4600,201,9000086,2025-11-25 22:28:54,2025-12-08,newbusiness,Partner,No decision,False,2025-12-08 18:43:56,2025-12-08 20:43:56
+30000553,Honest Journal - New Business,default,closedlost,6750,203,9002523,2025-11-25 17:53:19,2025-11-29,newbusiness,Self-serve upgrade,Went with competitor,False,2025-12-04 22:56:29,2025-12-05 00:56:29
+30000554,Paper Supply Studio - New Business,default,closedlost,5350,204,9002004,2025-11-26 16:46:45,2025-11-27,newbusiness,Self-serve upgrade,Went with competitor,False,2025-11-27 22:05:30,2025-11-28 00:05:30
+30000555,Honest Garden Studio - New Business,default,closedwon,1750,206,9002342,2025-11-26 17:03:12,2026-01-21,newbusiness,Inbound demo request,,False,2026-01-21 16:58:25,2026-01-21 18:58:25
+30000556,Honest Garden Studio - Expansion,expansion,exp_closedwon,700,301,9002342,2026-09-13 19:31:57,2026-10-02,existingbusiness,Existing customer,,False,2026-10-02 22:50:37,2026-10-03 00:50:37
+30000557,Iron Garden - New Business,default,closedlost,10350,204,9003120,2025-11-27 19:08:27,2025-12-30,newbusiness,Inbound demo request,No decision,False,2025-12-30 19:53:49,2025-12-30 21:53:49
+30000558,Early Notes Media - New Business,default,closedlost,2200,203,9001561,2025-11-27 22:14:42,2025-12-16,newbusiness,Referral,No decision,False,2025-12-16 13:29:38,2025-12-16 15:29:38
+30000559,Blue Letters - New Business,default,closedwon,7650,201,9000802,2025-11-29 22:19:42,2026-01-24,newbusiness,Partner,,False,2026-01-31 21:38:55,2026-01-31 23:38:55
+30000560,Paper Collective HQ - New Business,default,closedlost,3600,206,9001347,2025-11-29 21:44:14,2025-12-03,newbusiness,Outbound,Timing,False,2025-12-03 22:55:29,2025-12-04 00:55:29
+30000561,Honest Society HQ - New Business,default,closedlost,16000,204,9002846,2025-12-01 22:10:52,2025-12-25,newbusiness,Inbound demo request,Timing,False,2025-12-25 21:05:11,2025-12-25 23:05:11
+30000562,Open Notes HQ - New Business,default,closedlost,9600,205,9000982,2025-12-01 19:33:30,2025-12-14,newbusiness,Inbound demo request,Timing,False,2025-12-14 17:16:51,2025-12-14 19:16:51
+30000563,Little House HQ - New Business,default,closedlost,2850,205,9001082,2025-12-01 13:07:39,2025-12-07,newbusiness,Outbound,Price,False,2025-12-07 21:48:41,2025-12-07 23:48:41
+30000564,Honest Club Studio - New Business,default,closedlost,3700,206,9002481,2025-12-03 21:23:16,2026-01-21,newbusiness,Inbound demo request,No decision,False,2026-01-21 15:34:31,2026-01-21 17:34:31
+30000565,Paper Supply Studio - New Business,default,closedlost,3600,205,9000971,2025-12-03 19:24:36,2025-12-08,newbusiness,Webinar,Price,False,2025-12-08 22:32:51,2025-12-09 00:32:51
+30000566,Early House - New Business,default,closedlost,4250,203,9000384,2025-12-03 20:21:12,2025-12-16,newbusiness,Inbound demo request,Missing feature,False,2025-12-16 13:12:57,2025-12-16 15:12:57
+30000567,Golden Collective Media - New Business,default,closedlost,2500,203,9000071,2025-12-04 18:42:21,2025-12-11,newbusiness,Outbound,Unresponsive,False,2025-12-11 21:03:18,2025-12-11 23:03:18
+30000568,Maple Club HQ - New Business,default,closedwon,24450,206,9001415,2025-12-04 22:42:40,2026-01-31,newbusiness,Referral,,False,2026-01-31 16:27:39,2026-01-31 18:27:39
+30000569,Maple Club HQ - Expansion,expansion,exp_closedwon,8450,301,9001415,2026-06-03 16:12:50,2026-06-22,existingbusiness,Existing customer,,False,2026-06-22 19:03:59,2026-06-22 21:03:59
+30000570,Maple Press HQ - New Business,default,closedlost,22800,206,9004070,2025-12-07 22:48:14,2026-01-30,newbusiness,Self-serve upgrade,Timing,False,2026-01-30 19:36:46,2026-01-30 21:36:46
+30000571,Field Sessions Co - New Business,default,closedlost,1900,204,9004012,2025-12-08 21:59:02,2025-12-19,newbusiness,Outbound,No decision,False,2025-12-19 15:48:30,2025-12-19 17:48:30
+30000572,Early Press Media - New Business,default,closedwon,2750,201,9003994,2025-12-10 22:42:23,2026-01-21,newbusiness,Inbound demo request,,False,2026-01-21 15:56:57,2026-01-21 17:56:57
+30000573,Early Press Media - Expansion,expansion,exp_closedwon,1100,302,9003994,2026-04-24 21:01:32,2026-05-18,existingbusiness,Existing customer,,False,2026-05-18 18:05:07,2026-05-18 20:05:07
+30000574,Studio Sessions Co - New Business,default,closedlost,47950,204,9003967,2025-12-11 22:47:31,2025-12-18,newbusiness,Self-serve upgrade,No decision,False,2025-12-18 15:53:12,2025-12-18 17:53:12
+30000575,Bright Lab Studio - New Business,default,closedwon,4350,204,9003998,2025-12-12 18:28:30,2026-01-22,newbusiness,Inbound demo request,,False,2026-01-22 16:41:29,2026-01-22 18:41:29
+30000576,Honest Garden - New Business,default,closedlost,10550,201,9004173,2025-12-12 14:51:04,2026-01-07,newbusiness,Inbound demo request,No decision,False,2026-01-07 19:52:22,2026-01-07 21:52:22
+30000577,Maple Room HQ - New Business,default,closedwon,30550,203,9002683,2025-12-13 21:45:00,2026-01-09,newbusiness,Referral,,False,2026-01-09 21:47:48,2026-01-09 23:47:48
+30000578,Field Supply Studio - New Business,default,closedwon,2750,203,9001092,2025-12-14 19:38:01,2026-03-24,newbusiness,Outbound,,False,2026-03-24 18:54:06,2026-03-24 20:54:06
+30000579,Field Supply Studio - Expansion,expansion,exp_closedwon,1100,302,9001092,2026-08-15 13:59:27,2026-09-09,existingbusiness,Existing customer,,False,2026-09-09 19:29:42,2026-09-09 21:29:42
+30000580,Common Kitchen - New Business,default,closedlost,3950,203,9000319,2025-12-14 13:50:24,2026-01-31,newbusiness,Partner,No decision,False,2026-01-31 19:45:39,2026-01-31 21:45:39
+30000581,Studio Journal - New Business,default,closedlost,14150,204,9000568,2025-12-16 20:11:24,2026-01-05,newbusiness,Inbound demo request,No decision,False,2026-01-05 20:59:12,2026-01-05 22:59:12
+30000582,Early Academy Studio - New Business,default,closedwon,2000,201,9001900,2025-12-17 14:33:46,2026-01-31,newbusiness,Inbound demo request,,False,2026-01-31 17:02:02,2026-01-31 19:02:02
+30000583,Early Sessions Studio - New Business,default,closedwon,10150,204,9000679,2025-12-17 22:57:04,2026-01-14,newbusiness,Inbound demo request,,False,2026-01-14 22:56:10,2026-01-15 00:56:10
+30000584,Early Sessions Studio - Expansion,expansion,exp_closedlost,4850,301,9000679,2026-09-01 21:04:45,2026-09-18,existingbusiness,Existing customer,Timing,False,2026-09-18 16:17:36,2026-09-18 18:17:36
+30000585,Paper Room Studio - New Business,default,closedlost,36150,204,9000955,2025-12-17 15:38:56,2025-12-21,newbusiness,Inbound demo request,No decision,False,2025-12-21 20:35:26,2025-12-21 22:35:26
+30000586,True Craft Media - New Business,default,closedwon,64550,203,9001456,2025-12-17 16:11:54,2026-03-06,newbusiness,Self-serve upgrade,,False,2026-03-06 20:45:14,2026-03-06 22:45:14
+30000587,True Craft Media - Expansion,expansion,exp_closedlost,14400,302,9001456,2026-08-06 18:38:36,2026-09-24,existingbusiness,Existing customer,No decision,False,2026-09-24 17:56:22,2026-09-24 19:56:22
+30000588,Studio Garden Media - New Business,default,closedlost,28050,201,9001496,2025-12-18 18:43:53,2026-01-01,newbusiness,Inbound demo request,Missing feature,False,2026-01-01 19:35:08,2026-01-01 21:35:08
+30000589,True Daily - New Business,default,closedwon,25450,204,9004046,2025-12-19 16:27:58,2026-01-28,newbusiness,Inbound demo request,,False,2026-01-28 18:33:22,2026-01-28 20:33:22
+30000590,True Daily - Expansion,expansion,exp_closedwon,13200,301,9004046,2026-06-17 14:11:48,2026-07-11,existingbusiness,Existing customer,,False,2026-07-11 13:21:43,2026-07-11 15:21:43
+30000591,Honest Works Co - New Business,default,closedlost,3800,203,9001679,2025-12-20 15:33:19,2026-01-19,newbusiness,Inbound demo request,Unresponsive,True,2026-01-19 19:20:03,2026-01-19 21:20:03
+30000592,North Sessions - New Business,default,closedlost,4200,206,9002757,2025-12-22 16:16:52,2026-03-21,newbusiness,Outbound,No decision,False,2026-03-21 20:16:00,2026-03-21 22:16:00
+30000593,Field Society Studio - New Business,default,closedlost,12550,204,9000547,2025-12-23 17:41:21,2026-03-06,newbusiness,Self-serve upgrade,Missing feature,False,2026-03-06 21:04:48,2026-03-06 23:04:48
+30000594,Kind Club HQ - New Business,default,closedwon,7700,204,9001390,2025-12-26 18:13:22,2026-02-26,newbusiness,Referral,,False,2026-02-26 17:44:56,2026-02-26 19:44:56
+30000595,Wild Weekly Co - New Business,default,closedlost,6600,203,9001067,2025-12-26 18:46:32,2026-01-02,newbusiness,Inbound demo request,Went with competitor,False,2026-01-02 16:26:40,2026-01-02 18:26:40
+30000596,Common Supply - New Business,default,closedlost,3100,203,9003882,2025-12-27 13:31:19,2026-01-26,newbusiness,Self-serve upgrade,Unresponsive,False,2026-02-17 22:44:16,2026-02-18 00:44:16
+30000597,True Academy - New Business,default,closedwon,18650,201,9003327,2025-12-27 22:24:54,2026-01-25,newbusiness,Self-serve upgrade,,False,2026-01-25 14:12:37,2026-01-25 16:12:37
+30000598,Little Works - New Business,default,closedlost,1950,201,9002908,2025-12-28 14:47:55,2026-02-06,newbusiness,Inbound demo request,Missing feature,False,2026-02-06 13:56:27,2026-02-06 15:56:27
+30000599,Wild Works Media - New Business,default,closedlost,7450,201,9000706,2025-12-30 22:15:43,2026-01-23,newbusiness,Outbound,Went with competitor,False,2026-01-23 20:21:25,2026-01-23 22:21:25
+30000600,Open Weekly - New Business,default,closedlost,9050,206,9003389,2026-01-01 18:26:36,2026-01-09,newbusiness,Self-serve upgrade,Unresponsive,False,2026-01-09 19:48:42,2026-01-09 21:48:42
+30000601,Slow Room - New Business,default,closedlost,5150,203,9004137,2026-01-01 15:20:31,2026-02-16,newbusiness,Outbound,Price,False,2026-02-16 18:11:45,2026-02-16 20:11:45
+30000602,Kind Craft HQ - New Business,default,closedlost,83900,204,9001964,2026-01-01 19:22:09,2026-02-06,newbusiness,Webinar,No decision,False,2026-02-06 14:01:45,2026-02-06 16:01:45
+30000603,Common Room HQ - New Business,default,closedlost,12050,204,9002782,2026-01-02 21:23:55,2025-12-20,newbusiness,Partner,Price,False,2026-01-06 18:14:51,2026-01-06 20:14:51
+30000604,Common Lab Co - New Business,default,closedwon,31250,204,9000801,2026-01-03 22:16:36,2026-03-11,newbusiness,Referral,,False,2026-03-11 18:42:52,2026-03-11 20:42:52
+30000605,Paper Radio Media - New Business,default,closedlost,4200,201,9000365,2026-01-04 21:57:36,2026-02-02,newbusiness,Referral,Missing feature,False,2026-02-14 15:09:08,2026-02-14 17:09:08
+30000606,Early Academy Studio - New Business,default,closedlost,8750,201,9002694,2026-01-07 16:25:05,2026-01-26,newbusiness,Referral,Went with competitor,False,2026-01-26 16:56:31,2026-01-26 18:56:31
+30000607,Slow Radio Studio - New Business,default,closedlost,3250,206,9000746,2026-01-07 14:55:38,2026-01-17,newbusiness,Outbound,Timing,False,2026-01-17 20:28:27,2026-01-17 22:28:27
+30000608,Early Collective - New Business,default,closedwon,95000,206,9003259,2026-01-09 19:00:27,2026-02-14,newbusiness,Inbound demo request,,False,2026-02-14 15:08:12,2026-02-14 17:08:12
+30000609,North Craft Studio - New Business,default,closedwon,7000,203,9001611,2026-01-09 19:54:34,2026-03-03,newbusiness,Inbound demo request,,False,2026-03-03 15:46:06,2026-03-03 17:46:06
+30000610,North Craft Studio - Expansion,expansion,exp_closedwon,1800,302,9001611,2026-10-10 22:20:20,2026-11-08,existingbusiness,Existing customer,,False,2026-11-08 17:15:12,2026-11-08 19:15:12
+30000611,True Sessions - New Business,default,closedlost,4150,206,9000121,2026-01-09 17:29:23,2026-01-19,newbusiness,Outbound,Timing,False,2026-01-19 22:32:30,2026-01-20 00:32:30
+30000612,Kind Society Media - New Business,default,closedlost,2300,204,9000861,2026-01-11 15:27:05,2026-01-27,newbusiness,Inbound demo request,Unresponsive,False,2026-01-27 22:13:34,2026-01-28 00:13:34
+30000613,Golden Supply - New Business,default,closedlost,1350,205,9000541,2026-01-14 20:54:58,2026-02-03,newbusiness,Outbound,Went with competitor,False,2026-02-17 01:17:30,2026-02-17 03:17:30
+30000614,Quiet House Co - New Business,default,closedlost,61950,205,9002769,2026-01-15 19:33:11,2026-02-07,newbusiness,Inbound demo request,Missing feature,False,2026-02-07 20:49:52,2026-02-07 22:49:52
+30000615,Common Society - New Business,default,closedlost,2550,204,9001022,2026-01-16 16:53:21,2026-03-14,newbusiness,Outbound,Unresponsive,False,2026-03-14 18:11:33,2026-03-14 20:11:33
+30000616,Open Supply HQ - New Business,default,closedlost,13400,203,9002611,2026-01-16 18:29:34,2026-02-03,newbusiness,Self-serve upgrade,Price,False,2026-02-03 13:48:02,2026-02-03 15:48:02
+30000617,North Works Co - New Business,default,closedlost,2100,204,9002795,2026-01-16 21:13:28,2026-01-28,newbusiness,Inbound demo request,Went with competitor,False,2026-01-28 17:08:17,2026-01-28 19:08:17
+30000618,North Lab - New Business,default,closedlost,5350,201,9003803,2026-01-17 13:46:24,2026-02-18,newbusiness,Inbound demo request,Unresponsive,False,2026-02-18 14:41:46,2026-02-18 16:41:46
+30000619,Blue Notes - New Business,default,closedlost,19600,203,9002237,2026-01-17 15:00:41,2026-03-04,newbusiness,Inbound demo request,Missing feature,False,2026-03-04 22:08:36,2026-03-05 00:08:36
+30000620,Little Radio Co - New Business,default,closedlost,27000,203,9001351,2026-01-18 19:38:12,2026-02-16,newbusiness,Inbound demo request,No decision,False,2026-02-16 22:50:45,2026-02-17 00:50:45
+30000621,Early Journal - New Business,default,closedwon,9200,205,9003342,2026-01-18 19:15:26,2026-03-17,newbusiness,Referral,,False,2026-03-17 19:53:23,2026-03-17 21:53:23
+30000622,Honest Daily - New Business,default,closedlost,4550,205,9003178,2026-01-18 21:29:37,2026-02-10,newbusiness,Self-serve upgrade,No decision,False,2026-02-10 18:15:49,2026-02-10 20:15:49
+30000623,Field Letters - New Business,default,closedlost,10200,206,9002816,2026-01-19 17:03:32,2026-02-25,newbusiness,Outbound,Timing,False,2026-02-25 16:32:53,2026-02-25 18:32:53
+30000624,Paper Room - New Business,default,closedwon,4050,201,9001414,2026-01-19 15:25:14,2026-02-26,newbusiness,Outbound,,False,2026-02-26 16:24:11,2026-02-26 18:24:11
+30000625,Paper Room - Expansion,expansion,exp_closedlost,1050,302,9001414,2026-07-15 14:06:49,2026-08-15,existingbusiness,Existing customer,Timing,False,2026-08-15 14:46:32,2026-08-15 16:46:32
+30000626,Honest Daily - New Business,default,closedwon,3500,203,9003127,2026-01-20 16:38:20,2026-03-05,newbusiness,Inbound demo request,,False,2026-03-05 19:50:28,2026-03-05 21:50:28
+30000627,Honest Daily - Expansion,expansion,exp_closedwon,750,302,9003127,2026-09-01 13:33:42,2026-09-17,existingbusiness,Existing customer,,False,2026-09-17 22:43:21,2026-09-18 00:43:21
+30000628,Paper Notes HQ - New Business,default,closedwon,3450,203,9000455,2026-01-20 21:57:43,2026-03-31,newbusiness,Inbound demo request,,False,2026-03-31 13:11:12,2026-03-31 15:11:12
+30000629,North Room HQ - New Business,default,closedlost,19900,204,9001324,2026-01-20 13:29:09,2026-02-18,newbusiness,Referral,Went with competitor,False,2026-02-18 22:53:29,2026-02-19 00:53:29
+30000630,Quiet Collective - New Business,default,closedwon,2750,206,9003842,2026-01-21 17:26:20,2026-03-13,newbusiness,Referral,,False,2026-03-13 22:29:51,2026-03-14 00:29:51
+30000631,Iron Kitchen Media - New Business,default,closedwon,46350,204,9004167,2026-01-23 20:36:19,2026-02-26,newbusiness,Self-serve upgrade,,False,2026-02-26 13:37:31,2026-02-26 15:37:31
+30000632,Iron Daily HQ - New Business,default,closedlost,4050,204,9001637,2026-01-23 17:12:39,2026-02-07,newbusiness,Self-serve upgrade,No decision,False,2026-02-07 17:09:47,2026-02-07 19:09:47
+30000633,Iron Journal - New Business,default,closedwon,30400,205,9003049,2026-01-24 18:04:14,2026-03-09,newbusiness,Self-serve upgrade,,False,2026-03-09 17:40:30,2026-03-09 19:40:30
+30000634,Bright Garden - New Business,default,closedlost,16450,204,9003899,2026-01-25 22:44:26,2026-02-24,newbusiness,Outbound,Unresponsive,False,2026-02-24 16:24:08,2026-02-24 18:24:08
+30000635,Maple Collective Co - New Business,default,closedlost,3900,204,9000440,2026-01-27 21:51:14,2026-02-09,newbusiness,Webinar,No decision,True,2026-02-09 16:57:28,2026-02-09 18:57:28
+30000636,Golden Weekly - New Business,default,closedwon,2300,201,9002299,2026-01-28 18:37:58,2026-03-30,newbusiness,Outbound,,False,2026-03-30 20:00:53,2026-03-30 22:00:53
+30000637,Studio Kitchen HQ - New Business,default,closedlost,13400,205,9002318,2026-01-29 15:52:19,2026-02-05,newbusiness,Inbound demo request,Timing,False,2026-02-05 13:02:54,2026-02-05 15:02:54
+30000638,Kind Works HQ - New Business,default,closedlost,2500,206,9001393,2026-02-01 20:02:05,2026-03-03,newbusiness,Inbound demo request,No decision,False,2026-03-03 13:47:51,2026-03-03 15:47:51
+30000639,Slow Journal - New Business,default,closedwon,36350,204,9002288,2026-02-02 19:26:19,2026-05-06,newbusiness,Referral,,False,2026-05-06 21:59:46,2026-05-06 23:59:46
+30000640,Early Sessions - New Business,default,closedwon,70450,201,9003520,2026-02-03 20:29:53,2026-05-30,newbusiness,Referral,,False,2026-05-30 16:06:38,2026-05-30 18:06:38
+30000641,Maple Academy Studio - New Business,default,closedlost,4050,205,9003029,2026-02-03 21:56:27,2026-03-02,newbusiness,Self-serve upgrade,Went with competitor,False,2026-03-02 21:01:41,2026-03-02 23:01:41
+30000642,Wild Sessions Co - New Business,default,closedlost,2200,204,9003831,2026-02-03 20:25:07,2026-02-17,newbusiness,Inbound demo request,Missing feature,False,2026-02-17 19:40:16,2026-02-17 21:40:16
+30000643,Maple Notes - New Business,default,closedlost,27050,205,9002455,2026-02-04 15:06:14,2026-03-05,newbusiness,Webinar,Missing feature,False,2026-03-05 22:04:34,2026-03-06 00:04:34
+30000644,Field Room HQ - New Business,default,closedlost,8950,203,9000798,2026-02-05 13:32:28,2026-02-26,newbusiness,Partner,Price,False,2026-02-26 21:02:53,2026-02-26 23:02:53
+30000645,Kind Room Co - New Business,default,closedlost,4100,204,9001857,2026-02-06 16:49:02,2026-04-12,newbusiness,Outbound,Timing,False,2026-04-25 03:06:11,2026-04-25 05:06:11
+30000646,Field Collective - New Business,default,closedlost,17600,205,9001585,2026-02-06 18:08:18,2026-02-20,newbusiness,Self-serve upgrade,No decision,False,2026-02-20 19:32:03,2026-02-20 21:32:03
+30000647,Honest Society Studio - New Business,default,closedlost,4200,206,9000940,2026-02-06 20:04:09,2026-02-23,newbusiness,Outbound,No decision,False,2026-02-23 13:06:28,2026-02-23 15:06:28
+30000648,North Works HQ - New Business,default,closedlost,37750,204,9000966,2026-02-06 15:26:33,2026-02-10,newbusiness,Outbound,Unresponsive,False,2026-02-10 14:16:54,2026-02-10 16:16:54
+30000649,True Daily - New Business,default,closedlost,2600,201,9003353,2026-02-07 19:58:18,2026-03-13,newbusiness,Inbound demo request,Price,False,2026-03-13 17:30:45,2026-03-13 19:30:45
+30000650,Maple Garden - New Business,default,closedlost,13800,203,9003354,2026-02-08 19:11:06,2026-03-10,newbusiness,Outbound,Went with competitor,False,2026-03-10 21:25:35,2026-03-10 23:25:35
+30000651,North Garden - New Business,default,closedwon,9350,204,9002971,2026-02-10 14:50:53,2026-03-24,newbusiness,Inbound demo request,,False,2026-03-24 16:46:36,2026-03-24 18:46:36
+30000652,Little Works - New Business,default,closedwon,2500,205,9000239,2026-02-10 17:22:12,2026-03-08,newbusiness,Inbound demo request,,False,2026-03-08 20:09:48,2026-03-08 22:09:48
+30000653,Little Works - Expansion,expansion,exp_closedwon,850,302,9000239,2026-07-03 15:42:46,2026-07-25,existingbusiness,Existing customer,,False,2026-07-25 18:28:26,2026-07-25 20:28:26
+30000654,Golden Garden Media - New Business,default,closedlost,28250,205,9001280,2026-02-12 21:18:44,2026-02-23,newbusiness,Self-serve upgrade,Went with competitor,False,2026-02-23 13:20:35,2026-02-23 15:20:35
+30000655,Common Letters - New Business,default,closedlost,19200,203,9002914,2026-02-12 17:23:08,2026-02-18,newbusiness,Inbound demo request,Went with competitor,False,2026-02-18 16:03:49,2026-02-18 18:03:49
+30000656,Slow Radio - New Business,default,closedwon,11850,204,9000408,2026-02-14 13:06:18,2026-04-10,newbusiness,Referral,,False,2026-04-10 14:06:12,2026-04-10 16:06:12
+30000657,Salt Kitchen Media - New Business,default,closedlost,108250,206,9001382,2026-02-14 19:56:06,2026-03-03,newbusiness,Outbound,No decision,False,2026-03-03 16:17:06,2026-03-03 18:17:06
+30000658,Iron Lab Co - New Business,default,closedlost,2750,205,9001036,2026-02-14 16:28:30,2026-02-19,newbusiness,Inbound demo request,Missing feature,False,2026-02-19 21:35:44,2026-02-19 23:35:44
+30000659,Kind Works Media - New Business,default,closedwon,3650,206,9000901,2026-02-15 16:35:38,2026-03-30,newbusiness,Inbound demo request,,False,2026-03-30 18:30:54,2026-03-30 20:30:54
+30000660,Wild Garden HQ - New Business,default,closedlost,5150,205,9003131,2026-02-15 19:40:23,2026-03-06,newbusiness,Inbound demo request,Went with competitor,False,2026-03-06 14:11:42,2026-03-06 16:11:42
+30000661,Blue Radio - New Business,default,closedlost,20050,204,9000434,2026-02-16 15:20:24,2026-03-18,newbusiness,Self-serve upgrade,Went with competitor,False,2026-03-18 22:27:35,2026-03-19 00:27:35
+30000662,Bright Supply Media - New Business,default,closedlost,20100,204,9001158,2026-02-19 16:23:55,2026-03-05,newbusiness,Inbound demo request,No decision,False,2026-03-05 19:20:11,2026-03-05 21:20:11
+30000663,Wild Radio HQ - New Business,default,closedlost,10000,201,9001619,2026-02-19 14:29:32,2026-03-30,newbusiness,Inbound demo request,Price,False,2026-03-30 15:43:49,2026-03-30 17:43:49
+30000664,Blue Notes Studio - New Business,default,closedlost,83150,204,9003655,2026-02-20 18:11:38,2026-03-17,newbusiness,Inbound demo request,Missing feature,False,2026-03-17 18:19:01,2026-03-17 20:19:01
+30000665,Slow Weekly - New Business,default,closedwon,29150,205,9000707,2026-02-22 16:55:02,2026-03-22,newbusiness,Self-serve upgrade,,False,2026-03-22 18:51:21,2026-03-22 20:51:21
+30000666,Slow Weekly - Expansion,expansion,exp_closedwon,9150,301,9000707,2026-09-08 14:24:12,2026-10-06,existingbusiness,Existing customer,,False,2026-10-06 16:28:04,2026-10-06 18:28:04
+30000667,Paper Sessions - New Business,default,closedwon,3750,201,9002006,2026-02-23 20:15:57,2026-03-20,newbusiness,Outbound,,False,2026-03-20 17:43:05,2026-03-20 19:43:05
+30000668,Honest Kitchen HQ - New Business,default,closedlost,5600,201,9001527,2026-02-24 19:45:14,2026-02-27,newbusiness,Inbound demo request,No decision,False,2026-02-27 14:11:44,2026-02-27 16:11:44
+30000669,Slow Room Co - New Business,default,closedlost,2250,205,9002679,2026-02-24 19:37:43,2026-03-20,newbusiness,Inbound demo request,Unresponsive,False,2026-03-20 13:02:00,2026-03-20 15:02:00
+30000670,Paper Collective Studio - New Business,default,closedlost,11650,206,9001663,2026-02-25 13:01:33,2026-02-28,newbusiness,Outbound,No decision,False,2026-03-11 19:35:54,2026-03-11 21:35:54
+30000671,Open Supply - New Business,default,closedlost,34900,206,9001653,2026-02-25 20:56:38,2026-03-17,newbusiness,Inbound demo request,Timing,False,2026-04-04 00:18:48,2026-04-04 02:18:48
+30000672,Honest Works - New Business,default,closedlost,7950,204,9003922,2026-02-28 14:26:01,2026-02-27,newbusiness,Inbound demo request,Missing feature,False,2026-03-12 21:49:09,2026-03-12 23:49:09
+30000673,Honest Daily Studio - New Business,default,closedlost,9550,201,9002196,2026-03-02 19:49:46,2026-04-06,newbusiness,Outbound,Missing feature,False,2026-04-15 19:48:16,2026-04-15 21:48:16
+30000674,Iron Academy Media - New Business,default,closedlost,9250,201,9002988,2026-03-03 13:49:51,2026-03-22,newbusiness,Inbound demo request,No decision,False,2026-03-22 17:03:57,2026-03-22 19:03:57
+30000675,Open Weekly - New Business,default,closedlost,2950,203,9000290,2026-03-03 14:13:44,2026-04-03,newbusiness,Partner,Missing feature,False,2026-04-03 17:47:18,2026-04-03 19:47:18
+30000676,Maple Society Media - New Business,default,closedwon,12750,204,9000522,2026-03-03 15:00:57,2026-04-21,newbusiness,Referral,,False,2026-04-21 14:44:47,2026-04-21 16:44:47
+30000677,Salt Craft - New Business,default,closedlost,3550,206,9004001,2026-03-04 16:54:31,2026-04-20,newbusiness,Inbound demo request,Missing feature,False,2026-04-20 13:31:33,2026-04-20 15:31:33
+30000678,Honest Garden - New Business,default,closedlost,4800,205,9002677,2026-03-06 20:45:25,2026-03-30,newbusiness,Referral,Went with competitor,False,2026-03-30 22:36:27,2026-03-31 00:36:27
+30000679,Little Collective Media - New Business,default,closedlost,23750,206,9001935,2026-03-06 15:02:04,2026-03-06,newbusiness,Outbound,Went with competitor,False,2026-03-30 19:48:20,2026-03-30 21:48:20
+30000680,Studio House - New Business,default,closedlost,3100,206,9000618,2026-03-08 13:01:25,2026-03-19,newbusiness,Self-serve upgrade,Price,False,2026-03-19 20:07:56,2026-03-19 22:07:56
+30000681,Open Supply HQ - New Business,default,closedlost,4800,204,9001706,2026-03-10 20:20:07,2026-03-07,newbusiness,Inbound demo request,Went with competitor,False,2026-03-15 21:36:03,2026-03-15 23:36:03
+30000682,Common House HQ - New Business,default,closedlost,6800,204,9001331,2026-03-11 18:38:14,2026-03-21,newbusiness,Self-serve upgrade,Price,False,2026-03-21 15:52:00,2026-03-21 17:52:00
+30000683,Studio Supply Co - New Business,default,closedwon,9650,201,9000238,2026-03-11 16:30:46,2026-04-15,newbusiness,Inbound demo request,,False,2026-04-15 19:06:19,2026-04-15 21:06:19
+30000684,Little Radio - New Business,default,closedlost,3150,206,9002852,2026-03-11 18:04:39,2026-03-31,newbusiness,Outbound,Went with competitor,False,2026-03-31 21:51:08,2026-03-31 23:51:08
+30000685,Golden Letters Co - New Business,default,closedwon,4400,205,9001113,2026-03-12 17:50:20,2026-04-22,newbusiness,Referral,,False,2026-04-22 16:24:12,2026-04-22 18:24:12
+30000686,Blue Weekly HQ - New Business,default,closedwon,2650,205,9003010,2026-03-14 20:06:13,2026-05-04,newbusiness,Referral,,False,2026-05-04 21:19:11,2026-05-04 23:19:11
+30000687,Open Letters Co - New Business,default,closedlost,7750,206,9003692,2026-03-15 17:23:10,2026-04-15,newbusiness,Partner,Unresponsive,False,2026-04-15 15:09:27,2026-04-15 17:09:27
+30000688,Bright Garden - New Business,default,closedlost,4450,206,9002442,2026-03-15 15:49:32,2026-03-20,newbusiness,Self-serve upgrade,Went with competitor,False,2026-03-20 21:06:59,2026-03-20 23:06:59
+30000689,Wild Radio - New Business,default,closedlost,1500,204,9000483,2026-03-15 14:43:10,2026-03-24,newbusiness,Inbound demo request,Went with competitor,False,2026-03-24 22:28:40,2026-03-25 00:28:40
+30000690,Field Sessions Co - New Business,default,closedlost,5800,206,9001261,2026-03-17 14:15:33,2026-03-19,newbusiness,Inbound demo request,Timing,False,2026-03-19 13:07:57,2026-03-19 15:07:57
+30000691,Salt Kitchen - New Business,default,closedlost,24100,206,9003082,2026-03-19 20:28:18,2026-03-26,newbusiness,Self-serve upgrade,Unresponsive,False,2026-03-26 19:00:06,2026-03-26 21:00:06
+30000692,Studio Lab Studio - New Business,default,closedlost,23200,206,9003618,2026-03-19 22:13:04,2026-04-27,newbusiness,Inbound demo request,Price,False,2026-04-27 15:27:41,2026-04-27 17:27:41
+30000693,Quiet Collective Co - New Business,default,closedwon,2300,204,9000999,2026-03-19 20:11:16,2026-05-16,newbusiness,Self-serve upgrade,,False,2026-05-16 17:56:49,2026-05-16 19:56:49
+30000694,True Letters Media - New Business,default,closedlost,6650,206,9003094,2026-03-20 14:49:58,2026-03-22,newbusiness,Outbound,Price,False,2026-03-22 18:01:47,2026-03-22 20:01:47
+30000695,Blue Journal Studio - New Business,default,closedlost,25600,203,9001283,2026-03-20 15:20:41,2026-05-31,newbusiness,Inbound demo request,Unresponsive,False,2026-05-31 20:49:52,2026-05-31 22:49:52
+30000696,True Daily Co - New Business,default,closedlost,42600,204,9003572,2026-03-20 19:17:41,2026-04-14,newbusiness,Self-serve upgrade,No decision,False,2026-04-14 16:16:14,2026-04-14 18:16:14
+30000697,Open House - New Business,default,closedlost,8200,204,9002227,2026-03-20 16:58:57,2026-04-06,newbusiness,Inbound demo request,Timing,False,2026-04-06 14:41:21,2026-04-06 16:41:21
+30000698,Wild Sessions - New Business,default,closedlost,4900,201,9002949,2026-03-21 15:10:09,2026-03-28,newbusiness,Referral,No decision,False,2026-03-28 13:14:11,2026-03-28 15:14:11
+30000699,Slow Academy HQ - New Business,default,closedwon,24500,203,9003124,2026-03-21 21:02:26,2026-04-13,newbusiness,Partner,,False,2026-04-13 22:55:06,2026-04-14 00:55:06
+30000700,Salt Journal Studio - New Business,default,closedlost,25600,205,9002522,2026-03-21 15:49:14,2026-04-21,newbusiness,Outbound,Went with competitor,False,2026-04-30 20:11:31,2026-04-30 22:11:31
+30000701,North Sessions HQ - New Business,default,closedlost,3100,206,9000413,2026-03-24 14:05:22,2026-04-06,newbusiness,Self-serve upgrade,Price,False,2026-04-06 22:02:41,2026-04-07 00:02:41
+30000702,Early Journal HQ - New Business,default,closedlost,2400,201,9000943,2026-03-25 14:12:12,2026-04-15,newbusiness,Referral,Timing,False,2026-04-15 22:10:09,2026-04-16 00:10:09
+30000703,Field Journal - New Business,default,closedlost,6000,205,9004092,2026-03-25 16:04:28,2026-04-01,newbusiness,Self-serve upgrade,Unresponsive,False,2026-04-01 16:22:38,2026-04-01 18:22:38
+30000704,True Journal Studio - New Business,default,closedlost,79850,204,9001121,2026-03-26 14:42:39,2026-04-05,newbusiness,Inbound demo request,No decision,False,2026-04-05 21:10:03,2026-04-05 23:10:03
+30000705,Field Radio - New Business,default,closedlost,7050,201,9002284,2026-03-26 22:33:22,2026-05-05,newbusiness,Inbound demo request,No decision,False,2026-05-05 14:06:02,2026-05-05 16:06:02
+30000706,Bright Daily HQ - New Business,default,closedlost,59800,201,9000738,2026-03-27 22:03:40,2026-04-02,newbusiness,Referral,No decision,False,2026-04-02 20:37:15,2026-04-02 22:37:15
+30000707,Bright Weekly Studio - New Business,default,closedlost,2800,204,9002017,2026-03-28 16:11:32,2026-04-15,newbusiness,Inbound demo request,Timing,False,2026-04-15 22:28:49,2026-04-16 00:28:49
+30000708,Honest Collective Studio - New Business,default,closedlost,15550,205,9000208,2026-03-28 22:31:41,2026-04-12,newbusiness,Self-serve upgrade,No decision,False,2026-04-12 17:34:49,2026-04-12 19:34:49
+30000709,Bright Club Co - New Business,default,closedlost,5300,203,9001349,2026-03-29 14:42:24,2026-04-07,newbusiness,Webinar,Missing feature,False,2026-04-07 13:43:40,2026-04-07 15:43:40
+30000710,Bright Notes - New Business,default,closedwon,62650,206,9003309,2026-03-30 14:40:59,2026-05-20,newbusiness,Outbound,,False,2026-05-20 15:56:42,2026-05-20 17:56:42
+30000711,Early Lab Media - New Business,default,closedwon,3550,201,9003766,2026-03-31 14:46:25,2026-05-14,newbusiness,Partner,,False,2026-05-14 16:52:39,2026-05-14 18:52:39
+30000712,Early Lab Media - Expansion,expansion,exp_proposal,1550,302,9003766,2026-10-11 21:24:08,2026-11-10,existingbusiness,Existing customer,,False,2026-10-30 21:36:10,2026-10-30 23:36:10
+30000713,Golden Notes - New Business,default,closedwon,3500,201,9000714,2026-03-31 15:14:32,2026-06-29,newbusiness,Self-serve upgrade,,False,2026-06-29 14:18:39,2026-06-29 16:18:39
+30000714,Open Weekly Studio - New Business,default,closedlost,4150,203,9000657,2026-04-01 13:49:49,2026-04-04,newbusiness,Outbound,Missing feature,False,2026-04-04 21:11:52,2026-04-04 23:11:52
+30000715,Golden Society - New Business,default,closedlost,6100,201,9003005,2026-04-03 13:09:49,2026-04-19,newbusiness,Inbound demo request,No decision,False,2026-04-19 20:56:22,2026-04-19 22:56:22
+30000716,Wild Notes - New Business,default,closedlost,2500,204,9002321,2026-04-03 15:04:37,2026-03-27,newbusiness,Inbound demo request,Price,False,2026-04-16 23:56:03,2026-04-17 01:56:03
+30000717,Studio Letters - New Business,default,closedlost,5350,203,9003136,2026-04-07 22:21:58,2026-04-16,newbusiness,Self-serve upgrade,No decision,False,2026-04-16 14:05:21,2026-04-16 16:05:21
+30000718,North Craft Co - New Business,default,closedlost,14550,204,9001652,2026-04-08 17:58:02,2026-04-12,newbusiness,Webinar,No decision,False,2026-04-12 14:49:20,2026-04-12 16:49:20
+30000719,Salt Radio - New Business,default,closedwon,24650,206,9003055,2026-04-10 17:42:12,2026-06-22,newbusiness,Inbound demo request,,False,2026-06-22 16:38:52,2026-06-22 18:38:52
+30000720,Salt Room HQ - New Business,default,closedlost,8500,204,9002310,2026-04-10 18:32:21,2026-04-16,newbusiness,Inbound demo request,No decision,False,2026-04-16 14:53:16,2026-04-16 16:53:16
+30000721,Kind House - New Business,default,closedlost,13550,206,9002946,2026-04-12 17:21:22,2026-04-26,newbusiness,Self-serve upgrade,Unresponsive,False,2026-04-26 14:25:28,2026-04-26 16:25:28
+30000722,Early Craft Co - New Business,default,closedlost,18350,204,9001837,2026-04-12 17:24:47,2026-04-20,newbusiness,Inbound demo request,Price,False,2026-04-20 18:17:22,2026-04-20 20:17:22
+30000723,Open Garden HQ - New Business,default,closedlost,4000,201,9001498,2026-04-13 21:40:21,2026-04-17,newbusiness,Self-serve upgrade,Timing,False,2026-04-17 14:00:20,2026-04-17 16:00:20
+30000724,Paper Supply HQ - New Business,default,closedlost,4900,204,9000954,2026-04-13 19:52:49,2026-04-20,newbusiness,Self-serve upgrade,Missing feature,False,2026-04-20 17:03:29,2026-04-20 19:03:29
+30000725,Quiet Daily Studio - New Business,default,closedlost,7050,203,9001059,2026-04-13 19:07:16,2026-04-19,newbusiness,Inbound demo request,Missing feature,False,2026-04-19 17:23:27,2026-04-19 19:23:27
+30000726,Bright Lab Media - New Business,default,closedlost,22700,204,9001709,2026-04-13 20:57:57,2026-05-23,newbusiness,Inbound demo request,Price,False,2026-05-23 15:57:50,2026-05-23 17:57:50
+30000727,Slow Kitchen - New Business,default,closedlost,7150,206,9000278,2026-04-14 22:16:46,2026-04-28,newbusiness,Self-serve upgrade,Unresponsive,False,2026-04-28 16:48:54,2026-04-28 18:48:54
+30000728,Little Supply Co - New Business,default,closedlost,27600,205,9001963,2026-04-14 20:56:09,2026-05-01,newbusiness,Inbound demo request,Timing,False,2026-05-01 20:46:31,2026-05-01 22:46:31
+30000729,Quiet Garden Co - New Business,default,closedlost,4550,203,9004035,2026-04-15 17:41:19,2026-04-23,newbusiness,Partner,No decision,False,2026-04-23 16:45:22,2026-04-23 18:45:22
+30000730,Quiet Press - New Business,default,closedlost,105850,201,9003767,2026-04-16 13:29:16,2026-06-07,newbusiness,Inbound demo request,Price,False,2026-06-07 13:44:15,2026-06-07 15:44:15
+30000731,Blue Lab - New Business,default,closedlost,35300,205,9002595,2026-04-17 18:28:26,2026-05-27,newbusiness,Partner,Unresponsive,False,2026-05-27 13:12:43,2026-05-27 15:12:43
+30000732,Salt Kitchen Co - New Business,default,closedlost,33250,204,9000303,2026-04-18 19:34:24,2026-07-07,newbusiness,Self-serve upgrade,Went with competitor,False,2026-08-01 15:34:06,2026-08-01 17:34:06
+30000733,Maple Sessions - New Business,default,closedlost,3650,203,9003077,2026-04-18 21:06:00,2026-05-10,newbusiness,Webinar,Timing,False,2026-05-10 20:05:25,2026-05-10 22:05:25
+30000734,Blue Craft - New Business,default,closedlost,7550,203,9004036,2026-04-19 16:47:34,2026-04-24,newbusiness,Referral,Timing,False,2026-04-24 21:51:30,2026-04-24 23:51:30
+30000735,North Daily - New Business,default,closedlost,23650,201,9002126,2026-04-21 13:44:01,2026-04-29,newbusiness,Referral,Missing feature,False,2026-04-29 15:58:36,2026-04-29 17:58:36
+30000736,Salt Club Co - New Business,default,closedlost,18950,205,9001395,2026-04-23 15:56:44,2026-04-16,newbusiness,Partner,Went with competitor,False,2026-05-01 18:23:21,2026-05-01 20:23:21
+30000737,Studio Works - New Business,default,closedlost,2550,205,9001647,2026-04-25 16:55:19,2026-06-16,newbusiness,Outbound,Timing,False,2026-06-16 15:44:22,2026-06-16 17:44:22
+30000738,Wild Sessions Media - New Business,default,closedlost,2850,206,9001335,2026-04-25 14:09:58,2026-05-02,newbusiness,Self-serve upgrade,Price,False,2026-05-02 14:59:28,2026-05-02 16:59:28
+30000739,Early Journal Co - New Business,default,closedlost,6400,201,9000359,2026-04-26 20:17:15,2026-05-17,newbusiness,Inbound demo request,Timing,False,2026-05-17 15:56:36,2026-05-17 17:56:36
+30000740,Kind Press - New Business,default,closedlost,1750,204,9003030,2026-04-27 19:47:06,2026-06-01,newbusiness,Referral,Timing,False,2026-06-01 19:24:15,2026-06-01 21:24:15
+30000741,North House HQ - New Business,default,closedlost,24750,204,9003497,2026-04-28 22:08:14,2026-05-04,newbusiness,Referral,Unresponsive,False,2026-05-04 15:49:15,2026-05-04 17:49:15
+30000742,Field Collective HQ - New Business,default,closedwon,9400,203,9000797,2026-04-30 22:58:02,2026-06-09,newbusiness,Inbound demo request,,False,2026-06-09 20:19:54,2026-06-09 22:19:54
+30000743,Maple Press Studio - New Business,default,closedlost,3350,204,9003701,2026-05-01 22:15:34,2026-05-13,newbusiness,Outbound,No decision,False,2026-05-13 17:25:04,2026-05-13 19:25:04
+30000744,Quiet Club - New Business,default,closedlost,4300,206,9003516,2026-05-01 21:27:57,2026-05-07,newbusiness,Referral,Timing,False,2026-05-07 13:51:52,2026-05-07 15:51:52
+30000745,Slow House Co - New Business,default,closedlost,2300,203,9001887,2026-05-01 14:44:38,2026-05-29,newbusiness,Self-serve upgrade,Price,False,2026-05-29 19:46:22,2026-05-29 21:46:22
+30000746,Iron House Studio - New Business,default,closedlost,6950,203,9004153,2026-05-04 15:07:23,2026-05-11,newbusiness,Referral,Price,False,2026-05-11 17:43:43,2026-05-11 19:43:43
+30000747,Common Collective - New Business,default,closedwon,4350,201,9003282,2026-05-07 21:12:08,2026-06-22,newbusiness,Outbound,,False,2026-06-22 18:49:41,2026-06-22 20:49:41
+30000748,Honest Sessions Studio - New Business,default,closedlost,7300,204,9003419,2026-05-08 22:07:39,2026-05-22,newbusiness,Self-serve upgrade,No decision,False,2026-05-22 22:33:54,2026-05-23 00:33:54
+30000749,True Academy Media - New Business,default,closedwon,14650,204,9001826,2026-05-09 22:13:22,2026-06-29,newbusiness,Referral,,True,2026-06-29 13:42:51,2026-06-29 15:42:51
+30000750,Maple Journal - New Business,default,closedlost,4700,201,9003110,2026-05-10 20:54:31,2026-05-16,newbusiness,Inbound demo request,No decision,False,2026-05-16 20:27:08,2026-05-16 22:27:08
+30000751,Quiet Sessions Studio - New Business,default,closedlost,11200,201,9001645,2026-05-11 13:32:22,2026-06-26,newbusiness,Partner,Unresponsive,False,2026-06-26 19:51:55,2026-06-26 21:51:55
+30000752,Field Supply Media - New Business,default,closedlost,3900,204,9001840,2026-05-11 17:14:08,2026-06-06,newbusiness,Referral,Timing,False,2026-06-06 21:43:35,2026-06-06 23:43:35
+30000753,Quiet Radio Co - New Business,default,closedlost,3900,204,9000773,2026-05-12 20:21:42,2026-05-18,newbusiness,Webinar,Unresponsive,False,2026-05-18 13:36:56,2026-05-18 15:36:56
+30000754,Quiet Club HQ - New Business,default,closedwon,15050,205,9000067,2026-05-13 18:39:16,2026-06-09,newbusiness,Inbound demo request,,False,2026-06-09 21:58:06,2026-06-09 23:58:06
+30000755,Honest Kitchen Studio - New Business,default,closedlost,42700,203,9000752,2026-05-15 16:54:00,2026-05-30,newbusiness,Outbound,Unresponsive,False,2026-05-30 19:01:17,2026-05-30 21:01:17
+30000756,Quiet Academy Co - New Business,default,closedlost,3150,203,9000453,2026-05-15 20:28:04,2026-05-27,newbusiness,Referral,Missing feature,False,2026-05-27 19:32:23,2026-05-27 21:32:23
+30000757,Paper Society Co - New Business,default,closedwon,3150,201,9002058,2026-05-16 15:51:43,2026-06-01,newbusiness,Inbound demo request,,False,2026-06-01 20:07:21,2026-06-01 22:07:21
+30000758,Blue Supply HQ - New Business,default,closedlost,3650,203,9001231,2026-05-16 14:31:16,2026-06-05,newbusiness,Self-serve upgrade,Timing,False,2026-06-05 17:44:54,2026-06-05 19:44:54
+30000759,Kind Works - New Business,default,closedlost,106250,201,9000269,2026-05-19 22:17:53,2026-05-22,newbusiness,Outbound,Price,False,2026-05-22 15:07:36,2026-05-22 17:07:36
+30000760,Wild Weekly - New Business,default,closedlost,29900,206,9002806,2026-05-20 20:53:55,2026-05-22,newbusiness,Self-serve upgrade,No decision,False,2026-05-22 18:12:28,2026-05-22 20:12:28
+30000761,Wild Notes Studio - New Business,default,closedlost,2500,203,9000694,2026-05-20 22:56:53,2026-07-05,newbusiness,Outbound,Went with competitor,False,2026-07-05 17:19:47,2026-07-05 19:19:47
+30000762,Iron Craft Studio - New Business,default,closedlost,2000,205,9003139,2026-05-20 19:54:01,2026-05-23,newbusiness,Referral,Unresponsive,False,2026-05-23 20:49:05,2026-05-23 22:49:05
+30000763,Paper Club - New Business,default,closedwon,12800,201,9003316,2026-05-21 21:51:41,2026-06-11,newbusiness,Self-serve upgrade,,False,2026-06-11 13:53:34,2026-06-11 15:53:34
+30000764,Iron House - New Business,default,closedlost,28200,204,9000444,2026-05-21 15:15:07,2026-06-17,newbusiness,Self-serve upgrade,No decision,False,2026-06-17 13:45:29,2026-06-17 15:45:29
+30000765,Field Room Studio - New Business,default,closedlost,53700,201,9001372,2026-05-22 22:13:12,2026-07-18,newbusiness,Self-serve upgrade,Missing feature,False,2026-07-18 14:37:18,2026-07-18 16:37:18
+30000766,Maple Lab Co - New Business,default,closedlost,14250,204,9003297,2026-05-22 19:17:39,2026-06-04,newbusiness,Outbound,No decision,False,2026-06-04 21:43:33,2026-06-04 23:43:33
+30000767,Little Sessions Studio - New Business,default,closedlost,9300,203,9001309,2026-05-22 17:46:39,2026-05-26,newbusiness,Self-serve upgrade,No decision,False,2026-05-26 18:41:45,2026-05-26 20:41:45
+30000768,North Daily Studio - New Business,default,closedwon,3700,206,9001834,2026-05-23 20:38:45,2026-07-05,newbusiness,Self-serve upgrade,,False,2026-07-05 16:20:01,2026-07-05 18:20:01
+30000769,North Daily Studio - Expansion,expansion,exp_closedlost,1250,301,9001834,2026-10-14 15:53:55,2026-11-18,existingbusiness,Existing customer,Went with competitor,False,2026-11-18 22:30:25,2026-11-19 00:30:25
+30000770,Slow Notes Co - New Business,default,closedwon,14550,201,9000277,2026-05-25 19:33:18,2026-06-23,newbusiness,Self-serve upgrade,,False,2026-06-23 19:41:07,2026-06-23 21:41:07
+30000771,Slow Notes Co - Expansion,expansion,exp_closedlost,5000,302,9000277,2026-09-22 17:35:43,2026-10-15,existingbusiness,Existing customer,Missing feature,False,2026-10-15 14:50:34,2026-10-15 16:50:34
+30000772,Little Society HQ - New Business,default,closedwon,4750,201,9000929,2026-05-26 15:53:16,2026-07-05,newbusiness,Outbound,,False,2026-07-05 19:45:09,2026-07-05 21:45:09
+30000773,Iron Lab - New Business,default,closedlost,1600,204,9003700,2026-05-27 16:46:22,2026-06-02,newbusiness,Outbound,Unresponsive,False,2026-06-02 16:34:37,2026-06-02 18:34:37
+30000774,Paper Sessions - New Business,default,closedlost,15700,203,9000045,2026-05-28 13:57:39,2026-06-10,newbusiness,Referral,Price,False,2026-06-10 19:22:36,2026-06-10 21:22:36
+30000775,Little Room Studio - New Business,default,closedlost,14500,201,9002315,2026-05-28 20:09:47,2026-06-09,newbusiness,Partner,Unresponsive,False,2026-06-09 15:10:43,2026-06-09 17:10:43
+30000776,Maple Press Media - New Business,default,closedlost,3950,201,9002779,2026-05-30 22:03:02,2026-06-20,newbusiness,Inbound demo request,Missing feature,False,2026-06-20 18:40:18,2026-06-20 20:40:18
+30000777,Golden Journal - New Business,default,closedlost,2900,204,9004178,2026-05-31 20:54:28,2026-06-21,newbusiness,Partner,Missing feature,False,2026-07-16 05:23:37,2026-07-16 07:23:37
+30000778,Early Weekly Co - New Business,default,closedwon,2150,206,9003450,2026-05-31 19:13:08,2026-07-15,newbusiness,Inbound demo request,,False,2026-07-15 19:44:39,2026-07-15 21:44:39
+30000779,Wild House Co - New Business,default,closedwon,12650,204,9001683,2026-06-01 19:10:34,2026-08-12,newbusiness,Inbound demo request,,False,2026-08-12 15:18:37,2026-08-12 17:18:37
+30000780,Blue Works HQ - New Business,default,closedwon,3550,201,9002913,2026-06-01 16:08:57,2026-07-10,newbusiness,Self-serve upgrade,,False,2026-07-18 17:39:13,2026-07-18 19:39:13
+30000781,North Radio - New Business,default,closedlost,1800,201,9003806,2026-06-02 22:31:58,2026-07-08,newbusiness,Outbound,No decision,False,2026-07-08 16:59:44,2026-07-08 18:59:44
+30000782,Kind Kitchen - New Business,default,closedlost,62050,206,9004049,2026-06-02 17:19:20,2026-06-10,newbusiness,Outbound,Unresponsive,False,2026-06-10 20:32:55,2026-06-10 22:32:55
+30000783,Wild Works - New Business,default,closedlost,6000,203,9000258,2026-06-02 18:30:58,2026-06-30,newbusiness,Self-serve upgrade,Price,True,2026-06-30 18:59:47,2026-06-30 20:59:47
+30000784,North Notes - New Business,default,closedlost,8100,205,9004121,2026-06-03 18:48:52,2026-06-16,newbusiness,Webinar,Missing feature,False,2026-06-16 21:04:47,2026-06-16 23:04:47
+30000785,True Garden HQ - New Business,default,closedlost,10150,201,9001970,2026-06-04 14:07:22,2026-06-20,newbusiness,Inbound demo request,Went with competitor,False,2026-07-07 21:23:20,2026-07-07 23:23:20
+30000786,Maple Letters Studio - New Business,default,closedlost,15250,206,9001236,2026-06-05 15:09:51,2026-07-31,newbusiness,Outbound,Missing feature,False,2026-07-31 14:53:51,2026-07-31 16:53:51
+30000787,Field Academy - New Business,default,closedlost,53500,205,9002391,2026-06-09 13:49:36,2026-06-18,newbusiness,Referral,Timing,False,2026-06-18 19:36:56,2026-06-18 21:36:56
+30000788,Common Society Media - New Business,default,closedlost,4700,201,9001005,2026-06-09 22:59:07,2026-07-08,newbusiness,Outbound,Timing,False,2026-07-08 15:24:19,2026-07-08 17:24:19
+30000789,North Collective - New Business,default,closedlost,92350,204,9004059,2026-06-10 22:43:35,2026-07-07,newbusiness,Self-serve upgrade,Went with competitor,True,2026-07-07 22:02:49,2026-07-08 00:02:49
+30000790,Slow Radio - New Business,default,closedlost,3700,201,9000228,2026-06-11 21:19:21,2026-07-12,newbusiness,Referral,Went with competitor,False,2026-07-12 20:58:47,2026-07-12 22:58:47
+30000791,Iron Radio Studio - New Business,default,closedwon,2000,203,9003886,2026-06-11 17:05:29,2026-07-07,newbusiness,Self-serve upgrade,,False,2026-07-07 19:41:56,2026-07-07 21:41:56
+30000792,Studio Club Studio - New Business,default,closedlost,17500,205,9003659,2026-06-13 13:47:34,2026-06-20,newbusiness,Outbound,Timing,False,2026-06-20 14:06:58,2026-06-20 16:06:58
+30000793,North Society - New Business,default,closedwon,3650,206,9000135,2026-06-15 16:13:46,2026-08-17,newbusiness,Webinar,,False,2026-08-17 16:27:26,2026-08-17 18:27:26
+30000794,Kind Weekly HQ - New Business,default,closedlost,5350,204,9003501,2026-06-15 22:58:57,2026-08-24,newbusiness,Self-serve upgrade,Unresponsive,False,2026-08-24 21:51:45,2026-08-24 23:51:45
+30000795,Kind Lab - New Business,default,closedlost,15900,201,9000344,2026-06-15 21:03:28,2026-06-29,newbusiness,Referral,Price,False,2026-06-29 19:04:43,2026-06-29 21:04:43
+30000796,Quiet Club Studio - New Business,default,closedlost,4600,201,9002148,2026-06-15 16:46:26,2026-06-21,newbusiness,Inbound demo request,No decision,False,2026-06-21 21:37:16,2026-06-21 23:37:16
+30000797,Iron Craft Studio - New Business,default,closedwon,76450,206,9001835,2026-06-16 20:13:01,2026-08-23,newbusiness,Outbound,,False,2026-08-23 13:48:16,2026-08-23 15:48:16
+30000798,North Kitchen Co - New Business,default,closedwon,27600,205,9002535,2026-06-16 18:41:13,2026-08-08,newbusiness,Webinar,,False,2026-08-08 15:26:02,2026-08-08 17:26:02
+30000799,Bright Kitchen HQ - New Business,default,closedwon,17050,206,9002245,2026-06-17 18:22:43,2026-07-12,newbusiness,Self-serve upgrade,,False,2026-07-12 14:33:28,2026-07-12 16:33:28
+30000800,Wild Daily - New Business,default,closedlost,18550,205,9002586,2026-06-17 16:28:18,2026-07-02,newbusiness,Referral,Went with competitor,False,2026-07-02 20:50:17,2026-07-02 22:50:17
+30000801,Little Supply - New Business,default,closedwon,2400,201,9004071,2026-06-18 16:35:33,2026-07-19,newbusiness,Outbound,,False,2026-07-19 15:05:47,2026-07-19 17:05:47
+30000802,Little Supply - Expansion,expansion,exp_identified,1150,301,9004071,2026-11-15 19:13:52,2026-12-15,existingbusiness,Existing customer,,False,2026-11-15 19:13:52,2026-11-15 21:13:52
+30000803,Honest Club HQ - New Business,default,closedlost,13700,205,9002793,2026-06-19 14:49:51,2026-08-16,newbusiness,Webinar,Went with competitor,False,2026-08-16 17:13:39,2026-08-16 19:13:39
+30000804,Little House - New Business,default,closedlost,2000,201,9002798,2026-06-19 15:13:21,2026-06-24,newbusiness,Webinar,Went with competitor,False,2026-06-24 14:14:18,2026-06-24 16:14:18
+30000805,Kind Garden - New Business,default,closedlost,14650,201,9002490,2026-06-20 19:11:48,2026-07-27,newbusiness,Webinar,No decision,False,2026-07-27 18:47:11,2026-07-27 20:47:11
+30000806,Quiet Craft - New Business,default,closedwon,46350,203,9002741,2026-06-20 19:29:48,2026-08-22,newbusiness,Referral,,False,2026-08-22 20:26:05,2026-08-22 22:26:05
+30000807,Blue Academy Media - New Business,default,closedlost,8650,206,9001160,2026-06-20 18:47:09,2026-08-26,newbusiness,Outbound,Went with competitor,False,2026-08-26 18:33:25,2026-08-26 20:33:25
+30000808,Blue Club Studio - New Business,default,closedlost,18800,201,9001760,2026-06-20 13:11:45,2026-07-07,newbusiness,Referral,No decision,False,2026-07-07 18:16:16,2026-07-07 20:16:16
+30000809,Maple Garden Studio - New Business,default,closedlost,11450,205,9001505,2026-06-21 14:43:05,2026-07-05,newbusiness,Outbound,No decision,False,2026-07-05 14:23:17,2026-07-05 16:23:17
+30000810,Little Craft - New Business,default,closedwon,10450,201,9003704,2026-06-21 14:25:16,2026-08-01,newbusiness,Inbound demo request,,False,2026-08-01 22:27:02,2026-08-02 00:27:02
+30000811,Blue Radio HQ - New Business,default,closedlost,2700,204,9003432,2026-06-21 22:29:32,2026-07-08,newbusiness,Inbound demo request,Went with competitor,False,2026-07-08 18:16:46,2026-07-08 20:16:46
+30000812,Field House - New Business,default,closedlost,25150,201,9002920,2026-06-22 16:25:36,2026-08-07,newbusiness,Outbound,Missing feature,False,2026-08-07 15:41:18,2026-08-07 17:41:18
+30000813,Paper Room - New Business,default,closedlost,18750,201,9004134,2026-06-23 21:20:30,2026-07-12,newbusiness,Outbound,No decision,False,2026-07-12 20:02:15,2026-07-12 22:02:15
+30000814,Paper House HQ - New Business,default,closedlost,10450,203,9002021,2026-06-23 20:26:33,2026-08-08,newbusiness,Inbound demo request,Timing,False,2026-08-08 16:41:51,2026-08-08 18:41:51
+30000815,Studio Works - New Business,default,closedlost,11800,204,9003958,2026-06-24 22:41:45,2026-07-08,newbusiness,Self-serve upgrade,Price,False,2026-07-08 16:20:33,2026-07-08 18:20:33
+30000816,Early Journal - New Business,default,closedlost,1550,201,9001180,2026-06-24 15:31:30,2026-07-06,newbusiness,Outbound,Price,False,2026-07-31 02:53:32,2026-07-31 04:53:32
+30000817,Little Garden HQ - New Business,default,closedlost,2850,205,9000166,2026-06-25 15:19:09,2026-07-01,newbusiness,Referral,Missing feature,False,2026-07-01 21:01:06,2026-07-01 23:01:06
+30000818,Iron Press - New Business,default,closedlost,4900,203,9000147,2026-06-26 13:52:33,2026-07-06,newbusiness,Outbound,Missing feature,False,2026-07-06 18:08:36,2026-07-06 20:08:36
+30000819,Wild Weekly Media - New Business,default,closedwon,7700,201,9002787,2026-06-26 17:02:19,2026-08-07,newbusiness,Outbound,,False,2026-08-07 15:08:26,2026-08-07 17:08:26
+30000820,Blue Letters Studio - New Business,default,closedlost,144400,205,9001793,2026-06-28 17:51:08,2026-07-14,newbusiness,Self-serve upgrade,Price,False,2026-07-14 20:33:17,2026-07-14 22:33:17
+30000821,Blue Lab Media - New Business,default,closedlost,14150,203,9003503,2026-06-29 13:40:44,2026-07-18,newbusiness,Outbound,Timing,False,2026-07-18 21:19:51,2026-07-18 23:19:51
+30000822,Wild Collective Media - New Business,default,closedlost,5950,201,9001782,2026-06-30 16:32:21,2026-07-09,newbusiness,Outbound,Went with competitor,False,2026-07-09 15:00:51,2026-07-09 17:00:51
+30000823,Paper Radio - New Business,default,closedlost,4100,203,9001051,2026-07-01 17:20:07,2026-07-30,newbusiness,Inbound demo request,Timing,False,2026-07-30 15:08:54,2026-07-30 17:08:54
+30000824,Open Society - New Business,default,closedlost,17750,201,9000599,2026-07-03 15:08:50,2026-07-26,newbusiness,Inbound demo request,Timing,False,2026-07-26 15:38:26,2026-07-26 17:38:26
+30000825,Blue Sessions - New Business,default,closedlost,7300,201,9003218,2026-07-03 13:23:53,2026-07-13,newbusiness,Self-serve upgrade,Timing,False,2026-07-13 18:50:45,2026-07-13 20:50:45
+30000826,True Journal HQ - New Business,default,closedlost,4050,204,9002150,2026-07-03 16:00:19,2026-09-17,newbusiness,Referral,Timing,False,2026-09-17 22:28:16,2026-09-18 00:28:16
+30000827,Slow Works Co - New Business,default,closedwon,3250,201,9003946,2026-07-03 17:51:08,2026-09-04,newbusiness,Inbound demo request,,False,2026-09-04 13:04:16,2026-09-04 15:04:16
+30000828,Honest Garden - New Business,default,closedlost,30700,205,9003201,2026-07-03 14:25:31,2026-08-22,newbusiness,Inbound demo request,No decision,False,2026-08-22 19:22:54,2026-08-22 21:22:54
+30000829,Salt Garden Co - New Business,default,closedlost,2000,201,9003300,2026-07-04 14:55:12,2026-07-18,newbusiness,Inbound demo request,Timing,False,2026-07-18 14:36:03,2026-07-18 16:36:03
+30000830,Honest Radio - New Business,default,closedlost,2800,201,9003203,2026-07-05 18:09:52,2026-07-12,newbusiness,Self-serve upgrade,No decision,False,2026-07-12 19:29:00,2026-07-12 21:29:00
+30000831,Quiet Letters Media - New Business,default,closedlost,25500,203,9002290,2026-07-06 15:12:23,2026-10-03,newbusiness,Inbound demo request,No decision,False,2026-10-03 22:22:40,2026-10-04 00:22:40
+30000832,Maple Craft Co - New Business,default,closedlost,9350,205,9000394,2026-07-07 20:44:15,2026-07-20,newbusiness,Inbound demo request,Went with competitor,False,2026-07-20 21:43:02,2026-07-20 23:43:02
+30000833,Common Press HQ - New Business,default,closedlost,5000,205,9004143,2026-07-08 14:42:55,2026-07-09,newbusiness,Inbound demo request,Price,False,2026-07-22 22:27:58,2026-07-23 00:27:58
+30000834,Early Academy Co - New Business,default,closedlost,43700,204,9002439,2026-07-08 13:46:43,2026-09-11,newbusiness,Referral,No decision,False,2026-09-11 20:42:15,2026-09-11 22:42:15
+30000835,Little House Studio - New Business,default,closedlost,5350,203,9003272,2026-07-11 21:10:55,2026-07-22,newbusiness,Inbound demo request,No decision,False,2026-07-22 14:59:15,2026-07-22 16:59:15
+30000836,Studio Lab - New Business,default,closedlost,3750,203,9004130,2026-07-12 16:06:37,2026-07-22,newbusiness,Outbound,No decision,False,2026-07-22 14:08:27,2026-07-22 16:08:27
+30000837,True Letters HQ - New Business,default,closedlost,1500,205,9003210,2026-07-14 18:44:22,2026-07-25,newbusiness,Inbound demo request,Timing,False,2026-07-25 19:17:41,2026-07-25 21:17:41
+30000838,Slow Letters HQ - New Business,default,closedlost,2250,203,9001447,2026-07-14 16:15:20,2026-08-23,newbusiness,Inbound demo request,Price,False,2026-08-23 18:51:01,2026-08-23 20:51:01
+30000839,Paper Letters - New Business,default,closedlost,15450,205,9000146,2026-07-15 14:42:32,2026-07-19,newbusiness,Self-serve upgrade,Missing feature,False,2026-07-19 17:04:11,2026-07-19 19:04:11
+30000840,Salt Club - New Business,default,closedlost,10850,206,9004150,2026-07-15 16:06:15,2026-07-29,newbusiness,Referral,Unresponsive,False,2026-07-29 15:31:11,2026-07-29 17:31:11
+30000841,Studio Letters - New Business,default,closedlost,2300,204,9003422,2026-07-16 17:27:13,2026-08-17,newbusiness,Self-serve upgrade,No decision,False,2026-08-17 19:53:05,2026-08-17 21:53:05
+30000842,Little House - New Business,default,closedlost,48450,205,9003255,2026-07-17 20:54:11,2026-07-18,newbusiness,Outbound,No decision,False,2026-07-18 21:42:57,2026-07-18 23:42:57
+30000843,Honest Notes - New Business,default,closedwon,21850,204,9002373,2026-07-17 19:22:40,2026-08-14,newbusiness,Outbound,,False,2026-08-14 17:48:44,2026-08-14 19:48:44
+30000844,Iron Kitchen Studio - New Business,default,closedlost,7750,206,9001942,2026-07-18 21:03:17,2026-08-12,newbusiness,Inbound demo request,Missing feature,False,2026-08-12 13:02:34,2026-08-12 15:02:34
+30000845,Studio Press Media - New Business,default,closedwon,8100,206,9001298,2026-07-18 20:52:56,2026-07-28,newbusiness,Referral,,False,2026-08-26 21:24:01,2026-08-26 23:24:01
+30000846,Field Academy Media - New Business,default,closedwon,5350,203,9002180,2026-07-19 15:50:48,2026-08-30,newbusiness,Inbound demo request,,False,2026-08-30 22:19:09,2026-08-31 00:19:09
+30000847,Paper Notes Co - New Business,default,closedwon,4400,201,9000566,2026-07-20 19:22:47,2026-08-21,newbusiness,Inbound demo request,,False,2026-08-21 20:41:39,2026-08-21 22:41:39
+30000848,Little Collective - New Business,default,closedlost,15350,206,9003193,2026-07-22 17:49:42,2026-08-22,newbusiness,Self-serve upgrade,Went with competitor,False,2026-08-22 20:39:14,2026-08-22 22:39:14
+30000849,Quiet Works Media - New Business,default,closedwon,9200,201,9001052,2026-07-23 16:58:09,2026-09-14,newbusiness,Inbound demo request,,False,2026-09-14 19:15:33,2026-09-14 21:15:33
+30000850,Blue Craft - New Business,default,closedlost,4600,206,9000882,2026-07-23 13:03:03,2026-07-25,newbusiness,Inbound demo request,Price,False,2026-07-25 18:12:00,2026-07-25 20:12:00
+30000851,Slow Society - New Business,default,closedwon,9350,206,9000548,2026-07-23 19:30:53,2026-09-06,newbusiness,Referral,,False,2026-09-06 16:08:12,2026-09-06 18:08:12
+30000852,Wild Daily HQ - New Business,default,closedlost,64150,206,9001276,2026-07-23 16:38:45,2026-08-16,newbusiness,Referral,No decision,False,2026-08-16 16:06:46,2026-08-16 18:06:46
+30000853,Common Sessions HQ - New Business,default,closedwon,39400,203,9001805,2026-07-25 22:32:59,2026-09-08,newbusiness,Inbound demo request,,False,2026-09-08 13:53:54,2026-09-08 15:53:54
+30000854,Salt Journal Co - New Business,default,closedlost,9050,204,9002730,2026-07-26 15:44:18,2026-08-21,newbusiness,Inbound demo request,Went with competitor,False,2026-08-21 21:42:23,2026-08-21 23:42:23
+30000855,Little Notes - New Business,default,closedlost,2900,204,9003949,2026-07-28 21:50:33,2026-08-17,newbusiness,Inbound demo request,Unresponsive,False,2026-08-17 15:05:04,2026-08-17 17:05:04
+30000856,Golden Kitchen - New Business,default,closedlost,7850,201,9003223,2026-07-28 19:31:53,2026-07-31,newbusiness,Partner,Went with competitor,False,2026-07-31 16:49:00,2026-07-31 18:49:00
+30000857,Common Sessions Studio - New Business,default,closedlost,3900,203,9003147,2026-07-29 20:28:23,2026-10-02,newbusiness,Outbound,Timing,False,2026-10-02 13:20:14,2026-10-02 15:20:14
+30000858,Paper House Co - New Business,default,closedwon,20150,205,9002218,2026-07-29 18:18:11,2026-09-10,newbusiness,Outbound,,False,2026-09-10 14:11:02,2026-09-10 16:11:02
+30000859,Slow Radio - New Business,default,closedlost,2400,206,9004196,2026-08-01 21:31:51,2026-09-01,newbusiness,Inbound demo request,Timing,False,2026-09-01 22:10:01,2026-09-02 00:10:01
+30000860,Kind Kitchen Co - New Business,default,closedlost,29950,205,9001569,2026-08-01 13:25:38,2026-08-02,newbusiness,Inbound demo request,Timing,False,2026-08-02 17:23:16,2026-08-02 19:23:16
+30000861,Little Works Media - New Business,default,closedlost,51250,206,9001220,2026-08-02 15:34:53,2026-09-01,newbusiness,Referral,Missing feature,False,2026-09-01 15:36:57,2026-09-01 17:36:57
+30000862,True Club - New Business,default,closedlost,5500,201,9003628,2026-08-02 19:08:43,2026-08-19,newbusiness,Referral,Unresponsive,False,2026-08-19 22:24:24,2026-08-20 00:24:24
+30000863,Maple Works HQ - New Business,default,closedwon,1900,203,9000554,2026-08-02 15:18:55,2026-09-28,newbusiness,Webinar,,False,2026-09-28 17:26:19,2026-09-28 19:26:19
+30000864,Field Letters - New Business,default,closedlost,3900,203,9002700,2026-08-04 18:19:50,2026-09-30,newbusiness,Referral,Timing,False,2026-09-30 14:31:05,2026-09-30 16:31:05
+30000865,Iron Craft Co - New Business,default,closedlost,2050,201,9001327,2026-08-04 13:50:06,2026-08-24,newbusiness,Self-serve upgrade,No decision,False,2026-08-24 16:37:06,2026-08-24 18:37:06
+30000866,Paper Room Co - New Business,default,closedlost,10900,205,9002516,2026-08-04 17:10:23,2026-08-09,newbusiness,Inbound demo request,Went with competitor,False,2026-08-09 14:21:29,2026-08-09 16:21:29
+30000867,Field Lab - New Business,default,closedlost,1900,205,9000350,2026-08-05 17:15:29,2026-09-24,newbusiness,Referral,Unresponsive,True,2026-09-24 15:04:48,2026-09-24 17:04:48
+30000868,Maple Radio - New Business,default,closedlost,7150,203,9003344,2026-08-06 21:52:21,2026-08-10,newbusiness,Inbound demo request,Missing feature,False,2026-08-10 16:27:06,2026-08-10 18:27:06
+30000869,Studio Club - New Business,default,closedwon,14300,206,9004104,2026-08-07 13:01:45,2026-09-07,newbusiness,Referral,,False,2026-09-07 16:28:08,2026-09-07 18:28:08
+30000870,Bright Kitchen - New Business,default,closedlost,15200,204,9000265,2026-08-08 17:13:24,2026-08-26,newbusiness,Referral,Went with competitor,False,2026-08-26 22:59:26,2026-08-27 00:59:26
+30000871,Paper Works - New Business,default,closedwon,11800,205,9002443,2026-08-08 20:01:51,2026-10-15,newbusiness,Outbound,,False,2026-10-15 13:33:06,2026-10-15 15:33:06
+30000872,Little Room HQ - New Business,default,closedwon,1900,206,9000448,2026-08-08 13:53:04,2026-08-24,newbusiness,Inbound demo request,,False,2026-08-24 15:53:20,2026-08-24 17:53:20
+30000873,Salt Lab Media - New Business,default,closedlost,3550,201,9003315,2026-08-10 17:54:25,2026-09-27,newbusiness,Inbound demo request,Unresponsive,False,2026-09-27 22:08:15,2026-09-28 00:08:15
+30000874,Maple Radio - New Business,default,closedwon,9400,201,9000110,2026-08-10 20:54:54,2026-09-14,newbusiness,Inbound demo request,,False,2026-09-14 19:34:01,2026-09-14 21:34:01
+30000875,North Letters Media - New Business,default,closedwon,38950,201,9000237,2026-08-11 20:03:59,2026-10-10,newbusiness,Referral,,False,2026-10-10 14:58:41,2026-10-10 16:58:41
+30000876,Honest Kitchen - New Business,default,closedwon,2550,201,9000632,2026-08-11 19:26:34,2026-10-27,newbusiness,Outbound,,False,2026-10-27 14:26:16,2026-10-27 16:26:16
+30000877,True Garden Co - New Business,default,closedlost,4850,206,9003828,2026-08-12 17:04:11,2026-08-21,newbusiness,Self-serve upgrade,Went with competitor,False,2026-08-21 19:18:30,2026-08-21 21:18:30
+30000878,Bright Weekly - New Business,default,closedwon,18750,205,9003012,2026-08-12 20:34:08,2026-08-26,newbusiness,Self-serve upgrade,,False,2026-08-26 19:30:52,2026-08-26 21:30:52
+30000879,Common Works - New Business,default,closedlost,9550,205,9004176,2026-08-14 15:16:19,2026-09-05,newbusiness,Self-serve upgrade,Timing,False,2026-09-05 20:50:37,2026-09-05 22:50:37
+30000880,North Kitchen - New Business,default,closedlost,8650,204,9002651,2026-08-14 16:58:50,2026-09-02,newbusiness,Partner,Price,False,2026-09-02 15:16:09,2026-09-02 17:16:09
+30000881,Field Garden - New Business,default,closedlost,5000,204,9002957,2026-08-15 18:38:32,2026-08-19,newbusiness,Inbound demo request,No decision,False,2026-08-19 18:06:03,2026-08-19 20:06:03
+30000882,Open Radio - New Business,default,closedlost,8700,203,9002850,2026-08-15 19:14:18,2026-08-19,newbusiness,Inbound demo request,No decision,False,2026-08-19 22:34:15,2026-08-20 00:34:15
+30000883,Quiet Room Co - New Business,default,closedlost,13000,204,9000584,2026-08-16 21:11:36,2026-08-24,newbusiness,Outbound,Went with competitor,False,2026-09-08 00:23:13,2026-09-08 02:23:13
+30000884,Honest Radio - New Business,default,closedlost,4150,201,9003252,2026-08-17 14:07:07,2026-08-26,newbusiness,Self-serve upgrade,Unresponsive,False,2026-08-26 18:51:08,2026-08-26 20:51:08
+30000885,Studio Radio - New Business,default,closedwon,4150,201,9002665,2026-08-18 18:19:29,2026-10-06,newbusiness,Self-serve upgrade,,False,2026-10-06 20:57:57,2026-10-06 22:57:57
+30000886,Paper Supply Co - New Business,default,closedlost,11850,206,9000581,2026-08-18 22:58:47,2026-08-24,newbusiness,Webinar,Missing feature,False,2026-08-24 22:39:35,2026-08-25 00:39:35
+30000887,Kind Kitchen - New Business,default,closedlost,20900,203,9002962,2026-08-20 14:53:53,2026-10-21,newbusiness,Inbound demo request,No decision,False,2026-10-21 20:51:33,2026-10-21 22:51:33
+30000888,Bright Notes Co - New Business,default,closedwon,3300,205,9001354,2026-08-21 20:42:15,2026-09-20,newbusiness,Inbound demo request,,False,2026-10-05 01:52:58,2026-10-05 03:52:58
+30000889,Golden Notes Media - New Business,default,closedlost,31150,201,9000028,2026-08-21 21:52:18,2026-09-17,newbusiness,Outbound,Unresponsive,False,2026-09-17 14:09:07,2026-09-17 16:09:07
+30000890,Early Radio Studio - New Business,default,closedlost,2100,205,9002243,2026-08-22 17:09:10,2026-08-31,newbusiness,Inbound demo request,Price,False,2026-08-31 19:12:17,2026-08-31 21:12:17
+30000891,Kind Letters - New Business,default,closedlost,16500,204,9002529,2026-08-23 20:53:57,2026-10-05,newbusiness,Inbound demo request,Price,False,2026-10-05 14:56:40,2026-10-05 16:56:40
+30000892,Open Weekly Media - New Business,default,closedlost,8400,205,9002874,2026-08-24 14:12:47,2026-09-11,newbusiness,Inbound demo request,Timing,False,2026-09-11 18:37:09,2026-09-11 20:37:09
+30000893,Bright Notes - New Business,default,closedwon,17150,201,9000115,2026-08-25 14:37:37,2026-09-28,newbusiness,Inbound demo request,,False,2026-10-19 21:11:33,2026-10-19 23:11:33
+30000894,Salt Works - New Business,default,closedlost,9150,204,9003689,2026-08-28 22:13:10,2026-09-18,newbusiness,Inbound demo request,Timing,False,2026-09-18 15:05:01,2026-09-18 17:05:01
+30000895,Honest Radio Studio - New Business,default,closedwon,15650,205,9002460,2026-08-28 16:50:00,2026-10-20,newbusiness,Self-serve upgrade,,False,2026-10-20 16:57:37,2026-10-20 18:57:37
+30000896,Field Academy - New Business,default,closedlost,3850,205,9002048,2026-08-29 22:34:10,2026-11-15,newbusiness,Self-serve upgrade,Missing feature,False,2026-11-15 22:42:13,2026-11-16 00:42:13
+30000897,Golden Society HQ - New Business,default,closedlost,10600,204,9002747,2026-09-01 22:29:20,2026-09-03,newbusiness,Self-serve upgrade,No decision,False,2026-09-03 13:42:14,2026-09-03 15:42:14
+30000898,Open Weekly - New Business,default,closedlost,15250,201,9003795,2026-09-01 17:46:10,2026-09-10,newbusiness,Referral,Price,False,2026-09-10 16:49:01,2026-09-10 18:49:01
+30000899,Bright Press - New Business,default,closedwon,39350,203,9003089,2026-09-02 16:17:35,2026-11-13,newbusiness,Referral,,False,2026-11-13 14:19:42,2026-11-13 16:19:42
+30000900,Studio House HQ - New Business,default,closedwon,10850,206,9001195,2026-09-03 14:56:20,2026-09-12,newbusiness,Inbound demo request,,False,2026-10-08 18:09:16,2026-10-08 20:09:16
+30000901,Little Weekly - New Business,default,closedlost,4800,204,9000550,2026-09-03 21:36:51,2026-09-09,newbusiness,Inbound demo request,Went with competitor,False,2026-09-09 21:59:09,2026-09-09 23:59:09
+30000902,North Letters Studio - New Business,default,closedlost,8900,206,9001814,2026-09-03 16:00:20,2026-09-12,newbusiness,Self-serve upgrade,Unresponsive,False,2026-09-12 14:42:47,2026-09-12 16:42:47
+30000903,True Collective Co - New Business,default,closedlost,48850,203,9003759,2026-09-04 14:28:26,2026-10-07,newbusiness,Self-serve upgrade,Unresponsive,False,2026-10-07 18:34:41,2026-10-07 20:34:41
+30000904,Slow Journal Media - New Business,default,closedlost,2500,206,9000586,2026-09-05 19:49:32,2026-09-14,newbusiness,Partner,Went with competitor,False,2026-09-14 18:07:54,2026-09-14 20:07:54
+30000905,Common Press Media - New Business,default,closedlost,3750,203,9000959,2026-09-06 15:47:34,2026-09-19,newbusiness,Self-serve upgrade,No decision,False,2026-09-19 21:37:19,2026-09-19 23:37:19
+30000906,Common Supply HQ - New Business,default,closedwon,3750,205,9001502,2026-09-06 14:22:18,2026-10-01,newbusiness,Outbound,,False,2026-10-17 03:34:17,2026-10-17 05:34:17
+30000907,True Craft - New Business,default,closedlost,6200,205,9000099,2026-09-07 15:31:34,2026-09-12,newbusiness,Self-serve upgrade,Timing,False,2026-09-12 20:20:53,2026-09-12 22:20:53
+30000908,North House Studio - New Business,default,closedlost,25050,204,9002024,2026-09-08 13:37:17,2026-09-12,newbusiness,Inbound demo request,Went with competitor,False,2026-09-12 18:38:01,2026-09-12 20:38:01
+30000909,North Notes - New Business,default,closedlost,8750,204,9002090,2026-09-09 21:05:50,2026-10-04,newbusiness,Referral,Timing,False,2026-10-04 19:51:29,2026-10-04 21:51:29
+30000910,Honest Letters Studio - New Business,default,closedwon,22000,204,9002996,2026-09-09 22:14:11,2026-09-27,newbusiness,Inbound demo request,,False,2026-09-27 18:30:59,2026-09-27 20:30:59
+30000911,Common Sessions - New Business,default,closedlost,2100,201,9002760,2026-09-10 17:53:44,2026-09-24,newbusiness,Self-serve upgrade,Price,False,2026-09-24 19:05:04,2026-09-24 21:05:04
+30000912,Honest Craft Media - New Business,default,closedlost,18000,203,9000252,2026-09-10 14:26:27,2026-09-13,newbusiness,Self-serve upgrade,Missing feature,False,2026-09-13 18:20:59,2026-09-13 20:20:59
+30000913,Early Lab Co - New Business,default,closedlost,35050,203,9002325,2026-09-11 15:06:01,2026-10-23,newbusiness,Inbound demo request,Went with competitor,False,2026-10-23 22:17:28,2026-10-24 00:17:28
+30000914,Quiet Kitchen HQ - New Business,default,closedlost,14750,203,9001588,2026-09-11 19:41:02,2026-09-14,newbusiness,Inbound demo request,Price,False,2026-09-14 22:58:40,2026-09-15 00:58:40
+30000915,Maple Journal HQ - New Business,default,closedlost,7150,201,9000351,2026-09-12 17:09:18,2026-10-29,newbusiness,Inbound demo request,Unresponsive,False,2026-10-29 16:06:39,2026-10-29 18:06:39
+30000916,Golden Notes Studio - New Business,default,closedlost,4200,206,9003090,2026-09-12 15:01:09,2026-09-24,newbusiness,Self-serve upgrade,Went with competitor,False,2026-09-24 18:53:01,2026-09-24 20:53:01
+30000917,Honest Academy Media - New Business,default,closedlost,6500,206,9002407,2026-09-14 20:39:58,2026-09-26,newbusiness,Inbound demo request,Missing feature,False,2026-09-26 19:52:11,2026-09-26 21:52:11
+30000918,Paper Room Media - New Business,default,closedlost,12350,201,9001131,2026-09-15 18:45:35,2026-10-01,newbusiness,Referral,Timing,False,2026-10-01 20:29:52,2026-10-01 22:29:52
+30000919,Early Weekly - New Business,default,closedlost,53000,205,9000640,2026-09-15 13:33:56,2026-10-04,newbusiness,Outbound,No decision,False,2026-10-04 16:42:29,2026-10-04 18:42:29
+30000920,Slow Press Media - New Business,default,closedlost,1750,204,9001990,2026-09-16 13:27:12,2026-10-14,newbusiness,Self-serve upgrade,Missing feature,False,2026-10-14 17:45:20,2026-10-14 19:45:20
+30000921,Quiet Radio - New Business,default,closedlost,9750,206,9001109,2026-09-17 22:00:11,2026-09-25,newbusiness,Referral,Unresponsive,False,2026-09-25 17:43:23,2026-09-25 19:43:23
+30000922,Paper Sessions Media - New Business,default,closedlost,4150,205,9003528,2026-09-17 15:40:01,2026-09-24,newbusiness,Inbound demo request,Price,False,2026-09-24 21:14:50,2026-09-24 23:14:50
+30000923,Open Notes Co - New Business,default,closedlost,12850,206,9001607,2026-09-17 15:56:02,2026-11-06,newbusiness,Self-serve upgrade,Missing feature,False,2026-11-06 16:17:12,2026-11-06 18:17:12
+30000924,North Supply - New Business,default,closedlost,2750,201,9000294,2026-09-18 21:16:50,2026-09-24,newbusiness,Referral,No decision,False,2026-09-24 22:54:25,2026-09-25 00:54:25
+30000925,Iron House - New Business,default,closedwon,9850,203,9000055,2026-09-18 13:10:36,2026-10-24,newbusiness,Referral,,False,2026-10-24 21:47:45,2026-10-24 23:47:45
+30000926,Honest Academy - New Business,default,closedwon,2650,203,9003706,2026-09-19 15:34:21,2026-11-12,newbusiness,Outbound,,False,2026-11-12 19:06:35,2026-11-12 21:06:35
+30000927,Wild Letters - New Business,default,closedlost,54700,201,9003245,2026-09-23 14:43:23,2026-10-27,newbusiness,Outbound,Missing feature,False,2026-10-27 19:59:49,2026-10-27 21:59:49
+30000928,Wild Press - New Business,default,presentationscheduled,4050,204,9002854,2026-09-23 19:44:47,2026-12-12,newbusiness,Self-serve upgrade,,False,2026-11-12 18:34:17,2026-11-12 20:34:17
+30000929,Little Daily Media - New Business,default,closedlost,3350,205,9002374,2026-09-24 20:17:03,2026-10-06,newbusiness,Outbound,Unresponsive,False,2026-10-06 15:37:24,2026-10-06 17:37:24
+30000930,Blue Letters Media - New Business,default,closedlost,2900,206,9000771,2026-09-25 22:28:39,2026-10-03,newbusiness,Outbound,Went with competitor,False,2026-10-03 16:33:01,2026-10-03 18:33:01
+30000931,True Weekly - New Business,default,closedwon,3850,204,9002107,2026-09-26 17:42:01,2026-10-28,newbusiness,Inbound demo request,,False,2026-10-28 22:07:56,2026-10-29 00:07:56
+30000932,Slow Supply - New Business,default,closedlost,5700,203,9000118,2026-09-26 16:50:40,2026-10-21,newbusiness,Inbound demo request,Unresponsive,False,2026-10-21 21:54:22,2026-10-21 23:54:22
+30000933,Blue Works - New Business,default,decisionmakerboughtin,1850,203,9002923,2026-09-30 20:25:32,2026-11-14,newbusiness,Referral,,False,2026-11-03 15:30:24,2026-11-03 17:30:24
+30000934,Salt Press HQ - New Business,default,contractsent,48050,204,9001266,2026-10-01 21:40:39,2026-12-19,newbusiness,Referral,,False,2026-11-19 14:06:46,2026-11-19 16:06:46
+30000935,Common Room HQ - New Business,default,presentationscheduled,27900,201,9001056,2026-10-01 22:13:11,2026-11-15,newbusiness,Inbound demo request,,False,2026-11-08 18:23:04,2026-11-08 20:23:04
+30000936,Bright Kitchen Studio - New Business,default,closedlost,9550,206,9001087,2026-10-01 18:09:46,2026-11-07,newbusiness,Self-serve upgrade,Went with competitor,False,2026-11-07 21:39:07,2026-11-07 23:39:07
+30000937,Honest Collective - New Business,default,decisionmakerboughtin,13350,205,9003435,2026-10-01 16:38:12,2026-11-15,newbusiness,Self-serve upgrade,,False,2026-11-02 22:10:31,2026-11-03 00:10:31
+30000938,True Room Co - New Business,default,closedwon,2550,204,9004185,2026-10-01 16:15:00,2026-10-30,newbusiness,Self-serve upgrade,,False,2026-10-30 16:05:40,2026-10-30 18:05:40
+30000939,Honest Academy Co - New Business,default,closedlost,13650,203,9001177,2026-10-02 22:41:49,2026-11-18,newbusiness,Inbound demo request,Price,False,2026-11-18 18:58:59,2026-11-18 20:58:59
+30000940,Salt Collective Co - New Business,default,decisionmakerboughtin,4700,203,9000721,2026-10-02 16:57:29,2026-11-16,newbusiness,Outbound,,False,2026-11-05 19:53:02,2026-11-05 21:53:02
+30000941,Studio Works HQ - New Business,default,closedlost,18450,206,9002323,2026-10-03 20:03:19,2026-11-12,newbusiness,Referral,Missing feature,True,2026-11-12 13:57:01,2026-11-12 15:57:01
+30000942,Kind Sessions - New Business,default,closedlost,7900,204,9004194,2026-10-03 20:33:43,2026-10-11,newbusiness,Webinar,Unresponsive,False,2026-10-11 16:33:37,2026-10-11 18:33:37
+30000943,Blue Room Media - New Business,default,closedlost,10900,203,9000850,2026-10-04 15:40:33,2026-11-14,newbusiness,Inbound demo request,Unresponsive,False,2026-11-14 22:01:00,2026-11-15 00:01:00
+30000944,Maple Press Co - New Business,default,closedlost,31050,205,9000689,2026-10-04 13:28:33,2026-11-12,newbusiness,Referral,Price,False,2026-11-12 21:31:03,2026-11-12 23:31:03
+30000945,Open Lab Studio - New Business,default,closedlost,49200,203,9000311,2026-10-04 14:33:48,2026-10-17,newbusiness,Inbound demo request,Missing feature,False,2026-10-17 17:22:05,2026-10-17 19:22:05
+30000946,Field Daily - New Business,default,closedlost,3850,204,9002783,2026-10-04 16:07:52,2026-11-05,newbusiness,Self-serve upgrade,No decision,False,2026-11-05 21:29:07,2026-11-05 23:29:07
+30000947,Wild Journal - New Business,default,decisionmakerboughtin,41850,205,9000187,2026-10-07 15:12:01,2026-11-21,newbusiness,Referral,,False,2026-11-08 16:42:40,2026-11-08 18:42:40
+30000948,Quiet Academy Studio - New Business,default,closedlost,10350,206,9000575,2026-10-07 20:40:23,2026-11-02,newbusiness,Inbound demo request,Missing feature,False,2026-11-02 17:47:05,2026-11-02 19:47:05
+30000949,Paper Works - New Business,default,closedlost,1650,203,9000709,2026-10-09 22:15:26,2026-10-12,newbusiness,Outbound,Timing,False,2026-10-24 00:15:48,2026-10-24 02:15:48
+30000950,Paper Journal Media - New Business,default,closedlost,2800,205,9000430,2026-10-09 13:53:28,2026-10-21,newbusiness,Outbound,Unresponsive,False,2026-10-21 22:45:38,2026-10-22 00:45:38
+30000951,Iron Kitchen - New Business,default,contractsent,33400,205,9002841,2026-10-10 15:50:05,2026-11-24,newbusiness,Partner,,False,2026-11-16 20:12:58,2026-11-16 22:12:58
+30000952,Kind Journal - New Business,default,presentationscheduled,5700,203,9003508,2026-10-10 20:03:45,2026-11-24,newbusiness,Outbound,,False,2026-10-29 18:39:52,2026-10-29 20:39:52
+30000953,Iron Garden - New Business,default,closedlost,2350,204,9002785,2026-10-11 14:28:12,2026-10-17,newbusiness,Inbound demo request,No decision,False,2026-10-17 21:37:36,2026-10-17 23:37:36
+30000954,Honest Press Media - New Business,default,closedlost,12400,204,9001207,2026-10-11 14:16:16,2026-10-13,newbusiness,Inbound demo request,Price,False,2026-10-13 17:39:58,2026-10-13 19:39:58
+30000955,Bright Sessions Studio - New Business,default,closedlost,4150,205,9000855,2026-10-11 18:34:38,2026-10-25,newbusiness,Outbound,Price,False,2026-10-25 21:56:47,2026-10-25 23:56:47
+30000956,Little Craft Co - New Business,default,closedlost,8150,205,9002489,2026-10-12 22:46:34,2026-11-14,newbusiness,Inbound demo request,Timing,False,2026-11-14 20:22:49,2026-11-14 22:22:49
+30000957,Paper Club HQ - New Business,default,closedlost,2550,201,9000743,2026-10-12 22:22:22,2026-10-25,newbusiness,Inbound demo request,Unresponsive,False,2026-10-25 21:14:38,2026-10-25 23:14:38
+30000958,Salt Room Studio - New Business,default,closedlost,3000,204,9000323,2026-10-12 17:33:24,2026-10-19,newbusiness,Inbound demo request,Price,False,2026-10-19 13:51:36,2026-10-19 15:51:36
+30000959,Salt Lab - New Business,default,closedlost,3400,205,9003440,2026-10-12 22:39:11,2026-11-04,newbusiness,Self-serve upgrade,Price,False,2026-11-04 13:40:37,2026-11-04 15:40:37
+30000960,True Lab Studio - New Business,default,closedwon,23550,205,9002341,2026-10-12 16:12:38,2026-11-08,newbusiness,Inbound demo request,,False,2026-11-08 19:36:18,2026-11-08 21:36:18
+30000961,Iron Press - New Business,default,closedlost,4950,201,9002117,2026-10-13 17:07:19,2026-10-23,newbusiness,Webinar,Unresponsive,False,2026-10-23 13:10:56,2026-10-23 15:10:56
+30000962,North Lab Media - New Business,default,closedlost,27450,205,9002467,2026-10-13 18:32:22,2026-10-20,newbusiness,Inbound demo request,Went with competitor,False,2026-10-20 15:25:37,2026-10-20 17:25:37
+30000963,Open Club HQ - New Business,default,decisionmakerboughtin,5350,206,9003726,2026-10-14 13:18:51,2026-11-28,newbusiness,Self-serve upgrade,,False,2026-11-01 21:25:23,2026-11-01 23:25:23
+30000964,North Press - New Business,default,closedlost,11550,206,9002384,2026-10-14 18:25:03,2026-10-26,newbusiness,Inbound demo request,Missing feature,False,2026-10-26 14:24:22,2026-10-26 16:24:22
+30000965,Little Lab HQ - New Business,default,closedlost,77000,205,9001710,2026-10-15 13:07:36,2026-11-09,newbusiness,Inbound demo request,Timing,False,2026-11-09 19:20:57,2026-11-09 21:20:57
+30000966,Bright Academy Media - New Business,default,closedlost,9150,205,9000572,2026-10-15 17:56:04,2026-10-23,newbusiness,Referral,Unresponsive,False,2026-10-23 20:41:14,2026-10-23 22:41:14
+30000967,Paper Kitchen Co - New Business,default,closedlost,26350,201,9001700,2026-10-15 13:46:09,2026-10-27,newbusiness,Outbound,No decision,False,2026-10-27 13:08:21,2026-10-27 15:08:21
+30000968,Honest Kitchen - New Business,default,closedlost,8500,203,9002381,2026-10-16 20:17:32,2026-10-22,newbusiness,Inbound demo request,Timing,False,2026-10-22 15:59:49,2026-10-22 17:59:49
+30000969,True Academy Studio - New Business,default,closedlost,62050,204,9002472,2026-10-16 18:16:10,2026-10-29,newbusiness,Self-serve upgrade,No decision,False,2026-10-29 22:58:55,2026-10-30 00:58:55
+30000970,Early Club Co - New Business,default,closedlost,8750,206,9001895,2026-10-16 16:52:00,2026-10-28,newbusiness,Self-serve upgrade,Unresponsive,False,2026-10-28 18:54:30,2026-10-28 20:54:30
+30000971,Little Weekly Studio - New Business,default,decisionmakerboughtin,8550,205,9003609,2026-10-17 14:14:43,2026-12-01,newbusiness,Self-serve upgrade,,False,2026-11-10 18:39:19,2026-11-10 20:39:19
+30000972,Wild Journal HQ - New Business,default,closedwon,57000,206,9001977,2026-10-17 21:14:14,2026-11-13,newbusiness,Partner,,False,2026-11-13 15:05:24,2026-11-13 17:05:24
+30000973,True Sessions Co - New Business,default,presentationscheduled,18200,204,9001520,2026-10-17 20:28:09,2026-12-01,newbusiness,Referral,,False,2026-10-30 19:03:11,2026-10-30 21:03:11
+30000974,Blue Press - New Business,default,closedlost,15850,204,9003337,2026-10-18 17:53:01,2026-10-22,newbusiness,Inbound demo request,No decision,False,2026-10-22 14:29:27,2026-10-22 16:29:27
+30000975,Maple Collective Studio - New Business,default,closedlost,38650,204,9000702,2026-10-20 15:44:12,2026-11-05,newbusiness,Outbound,Price,False,2026-11-05 17:17:06,2026-11-05 19:17:06
+30000976,Honest Room HQ - New Business,default,presentationscheduled,8950,201,9000255,2026-10-20 18:48:25,2026-12-04,newbusiness,Outbound,,False,2026-10-31 22:46:19,2026-11-01 00:46:19
+30000977,Iron Academy Media - New Business,default,closedlost,6750,204,9004099,2026-10-21 19:50:20,2026-10-28,newbusiness,Outbound,Missing feature,False,2026-10-28 13:36:52,2026-10-28 15:36:52
+30000978,Slow Kitchen Media - New Business,default,closedlost,20550,204,9000366,2026-10-21 15:14:52,2026-11-03,newbusiness,Inbound demo request,Missing feature,False,2026-11-03 22:18:29,2026-11-04 00:18:29
+30000979,Iron Club - New Business,default,presentationscheduled,18850,203,9002363,2026-10-22 14:14:47,2026-12-06,newbusiness,Webinar,,False,2026-11-07 15:30:24,2026-11-07 17:30:24
+30000980,Blue Craft HQ - New Business,default,presentationscheduled,5550,206,9003901,2026-10-22 21:23:02,2026-12-06,newbusiness,Webinar,,False,2026-11-08 20:46:10,2026-11-08 22:46:10
+30000981,Blue Collective Co - New Business,default,qualifiedtobuy,7050,203,9001945,2026-10-24 16:43:17,2026-12-08,newbusiness,Self-serve upgrade,,False,2026-11-16 20:43:13,2026-11-16 22:43:13
+30000982,Golden House - New Business,default,closedlost,2400,203,9003057,2026-10-24 17:48:48,2026-11-12,newbusiness,Outbound,Unresponsive,False,2026-11-12 17:12:16,2026-11-12 19:12:16
+30000983,Early Kitchen HQ - New Business,default,presentationscheduled,2200,204,9001217,2026-10-25 20:52:26,2026-12-09,newbusiness,Inbound demo request,,False,2026-11-14 19:31:51,2026-11-14 21:31:51
+30000984,Iron Sessions Co - New Business,default,presentationscheduled,1550,203,9000981,2026-10-25 21:11:24,2026-12-09,newbusiness,Partner,,False,2026-11-04 19:10:50,2026-11-04 21:10:50
+30000985,Early Journal Media - New Business,default,closedlost,39400,206,9000699,2026-10-26 20:16:07,2026-11-04,newbusiness,Outbound,Missing feature,False,2026-11-04 16:47:23,2026-11-04 18:47:23
+30000986,Bright Press HQ - New Business,default,closedlost,2600,205,9001451,2026-10-28 21:37:39,2026-11-13,newbusiness,Inbound demo request,Unresponsive,False,2026-11-13 18:20:10,2026-11-13 20:20:10
+30000987,Quiet Weekly - New Business,default,qualifiedtobuy,3250,203,9003865,2026-10-28 17:00:54,2026-12-12,newbusiness,Self-serve upgrade,,False,2026-11-16 22:15:17,2026-11-17 00:15:17
+30000988,Studio Letters Co - New Business,default,decisionmakerboughtin,3250,206,9000536,2026-10-29 21:48:55,2026-12-13,newbusiness,Inbound demo request,,False,2026-11-16 15:07:35,2026-11-16 17:07:35
+30000989,Honest Letters Media - New Business,default,closedlost,2600,206,9001738,2026-10-29 15:43:57,2026-10-31,newbusiness,Inbound demo request,Missing feature,False,2026-10-31 14:30:36,2026-10-31 16:30:36
+30000990,Common Weekly - New Business,default,qualifiedtobuy,9200,206,9002600,2026-10-30 22:41:56,2026-12-14,newbusiness,Webinar,,False,2026-11-17 20:15:46,2026-11-17 22:15:46
+30000991,Little House - New Business,default,decisionmakerboughtin,2550,206,9000722,2026-10-31 17:12:09,2026-12-15,newbusiness,Referral,,False,2026-11-16 19:08:53,2026-11-16 21:08:53
+30000992,North Lab - New Business,default,closedlost,11150,205,9003108,2026-10-31 21:40:49,2026-11-18,newbusiness,Self-serve upgrade,Price,False,2026-11-18 15:39:08,2026-11-18 17:39:08
+30000993,Kind Supply Co - New Business,default,closedlost,13050,201,9001742,2026-10-31 15:52:28,2026-11-11,newbusiness,Inbound demo request,Went with competitor,False,2026-11-11 16:21:44,2026-11-11 18:21:44
+30000994,Maple Kitchen Studio - New Business,default,presentationscheduled,62850,204,9000731,2026-10-31 20:38:33,2026-12-15,newbusiness,Outbound,,False,2026-11-15 15:27:57,2026-11-15 17:27:57
+30000995,Field Press Co - New Business,default,closedlost,3800,206,9000785,2026-11-02 18:41:09,2026-11-06,newbusiness,Self-serve upgrade,Unresponsive,False,2026-11-06 13:53:24,2026-11-06 15:53:24
+30000996,Bright Room - New Business,default,closedlost,3000,206,9003138,2026-11-02 18:55:47,2026-11-04,newbusiness,Inbound demo request,Unresponsive,False,2026-11-04 16:31:27,2026-11-04 18:31:27
+30000997,Little Kitchen - New Business,default,closedlost,2950,203,9000231,2026-11-03 22:38:42,2026-10-21,newbusiness,Self-serve upgrade,Missing feature,False,2026-11-05 21:03:33,2026-11-05 23:03:33
+30000998,Salt House - New Business,default,closedlost,9750,204,9003190,2026-11-04 16:33:01,2026-11-12,newbusiness,Inbound demo request,Price,False,2026-11-12 14:56:29,2026-11-12 16:56:29
+30000999,Studio House - New Business,default,presentationscheduled,1550,203,9002989,2026-11-05 21:31:39,2026-12-20,newbusiness,Self-serve upgrade,,False,2026-11-14 13:11:14,2026-11-14 15:11:14
+30001000,Common Kitchen Co - New Business,default,presentationscheduled,57100,203,9000953,2026-11-05 17:00:54,2026-12-20,newbusiness,Self-serve upgrade,,False,2026-11-12 17:45:36,2026-11-12 19:45:36
+30001001,Studio Notes HQ - New Business,default,qualifiedtobuy,3050,205,9001374,2026-11-06 13:05:09,2026-12-21,newbusiness,Self-serve upgrade,,False,2026-11-17 15:43:30,2026-11-17 17:43:30
+30001002,Blue Journal - New Business,default,qualifiedtobuy,15150,204,9001962,2026-11-06 15:12:11,2026-12-21,newbusiness,Inbound demo request,,False,2026-11-13 15:14:32,2026-11-13 17:14:32
+30001003,Honest Craft - New Business,default,qualifiedtobuy,2250,205,9002434,2026-11-06 15:53:42,2026-12-21,newbusiness,Self-serve upgrade,,False,2026-11-06 15:53:42,2026-11-06 17:53:42
+30001004,Golden Notes - New Business,default,decisionmakerboughtin,5100,201,9003013,2026-11-08 16:50:54,2026-12-23,newbusiness,Webinar,,False,2026-11-18 20:47:51,2026-11-18 22:47:51
+30001005,North Supply Studio - New Business,default,presentationscheduled,47600,205,9003969,2026-11-09 13:17:05,2026-12-24,newbusiness,Self-serve upgrade,,False,2026-11-14 20:07:45,2026-11-14 22:07:45
+30001006,Quiet Garden - New Business,default,qualifiedtobuy,6300,205,9003513,2026-11-09 18:33:16,2026-12-24,newbusiness,Inbound demo request,,False,2026-11-18 14:46:37,2026-11-18 16:46:37
+30001007,Bright Letters - New Business,default,presentationscheduled,8650,206,9000160,2026-11-10 15:04:58,2026-12-25,newbusiness,Outbound,,False,2026-11-18 17:27:23,2026-11-18 19:27:23
+30001008,Little Lab - New Business,default,appointmentscheduled,2150,205,9003479,2026-11-10 13:01:05,2026-12-25,newbusiness,Inbound demo request,,False,2026-11-15 18:22:44,2026-11-15 20:22:44
+30001009,Paper Letters Studio - New Business,default,closedlost,1750,201,9001165,2026-11-11 19:20:36,2026-11-19,newbusiness,Self-serve upgrade,Went with competitor,False,2026-11-19 15:45:43,2026-11-19 17:45:43
+30001010,Maple Press Studio - New Business,default,appointmentscheduled,8350,205,9001879,2026-11-12 22:46:34,2026-12-27,newbusiness,Inbound demo request,,False,2026-11-12 22:46:34,2026-11-13 00:46:34
+30001011,Little Daily Co - New Business,default,qualifiedtobuy,4100,203,9000387,2026-11-12 13:27:42,2026-12-27,newbusiness,Inbound demo request,,False,2026-11-16 14:02:12,2026-11-16 16:02:12
+30001012,Slow Letters - New Business,default,qualifiedtobuy,10150,204,9001222,2026-11-14 20:34:26,2026-12-29,newbusiness,Self-serve upgrade,,False,2026-11-14 20:34:26,2026-11-14 22:34:26
+30001013,Honest Press - New Business,default,qualifiedtobuy,19800,205,9002231,2026-11-15 18:43:30,2026-12-30,newbusiness,Inbound demo request,,False,2026-11-19 18:03:51,2026-11-19 20:03:51
+30001014,Salt Letters HQ - New Business,default,qualifiedtobuy,7800,203,9001778,2026-11-15 13:34:16,2026-12-30,newbusiness,Inbound demo request,,False,2026-11-15 13:34:16,2026-11-15 15:34:16
+30001015,Slow Society Co - New Business,default,qualifiedtobuy,,201,9001234,2026-11-15 18:01:40,2026-12-30,newbusiness,Inbound demo request,,False,2026-11-15 18:01:40,2026-11-15 20:01:40
+30001016,Wild Garden Studio - New Business,default,appointmentscheduled,2500,206,9000551,2026-11-16 17:07:30,2026-12-31,newbusiness,Referral,,False,2026-11-16 17:07:30,2026-11-16 19:07:30
+30001017,Bright Daily - New Business,default,appointmentscheduled,,206,9002642,2026-11-17 19:29:48,2027-01-01,newbusiness,Inbound demo request,,False,2026-11-17 19:29:48,2026-11-17 21:29:48
+30001018,Field Club Media - New Business,default,appointmentscheduled,,203,9001972,2026-11-17 16:03:20,2027-01-01,newbusiness,Referral,,False,2026-11-17 16:03:20,2026-11-17 18:03:20
+30001019,Common Collective Co - New Business,default,qualifiedtobuy,3750,206,9000682,2026-11-18 14:19:08,2027-01-02,newbusiness,Self-serve upgrade,,False,2026-11-19 13:17:02,2026-11-19 15:17:02
+30001020,Early Works - New Business,default,appointmentscheduled,14900,206,9000070,2026-11-19 14:10:10,2027-01-03,newbusiness,Referral,,False,2026-11-19 14:10:10,2026-11-19 16:10:10
+30001021,Early Sessions Co - New Business,default,appointmentscheduled,9100,206,9001433,2026-11-19 21:15:00,2027-01-03,newbusiness,Inbound demo request,,False,2026-11-19 21:15:00,2026-11-19 23:15:00

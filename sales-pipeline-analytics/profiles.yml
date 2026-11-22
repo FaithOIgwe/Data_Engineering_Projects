@@ -1,0 +1,19 @@
+# Local profile: runs the whole project on DuckDB so anyone can clone and build it.
+# The SQL sticks to dbt cross-database macros, so it also runs on Redshift (see the
+# commented target below) with the same models.
+sales_pipeline_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "sales_pipeline.duckdb"
+      threads: 4
+    # redshift:
+    #   type: redshift
+    #   host: "{{ env_var('REDSHIFT_HOST') }}"
+    #   user: "{{ env_var('REDSHIFT_USER') }}"
+    #   password: "{{ env_var('REDSHIFT_PASSWORD') }}"
+    #   port: 5439
+    #   dbname: analytics
+    #   schema: dbt_faith
+    #   threads: 8

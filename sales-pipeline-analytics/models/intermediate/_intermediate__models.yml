@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: int_deals__active
+    description: Deals that have not been deleted in HubSpot.
+  - name: int_deal_stage_history
+    description: One row per deal per stage visit, with entry/exit timestamps and the type of transition.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: ['deal_id', 'visit_number']
+      - no_overlapping_ranges:
+          arguments:
+            partition_by: deal_id
+            valid_from: entered_at
+            valid_to: exited_at
+    columns:
+      - name: transition_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['created', 'advance', 'skip', 'regression', 'won', 'lost']
+  - name: int_deal_owner_history
+    description: One row per deal per ownership window.
+    data_tests:
+      - no_overlapping_ranges:
+          arguments:
+            partition_by: deal_id
+  - name: int_deal_property_snapshots
+    description: Amount and close-date validity windows per deal.
+  - name: int_purchases__usd
+    description: Purchases with USD amounts at month-average FX.
+    columns:
+      - name: usd_per_unit
+        description: Every purchase must find an FX rate; a null here means the FX seed is missing a month.
+        data_tests: [not_null]

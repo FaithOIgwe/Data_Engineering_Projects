@@ -1,0 +1,257 @@
+version: 2
+
+# dbt Semantic Layer (MetricFlow) definitions. These are the governed definitions that BI tools
+# and AI agents should query instead of writing their own SQL against the marts. Descriptions are
+# written to be read by an LLM: they say what the metric means, which date it is reported on,
+# and what it excludes.
+
+semantic_models:
+  - name: deals
+    description: Deals from fct_deals, one row per deal. Default time dimension is the HubSpot close date.
+    model: ref('fct_deals')
+    defaults:
+      agg_time_dimension: close_date
+    entities:
+      - name: deal
+        type: primary
+        expr: deal_id
+      - name: company
+        type: foreign
+        expr: company_id
+      - name: owner
+        type: foreign
+        expr: current_owner_id
+    dimensions:
+      - name: close_date
+        type: time
+        type_params: {time_granularity: day}
+      - name: created_date
+        type: time
+        type_params: {time_granularity: day}
+      - name: deal_status
+        type: categorical
+        description: Open, Won or Lost.
+      - name: deal_type
+        type: categorical
+        description: New business or Expansion. Most sales questions mean New business.
+      - name: lead_source
+        type: categorical
+      - name: pipeline_id
+        type: categorical
+      - name: current_stage_label
+        type: categorical
+      - name: closed_lost_reason
+        type: categorical
+      - name: is_stale
+        type: categorical
+    measures:
+      - name: deals_created
+        description: Count of deals, dated by creation.
+        agg: count
+        expr: deal_id
+        agg_time_dimension: created_date
+      - name: pipeline_created_usd
+        description: Sum of amount on deals, dated by creation.
+        agg: sum
+        expr: amount_usd
+        agg_time_dimension: created_date
+      - name: deals_won
+        agg: sum
+        expr: "case when deal_status = 'Won' then 1 else 0 end"
+      - name: deals_closed
+        agg: sum
+        expr: "case when deal_status in ('Won', 'Lost') then 1 else 0 end"
+      - name: bookings_usd
+        description: Amount of won deals, dated by close date.
+        agg: sum
+        expr: won_amount_usd
+      - name: closed_amount_usd
+        agg: sum
+        expr: "case when deal_status in ('Won', 'Lost') then amount_usd else 0 end"
+      - name: sales_cycle_days_avg
+        agg: average
+        expr: sales_cycle_days
+
+  - name: pipeline_daily
+    description: End-of-day open pipeline, one row per open deal per day. Semi-additive over time.
+    model: ref('fct_pipeline_daily')
+    defaults:
+      agg_time_dimension: snapshot_date
+    entities:
+      - name: deal_day
+        type: primary
+        expr: "cast(deal_id as varchar) || '-' || cast(snapshot_date as varchar)"
+      - name: deal
+        type: foreign
+        expr: deal_id
+    dimensions:
+      - name: snapshot_date
+        type: time
+        type_params: {time_granularity: day}
+      - name: stage_label
+        type: categorical
+      - name: pipeline_id
+        type: categorical
+    measures:
+      - name: open_pipeline_usd
+        description: Open pipeline amount on the last day of the period (never summed across days).
+        agg: sum
+        expr: amount_usd
+        non_additive_dimension:
+          name: snapshot_date
+          window_choice: max
+      - name: weighted_open_pipeline_usd
+        agg: sum
+        expr: weighted_amount_usd
+        non_additive_dimension:
+          name: snapshot_date
+          window_choice: max
+      - name: open_deals
+        agg: count
+        expr: deal_id
+        non_additive_dimension:
+          name: snapshot_date
+          window_choice: max
+
+  - name: lead_funnel
+    description: Sales-led funnel by lead cohort month.
+    model: ref('fct_lead_funnel')
+    defaults:
+      agg_time_dimension: lead_cohort_month
+    entities:
+      - name: contact
+        type: primary
+        expr: contact_id
+    dimensions:
+      - name: lead_cohort_month
+        type: time
+        type_params: {time_granularity: month}
+      - name: lead_source
+        type: categorical
+    measures:
+      - name: leads
+        agg: count
+        expr: contact_id
+      - name: mqls
+        agg: sum
+        expr: "case when reached_mql then 1 else 0 end"
+      - name: sqls
+        agg: sum
+        expr: "case when reached_sql then 1 else 0 end"
+      - name: opportunities
+        agg: sum
+        expr: "case when reached_opportunity then 1 else 0 end"
+      - name: customers
+        agg: sum
+        expr: "case when reached_customer then 1 else 0 end"
+
+metrics:
+  - name: deals_created
+    label: Deals created
+    description: Number of deals created in the period.
+    type: simple
+    type_params: {measure: deals_created}
+
+  - name: pipeline_created_usd
+    label: Pipeline created (USD)
+    description: Total amount of deals created in the period. Deals without an amount count as zero.
+    type: simple
+    type_params: {measure: pipeline_created_usd}
+
+  - name: deals_won
+    label: Deals won
+    description: Number of deals won, by HubSpot close date.
+    type: simple
+    type_params: {measure: deals_won}
+
+  - name: deals_closed
+    label: Deals closed
+    description: Won plus lost deals, by HubSpot close date.
+    type: simple
+    type_params: {measure: deals_closed}
+
+  - name: closed_amount_usd
+    label: Closed amount (USD)
+    description: Amount of won plus lost deals, by HubSpot close date.
+    type: simple
+    type_params: {measure: closed_amount_usd}
+
+  - name: opportunities
+    label: Opportunities
+    description: Leads in the cohort that became an opportunity.
+    type: simple
+    type_params: {measure: opportunities}
+
+  - name: customers
+    label: Customers
+    description: Leads in the cohort that became a customer.
+    type: simple
+    type_params: {measure: customers}
+
+  - name: bookings_usd
+    label: Bookings (USD)
+    description: >
+      Total amount of deals won, reported in the month of the HubSpot close date. For new-customer
+      bookings filter deal_type = 'New business'.
+    type: simple
+    type_params: {measure: bookings_usd}
+
+  - name: win_rate
+    label: Win rate
+    description: >
+      Won deals ÷ closed deals (won + lost), by HubSpot close date. Count-based, not amount-based.
+      Open deals are excluded. Use win_rate_by_amount for the value-weighted version.
+    type: ratio
+    type_params:
+      numerator: deals_won
+      denominator: deals_closed
+
+  - name: win_rate_by_amount
+    label: Win rate (by amount)
+    description: Won amount ÷ closed amount, by HubSpot close date.
+    type: ratio
+    type_params:
+      numerator: bookings_usd
+      denominator: closed_amount_usd
+
+  - name: avg_sales_cycle_days
+    label: Average sales cycle (days)
+    description: >
+      Average days from deal creation to won, for deals won in the period. Uses the real time the deal
+      entered Closed Won, not the editable close date.
+    type: simple
+    type_params: {measure: sales_cycle_days_avg}
+    filter: "{{ Dimension('deal__deal_status') }} = 'Won'"
+
+  - name: open_pipeline_usd
+    label: Open pipeline (USD)
+    description: Amount of open deals at the end of the period (last day). Not a sum across days.
+    type: simple
+    type_params: {measure: open_pipeline_usd}
+
+  - name: weighted_open_pipeline_usd
+    label: Weighted open pipeline (USD)
+    description: Open pipeline weighted by each stage's default win probability, at end of period.
+    type: simple
+    type_params: {measure: weighted_open_pipeline_usd}
+
+  - name: leads
+    label: Leads
+    type: simple
+    type_params: {measure: leads}
+
+  - name: lead_to_opportunity_rate
+    label: Lead → opportunity rate
+    description: Share of a month's new leads that ever became an opportunity. Recent cohorts are still maturing.
+    type: ratio
+    type_params:
+      numerator: opportunities
+      denominator: leads
+
+  - name: lead_to_customer_rate
+    label: Lead → customer rate
+    description: Share of a month's new leads that ever became a customer. Recent cohorts are still maturing.
+    type: ratio
+    type_params:
+      numerator: customers
+      denominator: leads
