@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: fct_commerce_orders
+    description: >
+      One row per purchase of a creator's product (test purchases excluded). All money in USD.
+      "Creator earnings" / "commerce revenue" questions should use net_amount_usd and filter
+      is_successful_payment.
+    columns:
+      - name: purchase_id
+        data_tests: [unique, not_null]
+      - name: net_amount_usd
+        description: gross_amount_usd minus refund_amount_usd. Zero for failed payments and fully refunded orders.
+        data_tests: [not_negative]
+      - name: acquisition_channel
+        description: How the selling creator signed up, self_serve or sales_led.
+
+  - name: fct_creator_commerce_monthly
+    description: >
+      One row per creator per month with sales or refunds. Refunds are counted in the month they happen,
+      so a month's net_sales_usd can be negative.
+    columns:
+      - name: creator_month_id
+        data_tests: [unique, not_null]
+
+  - name: dim_creators
+    description: One row per creator account, with sales rollups.
+    columns:
+      - name: creator_id
+        data_tests: [unique, not_null]
+      - name: hubspot_company_id
+        description: Set for sales-led creators, links to dim_companies.
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_companies')
+                field: company_id
