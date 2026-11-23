@@ -22,9 +22,11 @@ jobs:
           cache-dependency-path: product_analytics_dbt/requirements.txt
       - run: pip install -r requirements.txt
       - name: Raw data is reproducible
+        # compare decompressed contents: gzip bytes vary with the zlib version
         run: |
+          for f in ga4_events experiment_exposures; do git show HEAD:product_analytics_dbt/data/raw/$f.csv.gz | gunzip | md5sum > /tmp/$f.committed; done
           make data
-          git diff --exit-code -- data/raw/
+          for f in ga4_events experiment_exposures; do gunzip -c data/raw/$f.csv.gz | md5sum | diff - /tmp/$f.committed; done
       - name: dbt build (unit tests, models, data tests)
         run: make build
       - name: Incremental build equals full refresh (late-arriving events)
