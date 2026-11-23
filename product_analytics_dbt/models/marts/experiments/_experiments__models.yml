@@ -1,0 +1,54 @@
+version: 2
+
+models:
+  - name: fct_experiment_assignments
+    description: >
+      One row per experiment per device. analysis_variant is null for contaminated users (seen in
+      both arms), who are excluded from the primary readout. Outcomes are measured for 14 days
+      from first exposure.
+    columns:
+      - name: is_contaminated
+        description: The device was logged in both control and treatment.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: ['experiment_id', 'user_pseudo_id']
+      - expression_is_true:
+          arguments:
+            expression: "analysis_variant is null"
+          config:
+            where: "is_contaminated"
+
+  - name: rpt_experiment_readout
+    description: >
+      Experiment results per metric and analysis population ('primary' excludes contaminated users;
+      'first_exposure' is a sensitivity check). Check has_sample_ratio_mismatch before reading anything else.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: ['experiment_id', 'population', 'metric']
+      - expression_is_true:
+          arguments:
+            expression: "p_value between 0 and 1 and srm_p_value between 0 and 1"
+
+unit_tests:
+  - name: users_seen_in_both_arms_are_contaminated
+    model: fct_experiment_assignments
+    given:
+      - input: ref('stg_experiments__exposures')
+        rows:
+          - {experiment_id: "e1", user_pseudo_id: "A", variant: "control", exposed_at: "2020-12-01 10:00:00"}
+          - {experiment_id: "e1", user_pseudo_id: "A", variant: "control", exposed_at: "2020-12-02 10:00:00"}
+          - {experiment_id: "e1", user_pseudo_id: "B", variant: "treatment", exposed_at: "2020-12-01 11:00:00"}
+          - {experiment_id: "e1", user_pseudo_id: "B", variant: "control", exposed_at: "2020-12-03 11:00:00"}
+      - input: ref('int_events__stitched')
+        rows:
+          - {user_pseudo_id: "A", event_name: "add_to_cart", event_at: "2020-12-05 10:00:00", transaction_id: null}
+          - {user_pseudo_id: "A", event_name: "add_to_cart", event_at: "2020-12-30 10:00:00", transaction_id: null}
+      - input: ref('fct_orders')
+        rows:
+          - {user_pseudo_id: "A", ordered_at: "2020-12-20 10:00:00", revenue_usd: 40}
+    expect:
+      rows:
+        - {user_pseudo_id: "A", first_variant: "control", exposure_count: 2, is_contaminated: false, analysis_variant: "control", added_to_cart: true, converted: false, revenue_usd: 0}
+        - {user_pseudo_id: "B", first_variant: "treatment", exposure_count: 2, is_contaminated: true, analysis_variant: null, added_to_cart: false, converted: false, revenue_usd: 0}

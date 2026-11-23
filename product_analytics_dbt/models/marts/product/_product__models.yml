@@ -1,0 +1,96 @@
+version: 2
+
+models:
+  - name: fct_sessions
+    description: >
+      One row per session. Use for traffic, engagement and funnel questions. A session is engaged
+      if it lasted 10+ seconds, had 2+ page views, or converted (GA4's definition).
+    columns:
+      - name: session_key
+        data_tests: [unique, not_null]
+      - name: person_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_users')
+                field: person_id
+      - name: session_channel
+        description: Simplified GA4 default channel grouping for the session. "Unknown (obfuscated)" = Google replaced the source in the public sample.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Direct', 'Organic Search', 'Paid Search', 'Referral', 'Email', 'Organic Social', 'Unknown (obfuscated)', 'Other']
+      - name: duration_seconds
+        data_tests: [not_negative]
+    data_tests:
+      - expression_is_true:
+          arguments:
+            expression: "is_engaged"
+          config:
+            where: "purchased"
+
+  - name: fct_orders
+    description: >
+      One row per transaction (deduplicated). Use for revenue and order counts. Never sum purchase
+      events directly: GA4 re-fires them when the confirmation page reloads.
+    columns:
+      - name: transaction_id
+        data_tests: [unique, not_null]
+      - name: revenue_usd
+        data_tests: [not_negative]
+      - name: duplicate_purchase_events
+        description: Extra purchase events seen for this transaction. Non-zero means a tracking issue, not extra revenue.
+
+  - name: dim_users
+    description: >
+      One row per person. Activation = added to cart within 7 days of first visit. Only users with
+      is_activation_window_complete = true should be counted in activation rates.
+    columns:
+      - name: person_id
+        data_tests: [unique, not_null]
+      - name: is_activated
+        description: Added a product to cart within 7 days of first being seen.
+      - name: is_activation_window_complete
+        description: The user has had the full 7 days. False for users who arrived in the last week of data.
+    data_tests:
+      - expression_is_true:
+          arguments:
+            expression: "first_add_to_cart_at >= first_seen_at"
+          config:
+            where: "first_add_to_cart_at is not null"
+
+  - name: fct_user_daily_activity
+    description: One row per person per day with a session. is_active = had an engaged session that day.
+    columns:
+      - name: person_day_key
+        data_tests: [unique, not_null]
+
+  - name: fct_retention_weekly
+    description: >
+      Weekly bracket retention by first-seen cohort week. Only read rows where is_complete is true;
+      the newest weeks for each cohort haven't finished yet. Week 0 is below 100% because a user
+      whose first visit bounced was never active.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: ['cohort_week', 'week_number']
+      - expression_is_true:
+          arguments:
+            expression: "retention_rate between 0 and 1"
+
+  - name: fct_feature_adoption_weekly
+    description: Share of each week's active users who used each feature.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: ['activity_week', 'feature']
+      - expression_is_true:
+          arguments:
+            expression: "adoption_rate between 0 and 1"
+
+  - name: rpt_activation_candidates
+    description: Compares candidate activation definitions on reach, lift in 30-day purchase rate, and share of buyers captured.
+    columns:
+      - name: candidate
+        data_tests: [unique, not_null]

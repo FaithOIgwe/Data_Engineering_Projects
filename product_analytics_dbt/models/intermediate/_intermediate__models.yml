@@ -1,0 +1,71 @@
+version: 2
+
+models:
+  - name: int_identity_map
+    description: One row per device with the person it belongs to after identity stitching.
+    columns:
+      - name: user_pseudo_id
+        data_tests: [unique, not_null]
+      - name: person_id
+        description: "'user:<user_id>' once the device has logged in, otherwise 'device:<user_pseudo_id>'."
+        data_tests: [not_null]
+  - name: int_events__stitched
+    description: Events with person_id attached.
+  - name: int_sessions
+    description: One row per session, keyed on ga_session_id so sessions crossing midnight stay whole.
+    columns:
+      - name: session_key
+        data_tests: [unique, not_null]
+
+unit_tests:
+  - name: anonymous_browsing_is_stitched_to_the_person_who_logs_in
+    description: >
+      Device A browses anonymously, then logs in as u1. Device B logs in as u1 too.
+      Device C never logs in. A and B must be one person; C stays its own.
+    model: int_identity_map
+    given:
+      - input: ref('stg_ga4__events')
+        rows:
+          - {user_pseudo_id: "A", user_id: null, event_at: "2020-12-01 10:00:00"}
+          - {user_pseudo_id: "A", user_id: "u1", event_at: "2020-12-01 10:05:00"}
+          - {user_pseudo_id: "B", user_id: "u1", event_at: "2020-12-03 09:00:00"}
+          - {user_pseudo_id: "C", user_id: null, event_at: "2020-12-02 12:00:00"}
+    expect:
+      rows:
+        - {user_pseudo_id: "A", person_id: "user:u1", is_identified: true, is_shared_device: false}
+        - {user_pseudo_id: "B", person_id: "user:u1", is_identified: true, is_shared_device: false}
+        - {user_pseudo_id: "C", person_id: "device:C", is_identified: false, is_shared_device: false}
+
+  - name: shared_device_goes_to_the_most_recent_login
+    model: int_identity_map
+    given:
+      - input: ref('stg_ga4__events')
+        rows:
+          - {user_pseudo_id: "D", user_id: "u1", event_at: "2020-12-01 10:00:00"}
+          - {user_pseudo_id: "D", user_id: "u2", event_at: "2020-12-05 10:00:00"}
+    expect:
+      rows:
+        - {user_pseudo_id: "D", person_id: "user:u2", is_shared_device: true}
+
+  - name: engaged_session_follows_ga4_rules
+    description: >
+      s1: one page view, 4 seconds, no flag -> not engaged. s2: two page views -> engaged.
+      s3: one page view but 15 seconds -> engaged. s4: crosses midnight and stays one session.
+    model: int_sessions
+    given:
+      - input: ref('int_events__stitched')
+        rows:
+          - {session_key: "s1", user_pseudo_id: "A", person_id: "device:A", ga_session_id: 1, event_name: "page_view", event_at: "2020-12-01 10:00:00", is_session_engaged_flag: false, is_late_arriving: false}
+          - {session_key: "s1", user_pseudo_id: "A", person_id: "device:A", ga_session_id: 1, event_name: "scroll", event_at: "2020-12-01 10:00:04", is_session_engaged_flag: false, is_late_arriving: false}
+          - {session_key: "s2", user_pseudo_id: "A", person_id: "device:A", ga_session_id: 2, event_name: "page_view", event_at: "2020-12-02 10:00:00", is_session_engaged_flag: false, is_late_arriving: false}
+          - {session_key: "s2", user_pseudo_id: "A", person_id: "device:A", ga_session_id: 2, event_name: "page_view", event_at: "2020-12-02 10:00:03", is_session_engaged_flag: false, is_late_arriving: false}
+          - {session_key: "s3", user_pseudo_id: "B", person_id: "device:B", ga_session_id: 3, event_name: "page_view", event_at: "2020-12-02 11:00:00", is_session_engaged_flag: false, is_late_arriving: false}
+          - {session_key: "s3", user_pseudo_id: "B", person_id: "device:B", ga_session_id: 3, event_name: "scroll", event_at: "2020-12-02 11:00:15", is_session_engaged_flag: false, is_late_arriving: false}
+          - {session_key: "s4", user_pseudo_id: "C", person_id: "device:C", ga_session_id: 4, event_name: "page_view", event_at: "2020-12-02 23:59:50", is_session_engaged_flag: false, is_late_arriving: false}
+          - {session_key: "s4", user_pseudo_id: "C", person_id: "device:C", ga_session_id: 4, event_name: "page_view", event_at: "2020-12-03 00:00:20", is_session_engaged_flag: false, is_late_arriving: false}
+    expect:
+      rows:
+        - {session_key: "s1", is_engaged: false, crosses_midnight: false, page_views: 1}
+        - {session_key: "s2", is_engaged: true, crosses_midnight: false, page_views: 2}
+        - {session_key: "s3", is_engaged: true, crosses_midnight: false, page_views: 1}
+        - {session_key: "s4", is_engaged: true, crosses_midnight: true, page_views: 2}

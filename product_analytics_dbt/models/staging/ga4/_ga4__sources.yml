@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: ga4
+    description: >
+      GA4 BigQuery event export, flattened to one row per event by scripts/export_ga4_sample.sql
+      (event_params unnested into columns). In this repo the table is loaded from data/raw by
+      scripts/load_raw.py.
+    schema: raw_ga4
+    tables:
+      - name: events
+        description: One row per GA4 event as exported. Contains exact duplicates and late-arriving events.
+
+  - name: experiments
+    description: Exposure log from the experiment assignment service.
+    schema: raw_experiments
+    tables:
+      - name: exposures
+        description: One row per logged exposure. A user can be logged many times, and occasionally in both arms.

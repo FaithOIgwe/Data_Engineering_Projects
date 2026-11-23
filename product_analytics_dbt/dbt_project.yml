@@ -1,0 +1,40 @@
+name: product_analytics
+version: "1.0.0"
+config-version: 2
+profile: product_analytics
+
+model-paths: ["models"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+analysis-paths: ["analyses"]
+clean-targets: ["target", "dbt_packages", "logs"]
+
+vars:
+  # Late-arriving events: each incremental run reprocesses events that reached Google's
+  # servers in the last N days. GA4 keeps accepting hits for up to 72 hours.
+  late_arrival_lookback_days: 3
+  # Simulate "what had arrived by this time" for testing incremental runs. null = everything.
+  load_cutoff: null
+  activation_window_days: 7
+  retention_weeks: 12
+  experiment_outcome_window_days: 14
+
+models:
+  product_analytics:
+    staging:
+      +schema: staging
+      +materialized: view
+    intermediate:
+      +schema: intermediate
+      +materialized: view
+    marts:
+      +materialized: table
+      product:
+        +schema: product
+      experiments:
+        +schema: experiments
+      utilities:
+        +schema: product
+
+data_tests:
+  +severity: error

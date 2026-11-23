@@ -1,0 +1,9 @@
+# Local: DuckDB, so anyone can clone and build. The raw tables are loaded by scripts/load_raw.py.
+# Production: point the bigquery target at a GA4 export dataset (see docs/running_on_bigquery.md).
+product_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('DUCKDB_PATH', 'product_analytics.duckdb') }}"
+      threads: 4

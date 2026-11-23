@@ -1,0 +1,52 @@
+# Questions Product and Growth actually ask, each with the semantic-layer query an AI agent
+# should produce and an independent SQL answer. scripts/check_golden_questions.py fails if
+# they disagree.
+
+questions:
+  - id: wau_week_of_7_dec_2020
+    question: "How many weekly active users did we have in the week of 7 December 2020?"
+    metrics: [active_users]
+    where: "{{ TimeDimension('metric_time', 'week') }} = '2020-12-07'"
+    reference_sql: |
+      select count(distinct person_id) from product.fct_user_daily_activity
+      where is_active and activity_date between '2020-12-07' and '2020-12-13'
+
+  - id: activation_rate_nov_2020
+    question: "What share of people who first visited in November 2020 activated?"
+    metrics: [activation_rate]
+    where: "{{ TimeDimension('metric_time', 'month') }} = '2020-11-01'"
+    reference_sql: |
+      select avg(case when is_activated then 1.0 else 0 end) from product.dim_users
+      where is_activation_window_complete and first_seen_date >= '2020-11-01' and first_seen_date < '2020-12-01'
+
+  - id: revenue_dec_2020
+    question: "What was revenue in December 2020?"
+    metrics: [revenue_usd]
+    where: "{{ TimeDimension('metric_time', 'month') }} = '2020-12-01'"
+    reference_sql: |
+      select sum(revenue_usd) from product.fct_orders
+      where order_date >= '2020-12-01' and order_date < '2021-01-01'
+
+  - id: organic_conversion_dec_2020
+    question: "What was the session conversion rate from organic search in December 2020?"
+    metrics: [session_conversion_rate]
+    where: "{{ Dimension('session__session_channel') }} = 'Organic Search' and {{ TimeDimension('metric_time', 'month') }} = '2020-12-01'"
+    reference_sql: |
+      select avg(case when purchased then 1.0 else 0 end) from product.fct_sessions
+      where session_channel = 'Organic Search' and session_date >= '2020-12-01' and session_date < '2021-01-01'
+
+  - id: mobile_engagement_jan_2021
+    question: "What was the engagement rate on mobile in January 2021?"
+    metrics: [engagement_rate]
+    where: "{{ Dimension('session__device_category') }} = 'mobile' and {{ TimeDimension('metric_time', 'month') }} = '2021-01-01'"
+    reference_sql: |
+      select avg(case when is_engaged then 1.0 else 0 end) from product.fct_sessions
+      where device_category = 'mobile' and session_date >= '2021-01-01' and session_date < '2021-02-01'
+
+  - id: new_users_dec_2020
+    question: "How many new users did we get in December 2020?"
+    metrics: [new_users]
+    where: "{{ TimeDimension('metric_time', 'month') }} = '2020-12-01'"
+    reference_sql: |
+      select count(*) from product.dim_users
+      where first_seen_date >= '2020-12-01' and first_seen_date < '2021-01-01'

@@ -1,0 +1,191 @@
+version: 2
+
+# Governed product metrics. Descriptions are written so an AI agent querying the semantic layer
+# knows what is counted, on which date, and what is excluded.
+
+semantic_models:
+  - name: sessions
+    description: Sessions from fct_sessions, dated by session start.
+    model: ref('fct_sessions')
+    defaults:
+      agg_time_dimension: session_date
+    entities:
+      - name: session
+        type: primary
+        expr: session_key
+      - name: person
+        type: foreign
+        expr: person_id
+    dimensions:
+      - name: session_date
+        type: time
+        type_params: {time_granularity: day}
+      - name: session_channel
+        type: categorical
+      - name: device_category
+        type: categorical
+      - name: country
+        type: categorical
+      - name: is_first_session
+        type: categorical
+    measures:
+      - name: sessions
+        agg: count
+        expr: session_key
+      - name: engaged_sessions
+        agg: sum
+        expr: "case when is_engaged then 1 else 0 end"
+      - name: converting_sessions
+        agg: sum
+        expr: "case when purchased then 1 else 0 end"
+      - name: cart_sessions
+        agg: sum
+        expr: "case when added_to_cart then 1 else 0 end"
+
+  - name: user_daily_activity
+    description: Person-days with a session. Active = an engaged session that day.
+    model: ref('fct_user_daily_activity')
+    defaults:
+      agg_time_dimension: activity_date
+    entities:
+      - name: person_day
+        type: primary
+        expr: person_day_key
+      - name: person
+        type: foreign
+        expr: person_id
+    dimensions:
+      - name: activity_date
+        type: time
+        type_params: {time_granularity: day}
+    measures:
+      - name: active_people
+        description: Distinct people with an engaged session in the period.
+        agg: count_distinct
+        expr: "case when is_active then person_id end"
+
+  - name: users
+    description: People, dated by the day they were first seen.
+    model: ref('dim_users')
+    defaults:
+      agg_time_dimension: first_seen_date
+    entities:
+      - name: person
+        type: primary
+        expr: person_id
+    dimensions:
+      - name: first_seen_date
+        type: time
+        type_params: {time_granularity: day}
+      - name: first_channel
+        type: categorical
+      - name: first_device_category
+        type: categorical
+      - name: is_activation_window_complete
+        type: categorical
+    measures:
+      - name: new_users
+        agg: count
+        expr: person_id
+      - name: activation_eligible_users
+        agg: sum
+        expr: "case when is_activation_window_complete then 1 else 0 end"
+      - name: activated_users
+        agg: sum
+        expr: "case when is_activation_window_complete and is_activated then 1 else 0 end"
+
+  - name: orders
+    description: Deduplicated transactions, dated by order date.
+    model: ref('fct_orders')
+    defaults:
+      agg_time_dimension: order_date
+    entities:
+      - name: transaction
+        type: primary
+        expr: transaction_id
+      - name: person
+        type: foreign
+        expr: person_id
+    dimensions:
+      - name: order_date
+        type: time
+        type_params: {time_granularity: day}
+    measures:
+      - name: orders
+        agg: count
+        expr: transaction_id
+      - name: revenue_usd
+        agg: sum
+        expr: revenue_usd
+
+metrics:
+  - name: sessions
+    label: Sessions
+    type: simple
+    type_params: {measure: sessions}
+
+  - name: engaged_sessions
+    label: Engaged sessions
+    type: simple
+    type_params: {measure: engaged_sessions}
+
+  - name: engagement_rate
+    label: Engagement rate
+    description: Engaged sessions ÷ all sessions. Engaged = 10+ seconds, 2+ page views, or a purchase (GA4 definition).
+    type: ratio
+    type_params: {numerator: engaged_sessions, denominator: sessions}
+
+  - name: converting_sessions
+    label: Converting sessions
+    type: simple
+    type_params: {measure: converting_sessions}
+
+  - name: session_conversion_rate
+    label: Session conversion rate
+    description: Share of sessions with a purchase.
+    type: ratio
+    type_params: {numerator: converting_sessions, denominator: sessions}
+
+  - name: active_users
+    label: Active users
+    description: >
+      Distinct people with at least one engaged session in the period. Grouped by day this is DAU,
+      by week WAU, by month MAU. People, not devices: stitched across devices when they log in.
+    type: simple
+    type_params: {measure: active_people}
+
+  - name: new_users
+    label: New users
+    description: People first seen in the period.
+    type: simple
+    type_params: {measure: new_users}
+
+  - name: activated_users
+    label: Activated users
+    type: simple
+    type_params: {measure: activated_users}
+
+  - name: activation_eligible_users
+    label: Users eligible for activation
+    type: simple
+    type_params: {measure: activation_eligible_users}
+
+  - name: activation_rate
+    label: Activation rate
+    description: >
+      Share of new users who added to cart within 7 days of their first visit, by the date they were
+      first seen. Users who arrived in the last 7 days of data are excluded, not counted as unactivated.
+    type: ratio
+    type_params: {numerator: activated_users, denominator: activation_eligible_users}
+
+  - name: orders
+    label: Orders
+    description: Distinct transactions. Repeat purchase events for the same transaction are not counted.
+    type: simple
+    type_params: {measure: orders}
+
+  - name: revenue_usd
+    label: Revenue (USD)
+    description: Revenue from deduplicated transactions, by order date.
+    type: simple
+    type_params: {measure: revenue_usd}

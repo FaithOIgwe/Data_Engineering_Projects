@@ -1,0 +1,5 @@
+dbt-duckdb>=1.9,<2.0
+dbt-metricflow[dbt-duckdb]>=0.7
+duckdb
+pyyaml
+matplotlib

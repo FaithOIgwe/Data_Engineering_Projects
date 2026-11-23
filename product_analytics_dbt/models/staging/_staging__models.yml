@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: base_ga4__events
+    description: >
+      Incremental, deduplicated GA4 events. Reprocesses the last few days of *arrivals* on each run
+      so late events are picked up. Read stg_ga4__events instead of this table.
+    columns:
+      - name: event_key
+        description: Hash of device, timestamp, event name, session and bundle. Exact duplicates share a key.
+        data_tests: [unique, not_null]
+
+  - name: stg_ga4__events
+    description: One row per distinct GA4 event, typed, with arrival delay and late-arrival flags.
+    columns:
+      - name: event_key
+        data_tests: [unique, not_null]
+      - name: user_pseudo_id
+        description: GA4's device/browser id (first-party cookie). Not a person.
+        data_tests: [not_null]
+      - name: session_key
+        description: user_pseudo_id + ga_session_id. GA4 has no session id of its own.
+        data_tests: [not_null]
+      - name: arrival_delay_hours
+        description: Hours between the event happening on the device and Google receiving it.
+        data_tests: [not_negative]
+      - name: is_late_arriving
+        description: Arrived more than an hour after it happened.
+
+  - name: stg_experiments__exposures
+    description: One row per logged exposure (many per user).
+    columns:
+      - name: variant
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['control', 'treatment']
